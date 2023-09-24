@@ -1,6 +1,6 @@
 # Site
 name: 'The Campus Chronicle'
-description: 'Union County Vocational-Technical Schools' Student Newspaper.'
+description: "Union County Vocational-Technical Schools' Student Newspaper."
 logo: 'assets/images/logo.jpeg'
 favicon: 'assets/images/favicon.ico'
 baseurl: '/website'
