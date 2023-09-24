@@ -1,9 +1,9 @@
 # Site
 name: 'The Campus Chronicle'
-description: 'theCampusChronicle is a newspaper run by students from UCVTS.'
-logo: 'assets/images/logo.png'
+description: 'Union County Vocational-Technical Schools' Student Newspaper.'
+logo: 'assets/images/logo.jpeg'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/theCampusChronicle'
+baseurl: '/website'
 disqus: 'demowebsite'
 email: 'akashdub06@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -21,10 +21,10 @@ plugins:
 authors:
     akash:
       name:           Akash
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Akash, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
+      site:           https://akeboss-tech.github.io/
+      avatar:         /assets/images/akash-avatar.jpg
+      bio:            "Hi, I am Akash and I set up this website. I hope you like it!"
+      email:          adubey@ucvts.org
       twitter:        https://twitter.com/wowthemesnet
       school:         AIT
       grade:          Senior
