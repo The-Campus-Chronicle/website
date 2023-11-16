@@ -20,24 +20,420 @@ plugins:
   
 authors:
     akash:
-      name:           Akash
+      name:           Akash Dubey
       site:           https://akeboss-tech.github.io/
       avatar:         /assets/images/akash-avatar.jpg
-      bio:            "Hi, I am Akash and I set up this website. I hope you like it!"
+      bio:            "Hi, I am Akash, the webmaster of this website! I like writing code and newspaper articles!"
       email:          adubey@ucvts.org
-      twitter:        https://twitter.com/wowthemesnet
       school:         AIT
       grade:          Senior
 
-    jane:
-      name:           Jane
+    alan:
+      name:           Alan Ostrovsky
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-      school:         Magnet
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Alan Ostrovsky!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+
+    joe:
+      name:           Joe Baldwin
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Joe Baldwin!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          UCTech
+      grade:          Alumni
+
+    omolola:
+      name:           Omolola Falana
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Omolola Falana!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          MHS
       grade:          Junior
+
+    haralambos:
+      name:           Haralambos Liberatos
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Haralambos Liberatos!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          UCTech
+      grade:          Alumni
+
+    victoria:
+      name:           Victoria Gee
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Victoria Gee!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:         MHS
+      grade:          Senior
+
+    laura:
+      name:           Laura Felder
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Laura Felder!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          UCTech
+      grade:          Alumni
+
+    rebecca:
+      name:           Rebecca Lee
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Rebecca Lee!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:         AIT
+      grade:          Alumni
+
+    sara:
+      name:            Sara Schwartz
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am  Sara Schwartz!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AAHS
+      grade:          Senior
+
+    audrey:
+      name:           Audrey Miller
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Audrey Miller!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          UCTech
+      grade:          Alumni
+
+    natalie:
+      name:           Natalie Lee
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Natalie Lee!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          MHS
+      grade:          Alumni
+    dylan:
+      name:           Dylan Intwala
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Dylan Intwala!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Senior
+    alondra:
+      name:           Alondra Martinez
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Alondra Martinez!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          UCTech
+      grade:          Alumni
+    ernest:
+      name:           Ernest Romero
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Ernest Romero!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          APA
+      grade:          Alumni
+    gregory:
+      name:           Gregory Martinez
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Gregory Martinez!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AAHS
+      grade:          Alumni
+    maya:
+      name:           Maya Dias
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Maya Dias!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+    shreya:
+      name:           Shreya Nara
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Shreya Nara!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Senior
+    ella:
+      name:           Ella Platts
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Ella Platts!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          UCTech
+      grade:          Alumni
+    monica:
+      name:           Monica Manescu
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Monica Manescu!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AAHS
+      grade:          Senior
+    diya:
+      name:           Diya Nainwal
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Diya Nainwal!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AAHS
+      grade:          Alumni
+    kenna:
+      name:           Kenna Srivastava
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Kenna Srivastava!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          MHS
+      grade:          Alumni
+    saniya:
+      name:           Saniya Harlalka
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Saniya Harlalka!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AAHS
+      grade:          Alumni
+    justin:
+      name:           Justin Zimmerman
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Justin Zimmerman!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+    sarah:
+      name:           Sarah Bauman
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Sarah Bauman!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          APA
+      grade:          Alumni
+    kaitlyn:
+      name:           Kaitlyn Landaverde
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Kaitlyn Landaverde!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          APA
+      grade:          Alumni
+    mattia:
+      name:           Mattia Leingang
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Mattia Leingang!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+    eric:
+      name:           Eric Yu
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Eric Yu!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+    megan:
+      name:           Megan Lahetta
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Megan Lahetta!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          UCTech
+      grade:          Alumni
+    daivya:
+      name:           Daivya Sadhvani
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Daivya Sadhvani!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+    jaime:
+      name:           Jaime Paladi
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Jaime Paladi!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+    akwele:
+      name:           Akwele Lokko
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Akwele Lokko!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AAHS
+      grade:          Alumni
+    patrick:
+      name:           Patrick Mochnal
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Patrick Mochnal!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+    haley:
+      name:           Haley Richardson
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Haley Richardson!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          UCTech
+      grade:          Alumni
+    anusha:
+      name:           Anusha Iyer
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Anusha Iyer!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+    chloe:
+      name:           Chloe Gavula
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Chloe Gavula!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          APA
+      grade:          Alumni
+    sara:
+      name:           Sara Schwartz
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Sara Schwartz!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AAHS
+      grade:          Alumni
+    ahmad:
+      name:           Ahmad Khizar
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Ahmad Khizar!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AAHS
+      grade:          Alumni
+    ana:
+      name:           Ana Obradovic
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Ana Obradovic!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+    rachel:
+      name:           Rachel Bataille
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Rachel Bataille!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          MHS
+      grade:          Alumni
+    lilly:
+      name:           Lilly Resnick
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Lilly Resnick!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:         AIT
+      grade:          Alumni
+    ivy:
+      name:           Ivy Liu
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Ivy Liu!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          MHS
+      grade:          Alumni
+    anonymous:
+      name:           Anonymous
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Anonymous!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:         Unknown
+      grade:          Alumni
+    sophia:
+      name:           Sophia Mekbeb
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Sophia Mekbeb!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          APA
+      grade:          Alumni
+    mila:
+      name:           Mila Talati
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Mila Talati!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
+    gissele:
+      name:           Gissele Hernandez
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      bio:            "Hi, I am Gissele Hernandez!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          UCTech
+      grade:          Alumni
+
  
 # Defaults
 defaults:

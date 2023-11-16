@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Grey's Anatomy: How is It Still Running?"
+author: ernest
+categories: [ Arts and Entertainment ]
+image: assets/images/greys-anatomy-how-is-it-still-running.jpg
+---
+
+Over the past 16 years, ABCs Greys Anatomy has become one of the most iconic shows to ever appear on television. Whether you have only heard about the shows tumultuous plot and twists from friends or have rewatched the show more times than you can count, there is no denying the overwhelming success of the surgical drama. In total, the series has won about 50 academy awards since its premiere in 2005 and has received an even greater number of nominations. Even after 16 seasons of Greys Anatomy, countless surgeons entering and exiting the operating room, fans are still hooked as the shows 17th season unfolds.
+
+Nevertheless, the question still stands: how has Greys Anatomy survived almost 20 years of production, and when will the sagas reign as the medical drama to top all medical dramas end?
+
+I was ten years old when I watched my first Greys Anatomy episode. I had never heard of the show, but my older cousin had been obsessed, and it piqued my interest. Of course, my 5th grade self could not comprehend what exactly was happening, seeing as I started the show on the finale episode of the series' 13th season. At the time, I decided that Greys Anatomy was just too complicated and not worth the hype. Dismissive of my feelings, my cousin insisted that I was too young to relate to the show and to give it a shot in a few years.
+
+Fast forward five years to my sophomore year of high school. At this point, I had lost track of the number of my friends that had recommended Greys to me. Each time, I insisted that I wasnt interested in another clich Netflix show that had more seasons than I was willing to watch. But one fateful evening, I decided to give the show another chance, and I have not looked back since.
+
+I wont lie: it took a few episodes to fully hook me onto the storyline. It certainly did not help that I am not a big fan of gore, which is a given in a show that centers around surgeons. But that's exactly what was exciting about it seeing something that you don't see every day. What truly drew me in was the doctors senses of humanity. As civilians, it's easy for us to paint doctors, particularly surgeons, as cold-hearted brainiacs, eager to cut us up and hand us ridiculously expensive bills that we will be paying for the next ten years. But Greys Anatomy gives us common folk a (slightly embellished) perspective of what being a doctor is really like. News flash: theyre just like us! Despite the preconceived notion that doctors are always organized and efficient, Greys Anatomy shows the constant battle between a surgeons personal and work lives, and how the two tend to collide.
+
+Even through times of turmoil and distress, surgeons must still put their own issues aside and give themselves entirely to their patients. Should a surgeon be distracted, that could mean the death of a patient and/or the loss of a medical license. As an audience, we feel for our protagonists as they fight diligently to save lives while fighting their own personal demons a lord knows personal demons swarm the shows heroine, Meredith Grey. 
+
+Jokes aside, it is my firm belief that this unexpected relatability between the audience and the shows well-written, dynamic characters is one of the main reasons that the show has remained popular for so long. As social creatures, we naturally crave the validation of other people. Though fictional, Greys Anatomy essentially tells audiences, Hey, nobody is perfect. Not even rich and successful doctors! For me, this message has become a source of comfort: no matter how successful you are in life, there will always be bumps in the road. Still, at the end of the day, you have to be grateful for what you have and persist on.
+
+However, completely unrelated to the content of the show itself, streaming services such as Netflix have also played a large role in Greys Anatomys continuous popularity. According to a Variety article from 2016, the most recent demographic of viewers are women ages 18 to 35. This is despite the fact that the show was released only 16 years ago, meaning that the shows current audience were between the ages of 4 and 20 when the show first aired in 2005! The expansion of the shows audience has been made possible by the (arguably) most popular streaming service, Netflix, which has been streaming Greys since 2009. Realistically, it seems impossible to get up to date on 16 seasons of a show solely through reruns. I personally would not have the patience or DVR storage to record over 300 episodes of any series, regardless of its rave reviews. With the ever growing market of streaming services, we have access to almost every cinematic production on television or the big screen to ever exist. This has given younger viewers, like myself, the opportunity to enjoy shows that have been long cancelled or to catch up on a show that has been in production for some time and to be prepared for the shows next seasonal release, such as Greys Anatomy.
+
+Now, as for the shows future, only time will tell. For a few years, Shonda Rhimes, the creator of Greys Anatomy, has stated that the show will only end if Ellen Pompeo (Meredith Greys actress) says the word. Surprisingly, in more recent years, Pompeo has been very candid about her experience as the star of the iconic television series, admitting that she has considered ending the show many times in the past. And in a recent interview with Variety, Pompeo explains how she, now as both an actress and a producer on the show, wants the show to be as impactful as it can possibly be (especially in the midst of our current global situation, which is the focal point of the shows current season). Pompeo has also acknowledged the number of people who rely on Greys Anatomy as a source of income, including writers, actors, producers, etc., who would be devastated financially if the show ended suddenly. Even so, she continues in her Variety interview to say, I mean, this is the last year of my contract right now. I dont know that this is the last year? But it could very well could be. 
+
+Be as it may, it is my belief that Pompeo may have confessed this tidbit in hopes to stir the pot and garner more attention to the show. If anything, I believe that Greys Anatomy will meet its end along with the novel coronavirus, as vaccines are provided in greater supply and we return from what has felt like an eternal hibernation.
+
+In hindsight, Greys Anatomy has and will continue to be a legendary show regardless of mine or anyone elses opinions. To find out what will happen next, we will simply have to wait and watch for Pompeo and the Greys teams next move, and tune in when the show returns from its winter hiatus on ABC on March 4th, at 9 p.m.
+
+Works Cited:
+
+Aurthur, Kate.How Greys Anatomy Revolutionized Pop Culture  and Why Its Not Done Yet. Variety, 2020, https://variety.com/2020/tv/news/greys-anatomy-ellen-pompeo-debbie-allen-krista-vernoff-chandra-wilson-1234816801/
+
+
