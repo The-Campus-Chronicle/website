@@ -8,6 +8,9 @@ permalink: "/tags.html"
     <div class="row justify-content-center">
         <div class="col-md-8">
         <h1 class="font-weight-bold title h6 text-uppercase mb-4">Tags</h1>
+        {% for tag in site.tags %}
+        <a class="btn btn-outline-secondary btn-sm mb-2" href="{{site.baseurl}}/tags.html#{{ tag[0] | downcase }}">{{ tag[0] }}</a>
+        {% endfor %}
             
         {% for tag in site.tags %} 
         <h4 class="font-weight-bold spanborder text-capitalize" id="{{ tag[0] | downcase }}"><span>{{ tag[0] }}</span></h4>

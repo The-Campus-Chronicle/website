@@ -4,11 +4,7 @@ title:  "Greta Thunberg Leads Global Climate Strike"
 author: maya
 categories: [ News ]
 image: assets/images/greta-thunberg-leads-global-climate-strike.jpg
----
-
- 
-
- 
+--- 
 
 Since the late 19th century, Earths average surface temperature has risen approximately 1.62 degrees Fahrenheit. The bulk of the temperature increase has occurred in the past 35 years with 97 percent of scientists agreeing that global warming is caused by the increased release of carbon dioxide and other human-made emissions within the atmosphere. The effects of global warming are visible through observable changes in the natural world. For instance, data from NASAs Gravity Recovery and Climate Experiment, published and updated on NASAs website in 2017, displays a loss of 286 billion tons of ice per year between 1993 and 2016 in Greenland. Comparatively, data from NASAs GRACE satellite shows Antarctica lost approximately 127 billion tons of ice per year within the same time frame. 
 

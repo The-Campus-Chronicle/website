@@ -88,6 +88,33 @@
                 Made with <a target="_blank" class="text-dark font-weight-bold" href="https://www.wowthemes.net/mundana-jekyll-theme/"> Mundana Jekyll Theme </a> by <a class="text-dark" target="_blank" href="https://www.wowthemes.net">WowThemes</a>.
             </div>
         </div>
+        <!-- Site Map -->
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <h5 class="text-uppercase">About</h5>
+                <ul class="list-unstyled">
+                    <li><a href="{{site.baseurl}}/about.html">About Us</a></li>
+                    <li><a href="{{site.baseurl}}/contact.html">Contact Us</a></li>
+                    <li><a href="{{site.baseurl}}/privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="{{site.baseurl}}/terms.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-uppercase">Categories</h5>
+                <ul class="list-unstyled">
+                    {% for category in site.categories %}
+                    <li><a href="{{site.baseurl}}/categories.html#{{ category[0] | downcase }}">{{ category[0] }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-uppercase">Tags</h5>
+                <ul class="list-unstyled">
+                    {% for tag in site.tags %}
+                    <li><a href="{{site.baseurl}}/tags.html#{{ tag[0] | downcase }}">{{ tag[0] }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </footer>
 
