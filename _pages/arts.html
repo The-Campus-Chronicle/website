@@ -18,7 +18,7 @@ permalink: "/arts.html"
     <!-- latest post -->
     {% assign arts_posts = site.posts | where: "categories", "Arts and Entertainment" %}
     {% assign latest_post = arts_posts[0] %}
-    {% includes main-big-post.html %}
+    {% include main-big-post.html %}
     
     <div class="col-md-6">
         

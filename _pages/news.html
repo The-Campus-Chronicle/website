@@ -18,7 +18,7 @@ permalink: "/news.html"
     <!-- latest post -->
     {% assign news_posts = site.posts | where: "categories", "News" %}
     {% assign latest_post = news_posts[0] %}
-    {% includes main-big-post.html %}
+    {% include main-big-post.html %}
     
     <div class="col-md-6">
         
