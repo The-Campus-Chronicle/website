@@ -10,7 +10,7 @@ If girls want to be treated equally, that means men wouldnt buy them expensive t
 
 Since when are women guaranteed free stuff?
 
-Well, if theyre hot.
+Well, if they're hot.
 
 This was a conversation with my cis male coworker about a week ago. He believes that legs should be shaved and tummies should be flat, and thus, Ive written for you the ordinary persons guide to sexism and misogyny in daily life.
 
@@ -20,7 +20,7 @@ Now you wonder, how in the world could the patriarchy negatively affect men? Acc
 
 Lets start at the beginning of time, shall we? In many ancient societies, daughters were killed and sons were praised, right at birth (Jimmerson). In many countries today, such as India, pregnant women worry that their babies will be girls in fear of them being put to death (Vaze). Sons were sent to school, sent to battle, and sent to make money. Daughters were given dolls to play with and table manners to learn. Even now, some of these manners appearlike when Im told to sit like a lady. Being a woman means that I must sit gracefully, legs crossed and mouth zipped.
 
-It is in human nature to learn by imitation. This is why proper parenting during a childs early years is so important. In many stores, when one shops for childrens toys, there are often two distinct sections: boys and girls. Little boys get to pick from monster trucks, spaceships, trains, and dinosaurs. Little girls get stuffed animals, dolls, and pretend kitchens. From a young age, women are taught to stay at home and nurture, while men are taught to indulge their interests and discover new things (Blakemore). As adults, women are always expected to be married and have kids. (Gant). This is clear from questions like, Whens the big day? and When do you think youll have kids? How many do you want? It seems as if every young girls destiny must be marriage and motherhood.
+It is in human nature to learn by imitation. This is why proper parenting during a childs early years is so important. In many stores, when one shops for childrens toys, there are often two distinct sections: boys and girls. Little boys get to pick from monster trucks, spaceships, trains, and dinosaurs. Little girls get stuffed animals, dolls, and pretend kitchens. From a young age, women are taught to stay at home and nurture, while men are taught to indulge their interests and discover new things (Blakemore). As adults, women are always expected to be married and have kids. (Gant). This is clear from questions like, Whens the big day? and When do you think you'll have kids? How many do you want? It seems as if every young girls destiny must be marriage and motherhood.
 
 As we grow up, we are subjected to and become accustomed to these misogynistic concepts. Boys are taught to befriend other boys and to be smart and strong. They play rough, and make fun of their friends with phrases like You throw like a girl! The fact that we use this phrase with a negative connotation shows what we are teaching boys about girls. Boys then gain the burden of always having to be better, stronger, smarter, and more talented than girls, which can later lead to insecurity and toxic masculinity.
 
@@ -42,7 +42,7 @@ You should smile more, hon.
 
 Want me to smile? Say something funny.
 
-Often women are afraid to speak up because they feel they will be shot down, or perhaps they dont want to risk it, which is completely understandable. When we try to speak up, we often hear that were just being dramatic and emotional. These undermining words are used to belittle us and our opinions, to tell us that it doesnt matter what we think. Additionally, when were explaining objective facts, men try to tell us that they know better even if theyre totally wrong. They feel they can do that just because theyre men; this is known as mansplaining. This is when a man tries to explain something to a woman in a way that is condescending, overconfident, and often completely incorrect. Women experience misogyny throughout their lives, sometimes in the form of mansplaining from male colleagues.
+Often women are afraid to speak up because they feel they will be shot down, or perhaps they dont want to risk it, which is completely understandable. When we try to speak up, we often hear that were just being dramatic and emotional. These undermining words are used to belittle us and our opinions, to tell us that it doesnt matter what we think. Additionally, when were explaining objective facts, men try to tell us that they know better even if they're totally wrong. They feel they can do that just because they're men; this is known as mansplaining. This is when a man tries to explain something to a woman in a way that is condescending, overconfident, and often completely incorrect. Women experience misogyny throughout their lives, sometimes in the form of mansplaining from male colleagues.
 
 In my experiences as a woman, I can see that a patriarchal society affects us all. It makes men feel like they will never feel man enough, making women feel inadequate. To be a true advocate for change, education is the first step, so thank you for taking that first step.
 

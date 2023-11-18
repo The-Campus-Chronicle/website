@@ -24,7 +24,7 @@ I began to research these topics, when I was diagnosed with depression. I wanted
 
 Media has always told us that being fat equals being ugly. However, I learned that embracing the human body for what it is, is really beautiful. Trying to live up to impossible beauty standards was not cutting it for me anymore. With the help of role models, and my loved ones, I was able to come to the decision to appreciate my body for what it is: a bit big, a bit hairy, a bit damaged, but overwhelmingly gorgeous all at the same time. Now, I make it a priority to practice an act of self-love every day, and that can sometimes mean helping others, because who doesnt love to make people happy? 
 
-Make a list of five affirmations for yourself right now. Go ahead, grab a pen and paper. If you dont have the energy, thats fine; I understand more than anyone. Just come back to it when youre feeling up to it. The more times you read them, the more youll believe they are true. Ill start you off with some examples:
+Make a list of five affirmations for yourself right now. Go ahead, grab a pen and paper. If you dont have the energy, thats fine; I understand more than anyone. Just come back to it when you're feeling up to it. The more times you read them, the more you'll believe they are true. Ill start you off with some examples:
 
 I am confident in my body.
 

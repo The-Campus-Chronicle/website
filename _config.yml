@@ -23,6 +23,7 @@ authors:
       name:           Akash Dubey
       site:           https://akeboss-tech.github.io/
       avatar:         /assets/images/akash-avatar.jpg
+      role:           Layout Editor
       bio:            "Hi, I am Akash, the webmaster of this website! I like writing code and newspaper articles!"
       email:          adubey@ucvts.org
       school:         AIT
@@ -32,6 +33,7 @@ authors:
       name:           Alan Ostrovsky
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Alan Ostrovsky!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -42,6 +44,7 @@ authors:
       name:           Joe Baldwin
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Joe Baldwin!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -52,6 +55,7 @@ authors:
       name:           Omolola Falana
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Omolola Falana!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -62,6 +66,7 @@ authors:
       name:           Haralambos Liberatos
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Haralambos Liberatos!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -72,6 +77,7 @@ authors:
       name:           Victoria Gee
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Victoria Gee!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -82,6 +88,7 @@ authors:
       name:           Laura Felder
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Laura Felder!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -92,6 +99,7 @@ authors:
       name:           Rebecca Lee
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Rebecca Lee!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -102,6 +110,7 @@ authors:
       name:            Sara Schwartz
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am  Sara Schwartz!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -112,6 +121,7 @@ authors:
       name:           Audrey Miller
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Audrey Miller!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -122,6 +132,7 @@ authors:
       name:           Natalie Lee
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Natalie Lee!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -131,6 +142,7 @@ authors:
       name:           Dylan Intwala
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Editor-In-Chief
       bio:            "Hi, I am Dylan Intwala!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -140,6 +152,7 @@ authors:
       name:           Alondra Martinez
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Alondra Martinez!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -149,6 +162,7 @@ authors:
       name:           Ernest Romero
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Ernest Romero!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -158,6 +172,7 @@ authors:
       name:           Gregory Martinez
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Gregory Martinez!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -167,6 +182,7 @@ authors:
       name:           Maya Dias
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Maya Dias!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -176,6 +192,7 @@ authors:
       name:           Shreya Nara
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Shreya Nara!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -185,6 +202,7 @@ authors:
       name:           Ella Platts
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Ella Platts!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -194,6 +212,7 @@ authors:
       name:           Monica Manescu
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Monica Manescu!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -203,6 +222,7 @@ authors:
       name:           Diya Nainwal
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Diya Nainwal!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -212,6 +232,7 @@ authors:
       name:           Kenna Srivastava
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Kenna Srivastava!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -221,6 +242,7 @@ authors:
       name:           Saniya Harlalka
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Saniya Harlalka!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -230,6 +252,7 @@ authors:
       name:           Justin Zimmerman
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Justin Zimmerman!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -239,6 +262,7 @@ authors:
       name:           Sarah Bauman
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Sarah Bauman!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -248,6 +272,7 @@ authors:
       name:           Kaitlyn Landaverde
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Kaitlyn Landaverde!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -257,6 +282,7 @@ authors:
       name:           Mattia Leingang
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Mattia Leingang!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -266,6 +292,7 @@ authors:
       name:           Eric Yu
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Eric Yu!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -275,6 +302,7 @@ authors:
       name:           Megan Lahetta
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Megan Lahetta!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -284,6 +312,7 @@ authors:
       name:           Daivya Sadhvani
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Daivya Sadhvani!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -293,6 +322,7 @@ authors:
       name:           Jaime Paladi
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Jaime Paladi!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -302,6 +332,7 @@ authors:
       name:           Akwele Lokko
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Akwele Lokko!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -311,6 +342,7 @@ authors:
       name:           Patrick Mochnal
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Patrick Mochnal!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -320,6 +352,7 @@ authors:
       name:           Haley Richardson
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Haley Richardson!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -329,6 +362,7 @@ authors:
       name:           Anusha Iyer
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Editor-In-Chief
       bio:            "Hi, I am Anusha Iyer!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -338,6 +372,7 @@ authors:
       name:           Chloe Gavula
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Chloe Gavula!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -347,6 +382,7 @@ authors:
       name:           Sara Schwartz
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Sara Schwartz!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -356,6 +392,7 @@ authors:
       name:           Ahmad Khizar
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Ahmad Khizar!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -365,6 +402,7 @@ authors:
       name:           Ana Obradovic
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Ana Obradovic!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -374,6 +412,7 @@ authors:
       name:           Rachel Bataille
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Rachel Bataille!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -383,6 +422,7 @@ authors:
       name:           Lilly Resnick
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Lilly Resnick!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -392,6 +432,7 @@ authors:
       name:           Ivy Liu
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Ivy Liu!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -401,6 +442,7 @@ authors:
       name:           Anonymous
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Anonymous!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -410,6 +452,7 @@ authors:
       name:           Sophia Mekbeb
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Sophia Mekbeb!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -419,6 +462,7 @@ authors:
       name:           Mila Talati
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Mila Talati!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
@@ -428,6 +472,7 @@ authors:
       name:           Gissele Hernandez
       site:           https://www.wowthemes.net
       avatar:         /assets/images/anonymous.jpg
+      role:           Member
       bio:            "Hi, I am Gissele Hernandez!"
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/

@@ -10,13 +10,13 @@ image: assets/images/boutiques-around-union-county-millburn-edition.png
 
  High Line Fashion
 
- This was the first boutique my friends and I went to, and for the most part, it left me unsatisfied. The store has a variety of clothes and accessories to fit any event or style. But, as exciting as the variety is, the sizes, however, are not inclusive. If youre over a size 6, youre probably not going to find anything suited for your body type, just like I didnt. 
+ This was the first boutique my friends and I went to, and for the most part, it left me unsatisfied. The store has a variety of clothes and accessories to fit any event or style. But, as exciting as the variety is, the sizes, however, are not inclusive. If you're over a size 6, you're probably not going to find anything suited for your body type, just like I didnt. 
 
 If you have a small body type, this would be a great store for you. The clothes are of high quality and suitable for any occasion. In the farther half of the store, there is a small fitting room area where you can find elegant dresses, try them on, and look at yourself in a wide 360 mirror setup. 
 
-The quality of the dresses is great, but again, theyre mainly suited for smaller body types, and most of the dresses end at an above-the-knee length. If you prefer longer dress lengths aesthetically or if you dont like showing your legs, this is not the place to buy a dress. 
-Also, the fitting rooms are connected and concealed with curtains instead of doors, which may not be ideal if youre looking for secure privacy. 
-  Before the dress section, there are multiple racks and shelves which showcase casual clothing and accessories. This is where youll find more everyday clothes, like t-shirts and joggers, with multiple patterns and styles. In addition to the variety of clothing, High Line also has numerous accessory tables, which showcase purses, toys, jewelry, hair accessories, belts, pins, and more. 
+The quality of the dresses is great, but again, they're mainly suited for smaller body types, and most of the dresses end at an above-the-knee length. If you prefer longer dress lengths aesthetically or if you dont like showing your legs, this is not the place to buy a dress. 
+Also, the fitting rooms are connected and concealed with curtains instead of doors, which may not be ideal if you're looking for secure privacy. 
+  Before the dress section, there are multiple racks and shelves which showcase casual clothing and accessories. This is where you'll find more everyday clothes, like t-shirts and joggers, with multiple patterns and styles. In addition to the variety of clothing, High Line also has numerous accessory tables, which showcase purses, toys, jewelry, hair accessories, belts, pins, and more. 
 
 High Line Fashions address is 321 Millburn Ave, and their hours are 12p.m.-5p.m. Sundays through Mondays and 11am-6pm Tuesdays through Saturdays. 
 
@@ -30,13 +30,13 @@ As for the shoes specifically, which again are the highlight of the store, there
 
 In addition to the shoe assortments, the employees are also very nice and helpful. The two lovely ladies who assisted my friends and I were respectful and pleasant to talk to. They were by far the friendliest salespeople out of all the places included. 
 
-Via Roxy Shoes is located at 356 Millburn Ave and theyre open from 10a.m.-5p.m. Mondays through Saturdays. You can also shop their products online at roxyshoes.net. 
+Via Roxy Shoes is located at 356 Millburn Ave and they're open from 10a.m.-5p.m. Mondays through Saturdays. You can also shop their products online at roxyshoes.net. 
 
 Overall, I would rate this shop a 10/10 because the quality, variety, sizes, organization, and employees all proved to be exceptional. 
 
  Bungalow
 
- Bungalow was the third place we shopped at, and thankfully, it did not disappoint. Taking on a unique and bohemian aesthetic, the shops interior design is gorgeous and welcoming it even smelled good! As soon as you walk in, a warm vibe sets in, and youre surrounded by hangers and tables. This shop, by far, has the roomiest interior. 
+ Bungalow was the third place we shopped at, and thankfully, it did not disappoint. Taking on a unique and bohemian aesthetic, the shops interior design is gorgeous and welcoming it even smelled good! As soon as you walk in, a warm vibe sets in, and you're surrounded by hangers and tables. This shop, by far, has the roomiest interior. 
 
 The clothes themselves consist mainly of sweaters, jeans, coats, and accessories, all of which are very cute to an acquired style. The clothes cater to particular aesthetics, so for those who have that aesthetic, this boutique is perfect. For those who dont, it may be best just to look elsewhere. 
 
@@ -56,7 +56,7 @@ I picked out a red jacket to try on, and while I was in the fitting room, an emp
 
 The size range was pretty good as far as I could tell, considering the boutique mostly sells jewelry anyway. The shop is not very roomy, because the jewelry table is huge, which makes it a bit more difficult to look around. Not to mention the crazy price tags on everything one single necklace was over $30! Although I did end up buying the jacket, I wont be coming back to this boutique. 
 
-If you do wish to visit Jias, theyre located at 359 Millburn Ave and their hours are 11a.m.-6p.m. Mondays through Saturdays. They also have an online shop at jia-boutique.com.
+If you do wish to visit Jias, they're located at 359 Millburn Ave and their hours are 11a.m.-6p.m. Mondays through Saturdays. They also have an online shop at jia-boutique.com.
 
  Overall, I would rate this boutique a 4/10, because although the quality of the products was good, the prices, customer service, and shop organization were all dealbreakers.
 

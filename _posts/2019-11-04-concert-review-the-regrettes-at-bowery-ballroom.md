@@ -26,7 +26,7 @@ Openers Hala and Greer both gave breakout performances at the beginning of the g
 
  
 
-This sold-out gig was even more proof that The Regrettes are going places. And if you havent heard of them, you definitely will soon.
+This sold-out gig was even more proof that The Regrettes are going places. And if you haven't heard of them, you definitely will soon.
 
  
 

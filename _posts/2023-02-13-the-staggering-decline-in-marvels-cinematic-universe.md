@@ -2,7 +2,7 @@
 layout: post
 title:  "The Staggering Decline in Marvel's Cinematic Universe"
 author: omolola
-categories: [ Arts ]
+categories: [ Arts and Entertainment ]
 image: assets/images/the-staggering-decline-in-marvels-cinematic-universe.webp
 ---
 
