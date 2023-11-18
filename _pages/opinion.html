@@ -54,8 +54,9 @@ permalink: "/opinion.html"
     <div class="col-md-8 main-loop">
         
         <h4 class="font-weight-bold spanborder"><span>All Opinion Stories</span></h4>
-        {% assign paginator.posts = opinion_posts %}
-        {% for post in opinion_posts %}
+        {% assign offset = 4 %}
+            
+        {% for post in opinion_posts offset: offset %}
             {% include main-loop-card.html %}
         {% endfor %}
         

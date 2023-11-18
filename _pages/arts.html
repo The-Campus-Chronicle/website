@@ -54,8 +54,9 @@ permalink: "/arts.html"
     <div class="col-md-8 main-loop">
         
         <h4 class="font-weight-bold spanborder"><span>All Arts and Entertainment Stories</span></h4>
-        <!-- {% assign paginator.posts = arts_posts %} -->
-        {% for post in arts_posts %}
+        {% assign offset = 4 %}
+            
+        {% for post in arts_posts offset: offset %}
             {% include main-loop-card.html %}
         {% endfor %}
         

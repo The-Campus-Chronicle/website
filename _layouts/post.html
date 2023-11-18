@@ -19,7 +19,7 @@ layout: default
                         {% if author.avatar %}
                         <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
                         {% endif %}
-						<small class="ml-3"> {{ author.name }}, {{ author.grade }} at {{ author.school }} <span><a target="_blank" href="{{site.baseurl}}/author-{{ author.name | slugify }}" class="btn btn-outline-success btn-sm btn-round ml-1">OTher Posts</a></span>
+						<small class="ml-3"> {{ author.name }}, {{ author.grade }} at {{ author.school }} <span><a target="_blank" href="{{site.baseurl}}/author-{{ author.name | slugify }}" class="btn btn-outline-success btn-sm btn-round ml-1">Other Posts</a></span>
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
 					</div>

@@ -51,8 +51,9 @@ permalink: "/science.html"
     <div class="col-md-8 main-loop">
         
         <h4 class="font-weight-bold spanborder"><span>All Science Stories</span></h4>
-        <!-- {% assign paginator.posts = science_posts %} -->
-        {% for post in science_posts | slice 4 %}
+        {% assign offset = 4 %}
+            
+        {% for post in science_posts offset: offset %}
             {% include main-loop-card.html %}
         {% endfor %}
         
