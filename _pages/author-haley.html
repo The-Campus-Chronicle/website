@@ -16,7 +16,7 @@ permalink: "/author-haley-richardson.html"
                 <img alt="{{ site.authors.haley.name }}" src="{{site.baseurl}}/{{ site.authors.haley.avatar }}" class="rounded-circle" height="100" width="100">
             </div>
         </div>
-        <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
+        <h4 class="font-weight-bold spanborder"><span>Articles by {{page.title}}</span></h4>
             {% assign posts = site.posts | where:"author","haley" %}
             {% for post in posts %}
             {% include main-loop-card.html %}
