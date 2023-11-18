@@ -19,15 +19,16 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    akash:
-      name:           Akash Dubey
-      site:           https://akeboss-tech.github.io/
-      avatar:         /assets/images/akash-avatar.jpg
-      role:           Layout Editor
-      bio:            "Hi, I am Akash, the webmaster of this website! I like writing code and newspaper articles!"
-      email:          adubey@ucvts.org
-      school:         AIT
-      grade:          Senior
+    anusha:
+      name:           Anusha Iyer
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/anonymous.jpg
+      role:           Editor-In-Chief
+      bio:            "Hi, I am Anusha Iyer!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          AIT
+      grade:          Alumni
     dylan:
       name:           Dylan Intwala
       site:           https://www.wowthemes.net
@@ -38,7 +39,15 @@ authors:
       twitter:        https://twitter.com/
       school:          AIT
       grade:          Senior
-
+    akash:
+      name:           Akash Dubey
+      site:           https://akeboss-tech.github.io/
+      avatar:         /assets/images/akash-avatar.jpg
+      role:           Layout Editor
+      bio:            "Hi, I am Akash, the webmaster of this website! I like writing code and newspaper articles!"
+      email:          adubey@ucvts.org
+      school:         AIT
+      grade:          Senior
     alan:
       name:           Alan Ostrovsky
       site:           https://www.wowthemes.net
@@ -357,16 +366,6 @@ authors:
       email:          no_reply@ucvts.org
       twitter:        https://twitter.com/
       school:          UCTech
-      grade:          Alumni
-    anusha:
-      name:           Anusha Iyer
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
-      role:           Editor-In-Chief
-      bio:            "Hi, I am Anusha Iyer!"
-      email:          no_reply@ucvts.org
-      twitter:        https://twitter.com/
-      school:          AIT
       grade:          Alumni
     chloe:
       name:           Chloe Gavula
