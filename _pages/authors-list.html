@@ -13,25 +13,38 @@ permalink: "/authors-list.html"
         .hover-card:hover {
             background-color: #edebeb;
         }
+
+        .Opinion-Editor {
+            background-color: #0055aa;
+        }
+
+        .Editor-In-Chief {
+            background-color: #ff0000;
+        }
+
+        .Layout-Editor {
+            background-color: #eeff00;
+        }
     </style>
     
     <h2 class="font-weight-bold spanborder"><span>{{page.title}}</span></h2>
     <div class="row gap-y listrecent listrecent listauthor">
         {% for author in site.authors %}
-        <div class="col-lg-6 mb-4">
             {% assign name_parts = author[1].name | split: ' ' %}
             {% assign slugified_name = name_parts | join: '-' | slugify %}
             <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
                 <a href="{{site.baseurl}}/author-{{ slugified_name | slugify }}">
-                    <div class="p-4 border rounded hover-card">
+                    <div class="p-4 border rounded hover-card {{ author[1].role | slugify }}">
                         <div class="row">
-                            <div class="col-md-3 mb-4 mb-md-0 justify-content-center align-items-center flex-column text-center">
-                                <img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="80" width="80">
-                                <small class="text-center">{{ author[1].grade }} at {{ author[1].school }}</small>
+                            <div class="col-md-12 mb-1 mb-md-0 justify-content-center align-items-center flex-column text-center">
+                                <img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="90" width="90">
+                                <br>
+                                
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-md-12">
                                 <h4 class="text-dark mb-0"> {{ author[1].name }} </h4>
                                 <h5 class="text-dark mb-0">{{ author[1].role }}</h5>
+                                <h6 class="text-center">{{ author[1].grade }} at {{ author[1].school }}</h6>
                                 <div class="excerpt">{{ author[1].bio }}</div>
                                 <div class="icon-block mt-3 d-flex justify-content-between">
                                     <div>
@@ -41,8 +54,7 @@ permalink: "/authors-list.html"
                         </div>
                     </div>
                 </a>
-            </div>            
-        </div>
+            </div>   
         {% endfor %}
     </div>
 </div>
