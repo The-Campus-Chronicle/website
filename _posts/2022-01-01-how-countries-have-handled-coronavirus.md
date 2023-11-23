@@ -22,7 +22,7 @@ image: assets/images/how-countries-have-handled-coronavirus.jpg
 
 	To sum it up, the coronavirus pandemic was something that turned our lives at a 180 degree angle. It affected every person in some way, shape or form. The myriad of responses taken by countries across the world has shown what works, what doesnt and the importance of communication and decisive action. Right now, vaccines are out and are getting delivered into peoples arms. Hopefully, if theres another pandemic in the future, the countries who have managed COVID poorly can learn from countries that have prevented the worst. 
 
-Works Cited
+## Works Cited
 
 Bhatia, Gurman, et al. Sweden: the Latest Coronavirus Counts, Charts and Maps. Reuters, Thomson Reuters, 11 Apr. 2021, graphics.reuters.com/world-coronavirus-tracker-and-maps/countries-and-territories/sweden/.
 

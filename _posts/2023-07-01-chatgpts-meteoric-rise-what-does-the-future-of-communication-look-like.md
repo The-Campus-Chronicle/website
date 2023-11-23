@@ -27,7 +27,7 @@ So how big of a deal is ChatGPT, then? In the words of Bogost, Computers have ne
 
 Many proclaim that ChatGPT is the future, but it would be more accurate to say that ChatGPT is still shaping the present. Instead of fear-mongering about how it might ruin lives, we should start learning how to integrate and mold this blossoming technology in a way that is beneficial. With AIs knowledge and humanitys understanding, an optimized communication landscape will be on the horizon.
 
-Works Cited
+## Works Cited
 
 Bogost, Ian. ChatGPT Is Dumber Than You Think. The Atlantic, 7 December 2022, https://www.theatlantic.com/technology/archive/2022/12/chatgpt-openai-artificial-intelligence-writing-ethics/672386/. Accessed 12 April 2023.
 

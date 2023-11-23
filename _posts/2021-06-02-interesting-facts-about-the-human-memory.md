@@ -36,7 +36,7 @@ Motivated forgetting, also known as suppression, is basically when one purposely
 
 In short, memories play roles in every aspect of ones life and a great memory is an effective tool. It simplifies the process of completing a task and may improve performance on assessments. This results in reduced anxiety or frustration and better social interaction. In short, it is important to protect ones brain from physical and mental harm, to continue developing new skills and absorbing new information. The brain may be hidden from view, but one must protect it to maximize our health and life. 
 
-Works Cited:
+## Works Cited:
 
 (2020, April 9). 4 Explanations for Why We Forgot. VeryWell Mind. https://www.verywellmind.com/explanations-for-forgetting-2795045#:~:text=Why%20and%20how%20do%20we,to%20store%2C%20and%20motivated%20forgetting.
 

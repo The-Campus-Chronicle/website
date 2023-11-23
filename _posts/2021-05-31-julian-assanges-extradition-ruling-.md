@@ -16,7 +16,7 @@ After this ruling, the focus shifts to a US appeal for which leave is expected t
 
 In August of 2010, Assange was also accused of sexual assault in Sweden, however, he denied all allgeations. He was issued an international warrant for his arrest so he could be extradited back to Sweden, then was released on bail in the UK and granted asylum at the Ecuadorian embassy in June 2012, where he hid from the US government for 7 years. All sexual assault charges were dropped against Assange on November 19, 2019. 
 
-Works Cited 
+## Works Cited 
 
 Julian Assange Cannot Be Extradited to US, British Judge Rules. The Guardian, Guardian News and Media, 4 Jan. 2021, www.theguardian.com/media/2021/jan/04/julian-assange-cannot-be-extradited-to-us-british-judge-rules. 
 

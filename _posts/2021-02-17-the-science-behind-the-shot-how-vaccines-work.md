@@ -12,7 +12,7 @@ When vaccines are administered to people, their immune systems respond. The immu
 
 All in all, vaccines allow the immune system to learn how to fight off certain viruses and bacteria without having to battle the full-blown pathogens. Vaccines may cause mild side effects, such as fevers, but almost never cause major illness in those with healthy immune systems. Once again, vaccines save lives. They dont only help those who get them, but they also protect those who cannot like the immunocompromised. When people with healthy immune systems receive vaccinations, they lower their chances of getting sick from certain diseases and of spreading these diseases, which helps protect those who cannot receive protection through vaccines. Basically, the more people vaccinated, the safer everyone is, and although there is currently no available COVID-19 vaccine, there are available vaccines for other dangerous diseases such as measles and tuberculosis. Thus, it is pertinent that people stay up to date with their vaccinations since they protect individuals and, ultimately, communities.
 
-Works Cited:
+## Works Cited:
 
 Centers for Disease Control and Prevention. (2018). Understanding How Vaccines Work [PDF]. https://www.cdc.gov/vaccines/hcp/conversations/downloads/vacsafe-understand-color-office.pdf
 

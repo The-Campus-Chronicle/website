@@ -46,7 +46,7 @@ Often women are afraid to speak up because they feel they will be shot down, or 
 
 In my experiences as a woman, I can see that a patriarchal society affects us all. It makes men feel like they will never feel man enough, making women feel inadequate. To be a true advocate for change, education is the first step, so thank you for taking that first step.
 
-Works Cited:
+## Works Cited:
 
 American Foundation for Suicide Prevention. Suicide Statistics. American Foundation for Suicide Prevention, 2022, afsp.org/suicide-statistics/.
 

@@ -17,7 +17,7 @@ Historically, midterm elections have had low voter turnout, especially compared 
 
 In this years midterms, young voters have been the key difference between one winner and another, so keep that in mind for all turning 18 because your vote could shape the future of the country, which is a huge responsibility. Make a habit of voting, start young, and pay attention to the surrounding world because increased involvement can lead to more record-breaking elections. 
 
-Works Cited:
+## Works Cited:
 
 The 1858 Midterm Election. U.S. Senate: The 1858 Midterm Election, 7 Mar. 2022, 
 

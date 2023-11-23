@@ -25,7 +25,7 @@ image: assets/images/harry-styles-redefining-masculinity.png
 	Styles discusses his own take on masculinity in an interview for Teen Vogue: I think theres so much masculinity in being vulnerable and allowing yourself to be feminine, and Im very comfortable with that. Growing up you dont even know what those things mean. You have this idea of what being masculine is and as you grow up and experience more of the world, you become more comfortable with who you are. In the same interview, Styles explains that the times when he feels most confident and like himself are when he allows himself to be vulnerable.
  	Harry Styles can often be seen in jewelry, feather boas, nail polish and dresses, which are still deemed feminine. Thanks to Harry Styles and a number of other celebrities, gender barriers are being broken, with their fashion choices refreshing the conversation about what it means to express oneself.  
 
-Works Cited
+## Works Cited
 
 Adekaiyero Ayomikun. (2021, October 18). Billy Porter Criticized Vogue for Featuring Harry Styles as its First Ever Male in a Dress on its Cover: He Doesnt Care. Business Insider. Retrieved March, 1, 2022 from http://www.businessinsider.in/entertainment/news
 

@@ -28,7 +28,7 @@ So what can be done about all this? An entire generation being raised on manufac
 
 Listen to Glee covers. Listen to Disney classics. Listen to video game soundtracks and Linkin Park and High School Musical 2 and anything else that you might hesitate to share publicly. When you share your 2022 Spotify Wrapped on your Instagram story, regardless of whats on it, you might be making it just a little bit easier for someone else to do the same.
 
-Works Cited
+## Works Cited
 
 Buchan, Sophie. Spotify Wrapped 2022 release date and why some months aren't included in results. Glasgow Live, 8 November 2022, https://www.glasgowlive.co.uk/news/spotify-wrapped-2022-release-date-25460989. Accessed 11 November 2022.
 

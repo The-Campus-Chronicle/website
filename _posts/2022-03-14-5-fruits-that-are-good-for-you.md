@@ -30,7 +30,7 @@ Many fruits are beneficial to the health of human beings. With the overwhelmingl
 
 There are plenty of other fruits that are just as delicious and healthy as these five fruits, but these specific fruits can be easily accessed in local grocery stores and are generally sold for reasonable prices. Eating fruit is a great way to start a healthy lifestyle, so try one of these fruits and you might find a new favorite food! 
 
-Works Cited:
+## Works Cited:
 
 Brazier, Yvette. Vitamin B6: Benefits, Dosage, Food Sources, and Deficiency 
 

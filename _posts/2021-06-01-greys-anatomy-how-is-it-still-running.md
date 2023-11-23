@@ -28,7 +28,7 @@ Be as it may, it is my belief that Pompeo may have confessed this tidbit in hope
 
 In hindsight, Greys Anatomy has and will continue to be a legendary show regardless of mine or anyone elses opinions. To find out what will happen next, we will simply have to wait and watch for Pompeo and the Greys teams next move, and tune in when the show returns from its winter hiatus on ABC on March 4th, at 9 p.m.
 
-Works Cited:
+## Works Cited:
 
 Aurthur, Kate.How Greys Anatomy Revolutionized Pop Culture  and Why Its Not Done Yet. Variety, 2020, https://variety.com/2020/tv/news/greys-anatomy-ellen-pompeo-debbie-allen-krista-vernoff-chandra-wilson-1234816801/
 

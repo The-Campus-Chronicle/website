@@ -24,7 +24,7 @@ There is no tangible evidence against the Grammys that fans can hold onto due to
 
 Although it is simple to say that the Grammys cannot please everyone, they still have a long way to go to please more people. Their systems are corrupt and biased, and it seems like the Academy is in no rush to change anything. It is a good thing that most of these artists know that the Grammys and any other awards the artists might receive do not matter in the end. It only matters that their fans love their music.
 
-Works Cited
+## Works Cited
 
 Haylock, Z. (2020, November 25). The Weeknd Received Zero Grammy Nominations, Responds 
 

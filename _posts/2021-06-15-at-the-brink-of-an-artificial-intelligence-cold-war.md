@@ -25,7 +25,7 @@ These unregulated circumstances, the ambition of both nations and their ongoing 
 
 Experts who disagree with the possibility of a cold war, including Webster of MIT, argue that AI has been developed for years with little violent conflict. Moreover, mutually assured destruction prevents any such conflict from escalating too gravely. In general, opponents deem the possibility absurd and unlikely in a globalized and extremely internationally dependent world. If anything, they foresee slight competition between nations without any meaningful, long-lasting impacts. Despite these doubts, AI will, at the very least, increase tensions between major players on the world stage. Nations should be aware and prepared for AI induced disagreement. 
 
-Works Cited 
+## Works Cited 
 
 Bhalla, Nita. Nations Dawdle on Agreeing Rules to Control 'Killer Robots' in Future Wars. Reuters, Thomson Reuters, 17 Jan. 2020, 
 

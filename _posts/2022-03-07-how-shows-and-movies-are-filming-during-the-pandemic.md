@@ -18,7 +18,7 @@ Different sized sets also have varying testing requirements. Some productions re
 
 Although these guidelines might seem harsh, they seem to work well. In a couple of weeks of filming in Pinewood Studios in Atlanta, less than three percent of 7,000 tests came back positive. The one issue with filming during the pandemic is that some might call it a waste of resources. Instead of protecting Chris Pratt from the virus while he films with dinosaurs, those tests could go to places facing a deficit of tests. Nonetheless, most studios have turned their attention to investing in the necessary measures to keep cast and crew on sets safe and healthy. Most people are glad that the result of all the precautions is more entertainment during this pressing time. 
 
-Works Cited
+## Works Cited
 
 Catlin, R. (2020, October 26). How in the World Are TV Shows Filming During the Pandemic? 
 
