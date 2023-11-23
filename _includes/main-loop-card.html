@@ -1,6 +1,6 @@
 <a href="{{site.baseurl}}{{post.url}}">
-	<div class="mb-5 main-loop-card position-relative" style="background-image: url('{% if post.image contains " ://"
-		%}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}'); background-color: rgba(0,0,0, 0.5); background-size: cover;
+	<div class="mb-5 main-loop-card position-relative rounded" style="background-image: url('{% if post.image contains " ://"
+		%}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}'); background-color: rgba(0,0,0, 0.4); background-size: cover;
 		background-position: center;
 		background-blend-mode: color;
 		">
@@ -11,7 +11,7 @@
 					<a class="text-light" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
 				</h2>
 				<p class="excerpt text-light">
-					<a href="{{site.baseurl}}{{post.url}}">{{ post.excerpt | strip_html | strip_newlines | truncate: 186}}</a>
+					<a href="{{site.baseurl}}{{post.url}}" class="text-light">{{ post.excerpt | strip_html | strip_newlines | truncate: 190}}</a>
 				</p>
 				<small class="d-block text-light">
 					<strong>
