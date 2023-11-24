@@ -39,8 +39,10 @@ permalink: "/authors-list.html"
         {% for author in site.authors %}
             {% assign name_parts = author[1].name | split: ' ' %}
             {% assign slugified_name = name_parts | join: '-' | slugify %}
-            {% if author[1].grade | strip | downcase == alumni %}
-                <p>Skipping Alumni</p>
+
+            {% assign grade_lowercase = author[1].grade | strip | downcase %}
+            {% if grade_lowercase == alumni %}
+                <script>console.log("{{author[1].name}}  is an Alumni  {{grade_lowercase}}")</script>
                 {% continue %}
             {% endif %}
             <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
