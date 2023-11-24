@@ -1,6 +1,6 @@
 import glob
 # read the author-akash.html file to get the template
-template_body = '{% assign author_data = site.authors.$first_name$ %}\n{% include author-content.html site_author=author_data name="$first_name$" %}'
+template_body = '{% assign site_author = site.authors.$first_name$ %}\n{% assign name = "$first_name$" %}\n{% include author-content.html %}'
 
 # Open all files named "author-*.html"
 for filename in glob.glob("_pages/author-*.html"):

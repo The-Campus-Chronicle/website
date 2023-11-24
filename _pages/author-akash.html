@@ -3,5 +3,6 @@ title: "Akash Dubey"
 layout: default
 permalink: "/author-akash-dubey.html"
 ---
-{% assign author_data = site.authors.akash %}
-{% include author-content.html site_author=author_data name="akash" %}
+{% assign site_author = site.authors.akash %}
+{% assign name = "akash" %}
+{% include author-content.html %}

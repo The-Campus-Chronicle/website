@@ -3,7 +3,8 @@ title: "Anonymous"
 layout: default
 permalink: "/author-anonymous.html"
 ---
-{% assign author_data = site.authors.anonymous
+{% assign site_author = site.authors.anonymous
  %}
-{% include author-content.html site_author=author_data name="anonymous
+{% assign name = "anonymous
 " %}
+{% include author-content.html %}

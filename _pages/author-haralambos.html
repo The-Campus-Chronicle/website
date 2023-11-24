@@ -3,5 +3,6 @@ title: "Haralambos Liberatos"
 layout: default
 permalink: "/author-haralambos-liberatos.html"
 ---
-{% assign author_data = site.authors.haralambos %}
-{% include author-content.html site_author=author_data name="haralambos" %}
+{% assign site_author = site.authors.haralambos %}
+{% assign name = "haralambos" %}
+{% include author-content.html %}

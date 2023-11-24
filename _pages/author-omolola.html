@@ -3,5 +3,6 @@ title: "Omolola Falana"
 layout: default
 permalink: "/author-omolola-falana.html"
 ---
-{% assign author_data = site.authors.omolola %}
-{% include author-content.html site_author=author_data name="omolola" %}
+{% assign site_author = site.authors.omolola %}
+{% assign name = "omolola" %}
+{% include author-content.html %}

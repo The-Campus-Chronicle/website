@@ -3,5 +3,6 @@ title: "Ivy Liu"
 layout: default
 permalink: "/author-ivy-liu.html"
 ---
-{% assign author_data = site.authors.ivy %}
-{% include author-content.html site_author=author_data name="ivy" %}
+{% assign site_author = site.authors.ivy %}
+{% assign name = "ivy" %}
+{% include author-content.html %}

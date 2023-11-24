@@ -3,5 +3,6 @@ title: "Kaitlyn Landaverde"
 layout: default
 permalink: "/author-kaitlyn-landaverde.html"
 ---
-{% assign author_data = site.authors.kaitlyn %}
-{% include author-content.html site_author=author_data name="kaitlyn" %}
+{% assign site_author = site.authors.kaitlyn %}
+{% assign name = "kaitlyn" %}
+{% include author-content.html %}

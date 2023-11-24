@@ -3,5 +3,6 @@ title: "Akwele Lokko"
 layout: default
 permalink: "/author-akwele-lokko.html"
 ---
-{% assign author_data = site.authors.akwele %}
-{% include author-content.html site_author=author_data name="akwele" %}
+{% assign site_author = site.authors.akwele %}
+{% assign name = "akwele" %}
+{% include author-content.html %}

@@ -3,5 +3,6 @@ title: "Daivya Sadhvani"
 layout: default
 permalink: "/author-daivya-sadhvani.html"
 ---
-{% assign author_data = site.authors.daivya %}
-{% include author-content.html site_author=author_data name="daivya" %}
+{% assign site_author = site.authors.daivya %}
+{% assign name = "daivya" %}
+{% include author-content.html %}

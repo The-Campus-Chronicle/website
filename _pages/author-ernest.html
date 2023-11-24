@@ -3,5 +3,6 @@ title: "Ernest Romero"
 layout: default
 permalink: "/author-ernest-romero.html"
 ---
-{% assign author_data = site.authors.ernest %}
-{% include author-content.html site_author=author_data name="ernest" %}
+{% assign site_author = site.authors.ernest %}
+{% assign name = "ernest" %}
+{% include author-content.html %}

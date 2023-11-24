@@ -3,5 +3,6 @@ title: "Maya Dias"
 layout: default
 permalink: "/author-maya-dias.html"
 ---
-{% assign author_data = site.authors.maya %}
-{% include author-content.html site_author=author_data name="maya" %}
+{% assign site_author = site.authors.maya %}
+{% assign name = "maya" %}
+{% include author-content.html %}

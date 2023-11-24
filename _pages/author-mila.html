@@ -3,5 +3,6 @@ title: "Mila Talati"
 layout: default
 permalink: "/author-mila-talati.html"
 ---
-{% assign author_data = site.authors.mila %}
-{% include author-content.html site_author=author_data name="mila" %}
+{% assign site_author = site.authors.mila %}
+{% assign name = "mila" %}
+{% include author-content.html %}

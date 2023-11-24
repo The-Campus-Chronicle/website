@@ -3,5 +3,6 @@ title: "Diya Nainwal"
 layout: default
 permalink: "/author-diya-nainwal.html"
 ---
-{% assign author_data = site.authors.diya %}
-{% include author-content.html site_author=author_data name="diya" %}
+{% assign site_author = site.authors.diya %}
+{% assign name = "diya" %}
+{% include author-content.html %}
