@@ -3,24 +3,5 @@ title: "Eric Yu"
 layout: default
 permalink: "/author-eric-yu.html"
 ---
-<div class="container">
-<div class="row justify-content-center">
-    <div class="col-md-8">        
-        <div class="row align-items-center mb-5">
-            <div class="col-md-9">
-                <h2 class="font-weight-bold">{{page.title}}</h2>
-                <p>{{ site.authors.eric.grade }} at {{ site.authors.eric.school }}</p>
-                <p class="excerpt">{{ site.authors.eric.bio }}</p>
-            </div>
-            <div class="col-md-3 text-right">
-                <img alt="{{ site.authors.eric.name }}" src="{{site.baseurl}}/{{ site.authors.eric.avatar }}" class="rounded-circle" height="100" width="100">
-            </div>
-        </div>
-        <h4 class="font-weight-bold spanborder"><span>Articles by {{page.title}}</span></h4>
-            {% assign posts = site.posts | where:"author","eric" %}
-            {% for post in posts %}
-            {% include main-loop-card.html %}
-            {% endfor %}
-    </div>
-</div>
-</div>
+{% assign author_data = site.authors.eric %}
+{% include author-content.html site_author=author_data name="eric" %}

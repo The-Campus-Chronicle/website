@@ -3,24 +3,5 @@ title: "Patrick Mochnal"
 layout: default
 permalink: "/author-patrick-mochnal.html"
 ---
-<div class="container">
-<div class="row justify-content-center">
-    <div class="col-md-8">        
-        <div class="row align-items-center mb-5">
-            <div class="col-md-9">
-                <h2 class="font-weight-bold">{{page.title}}</h2>
-                <p>{{ site.authors.patrick.grade }} at {{ site.authors.patrick.school }}</p>
-                <p class="excerpt">{{ site.authors.patrick.bio }}</p>
-            </div>
-            <div class="col-md-3 text-right">
-                <img alt="{{ site.authors.patrick.name }}" src="{{site.baseurl}}/{{ site.authors.patrick.avatar }}" class="rounded-circle" height="100" width="100">
-            </div>
-        </div>
-        <h4 class="font-weight-bold spanborder"><span>Articles by {{page.title}}</span></h4>
-            {% assign posts = site.posts | where:"author","patrick" %}
-            {% for post in posts %}
-            {% include main-loop-card.html %}
-            {% endfor %}
-    </div>
-</div>
-</div>
+{% assign author_data = site.authors.patrick %}
+{% include author-content.html site_author=author_data name="patrick" %}
