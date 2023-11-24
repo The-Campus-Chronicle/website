@@ -3,6 +3,7 @@ title: "Arts and Entertainment"
 layout: default
 pagination:
     enabled: true
+    per_page: 10
 permalink: "/arts.html"
 ---
 
@@ -56,20 +57,13 @@ permalink: "/arts.html"
         <h4 class="font-weight-bold spanborder"><span>All Arts and Entertainment Stories</span></h4>
 
         {% assign posts = arts_posts offset: 4 %}
-        {% paginate posts by 10 %}
-          {% for post in posts -%}
-            {% include main-loop-card.html %}
-          {%- endfor %}
-
-          {{- paginate | default_pagination }}
-        {% endpaginate %}
         
-        <!-- {% for post in arts_posts offset: offset %}
+        {% for post in paginator.paginate(posts) %}
             {% include main-loop-card.html %}
         {% endfor %}
         
         <div class="mt-5">
-          Pagination links
+          <!-- Pagination links -->
             {% if paginator.total_pages > 1 %}
             <ul class="pagination"> 
               {% if paginator.previous_page %}
@@ -95,7 +89,7 @@ permalink: "/arts.html"
               {% endif %}
             </ul>
             {% endif %}      
-        </div> -->
+        </div>
         
     </div>
     
