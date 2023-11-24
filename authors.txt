@@ -1,7 +1,7 @@
     alan:
       name:           Alan Ostrovsky
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Alan Ostrovsky!"
       email:          no_reply@ucvts.org
@@ -11,7 +11,7 @@
     joe:
       name:           Joe Baldwin
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Joe Baldwin!"
       email:          no_reply@ucvts.org
@@ -21,7 +21,7 @@
     omolola:
       name:           Omolola Falana
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Omolola Falana!"
       email:          no_reply@ucvts.org
@@ -31,7 +31,7 @@
     haralambos:
       name:           Haralambos Liberatos
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Haralambos Liberatos!"
       email:          no_reply@ucvts.org
@@ -41,7 +41,7 @@
     victoria:
       name:           Victoria Gee
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Victoria Gee!"
       email:          no_reply@ucvts.org
@@ -51,7 +51,7 @@
     laura:
       name:           Laura Felder
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Laura Felder!"
       email:          no_reply@ucvts.org
@@ -61,7 +61,7 @@
     rebecca:
       name:           Rebecca Lee
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Rebecca Lee!"
       email:          no_reply@ucvts.org
@@ -71,7 +71,7 @@
     :
       name:            Sara Schwartz
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am  Sara Schwartz!"
       email:          no_reply@ucvts.org
@@ -81,7 +81,7 @@
     audrey:
       name:           Audrey Miller
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Audrey Miller!"
       email:          no_reply@ucvts.org
@@ -91,7 +91,7 @@
     natalie:
       name:           Natalie Lee
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Natalie Lee!"
       email:          no_reply@ucvts.org
@@ -101,7 +101,7 @@
     dylan:
       name:           Dylan Intwala
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Dylan Intwala!"
       email:          no_reply@ucvts.org
@@ -111,7 +111,7 @@
     alondra:
       name:           Alondra Martinez
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Alondra Martinez!"
       email:          no_reply@ucvts.org
@@ -121,7 +121,7 @@
     ernest:
       name:           Ernest Romero
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Ernest Romero!"
       email:          no_reply@ucvts.org
@@ -131,7 +131,7 @@
     gregory:
       name:           Gregory Martinez
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Gregory Martinez!"
       email:          no_reply@ucvts.org
@@ -141,7 +141,7 @@
     maya:
       name:           Maya Dias
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Maya Dias!"
       email:          no_reply@ucvts.org
@@ -151,7 +151,7 @@
     shreya:
       name:           Shreya Nara
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Shreya Nara!"
       email:          no_reply@ucvts.org
@@ -161,7 +161,7 @@
     ella:
       name:           Ella Platts
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Ella Platts!"
       email:          no_reply@ucvts.org
@@ -171,7 +171,7 @@
     monica:
       name:           Monica Manescu
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Monica Manescu!"
       email:          no_reply@ucvts.org
@@ -181,7 +181,7 @@
     diya:
       name:           Diya Nainwal
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Diya Nainwal!"
       email:          no_reply@ucvts.org
@@ -191,7 +191,7 @@
     kenna:
       name:           Kenna Srivastava
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Kenna Srivastava!"
       email:          no_reply@ucvts.org
@@ -201,7 +201,7 @@
     saniya:
       name:           Saniya Harlalka
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Saniya Harlalka!"
       email:          no_reply@ucvts.org
@@ -211,7 +211,7 @@
     justin:
       name:           Justin Zimmerman
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Justin Zimmerman!"
       email:          no_reply@ucvts.org
@@ -221,7 +221,7 @@
     sarah:
       name:           Sarah Bauman
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Sarah Bauman!"
       email:          no_reply@ucvts.org
@@ -231,7 +231,7 @@
     kaitlyn:
       name:           Kaitlyn Landaverde
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Kaitlyn Landaverde!"
       email:          no_reply@ucvts.org
@@ -241,7 +241,7 @@
     mattia:
       name:           Mattia Leingang
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Mattia Leingang!"
       email:          no_reply@ucvts.org
@@ -251,7 +251,7 @@
     eric:
       name:           Eric Yu
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Eric Yu!"
       email:          no_reply@ucvts.org
@@ -261,7 +261,7 @@
     megan:
       name:           Megan Lahetta
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Megan Lahetta!"
       email:          no_reply@ucvts.org
@@ -271,7 +271,7 @@
     daivya:
       name:           Daivya Sadhvani
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Daivya Sadhvani!"
       email:          no_reply@ucvts.org
@@ -281,7 +281,7 @@
     jaime:
       name:           Jaime Paladi
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Jaime Paladi!"
       email:          no_reply@ucvts.org
@@ -291,7 +291,7 @@
     akwele:
       name:           Akwele Lokko
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Akwele Lokko!"
       email:          no_reply@ucvts.org
@@ -301,7 +301,7 @@
     patrick:
       name:           Patrick Mochnal
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Patrick Mochnal!"
       email:          no_reply@ucvts.org
@@ -311,7 +311,7 @@
     haley:
       name:           Haley Richardson
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Haley Richardson!"
       email:          no_reply@ucvts.org
@@ -321,7 +321,7 @@
     anusha:
       name:           Anusha Iyer
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Anusha Iyer!"
       email:          no_reply@ucvts.org
@@ -331,7 +331,7 @@
     chloe:
       name:           Chloe Gavula
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Chloe Gavula!"
       email:          no_reply@ucvts.org
@@ -341,7 +341,7 @@
     sara:
       name:           Sara Schwartz
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Sara Schwartz!"
       email:          no_reply@ucvts.org
@@ -351,7 +351,7 @@
     ahmad:
       name:           Ahmad Khizar
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Ahmad Khizar!"
       email:          no_reply@ucvts.org
@@ -361,7 +361,7 @@
     ana:
       name:           Ana Obradovic
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Ana Obradovic!"
       email:          no_reply@ucvts.org
@@ -371,7 +371,7 @@
     rachel:
       name:           Rachel Bataille
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Rachel Bataille!"
       email:          no_reply@ucvts.org
@@ -381,7 +381,7 @@
     lilly:
       name:           Lilly Resnick
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Lilly Resnick!"
       email:          no_reply@ucvts.org
@@ -391,7 +391,7 @@
     ivy:
       name:           Ivy Liu
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Ivy Liu!"
       email:          no_reply@ucvts.org
@@ -401,7 +401,7 @@
     anonymous:
       name:           Anonymous
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Anonymous!"
       email:          no_reply@ucvts.org
@@ -411,7 +411,7 @@
     sophia:
       name:           Sophia Mekbeb
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Sophia Mekbeb!"
       email:          no_reply@ucvts.org
@@ -421,7 +421,7 @@
     mila:
       name:           Mila Talati
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Mila Talati!"
       email:          no_reply@ucvts.org
@@ -431,7 +431,7 @@
     gissele:
       name:           Gissele Hernandez
       site:           https://www.wowthemes.net
-      avatar:         /assets/images/anonymous.jpg
+      avatar:         /assets/images/avatars/anonymous.jpg
       role:           Member
       bio:            "Hi, I am Gissele Hernandez!"
       email:          no_reply@ucvts.org
