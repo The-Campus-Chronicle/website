@@ -4,11 +4,6 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
-.main_loop_card:hover {
-  filter: drop-shadow(2px 4px 6px black);
-}
-
 :root {
   --blue: #7832e2;
   --indigo: #502c6c;
