@@ -32,6 +32,10 @@ permalink: "/authors-list.html"
         .layout-editor {
             background-color: #EDCA1A;
         }
+
+        .alumni {
+            display: none;
+        }
     </style>
     
     <h2 class="font-weight-bold spanborder"><span>{{page.title}}</span></h2>
@@ -41,13 +45,9 @@ permalink: "/authors-list.html"
             {% assign slugified_name = name_parts | join: '-' | slugify %}
 
             {% assign grade_lowercase = author[1].grade | strip | downcase %}
-            {% if grade_lowercase == alumni %}
-                <script>console.log("{{author[1].name}}  is an Alumni  {{grade_lowercase}}")</script>
-                {% continue %}
-            {% endif %}
             <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
                 <a href="{{site.baseurl}}/author-{{ slugified_name | slugify }}">
-                    <div class="p-4 border rounded hover-card {{ author[1].role | slugify }}">
+                    <div class="p-4 border rounded hover-card {{ author[1].role | slugify }} {{ grade_lowercase }}">
                         <div class="row">
                             <div class="col-md-12 mb-2 justify-content-center align-items-center flex-column text-center">
                                 <img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="90" width="90">
