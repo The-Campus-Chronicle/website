@@ -3,7 +3,7 @@ layout: post
 title:  "How Shows and Movies are Filming During the Pandemic"
 author: victoria
 categories: [ Arts and Entertainment ]
-image: None
+image: assets/images/movies.jpg
 ---
 
 When people world wide got stuck in their homes due to a pandemic, TV shows and movies were helpful aids in getting them through the isolation. Streaming services quickly became the hotspot for entertainment. For Disney+, this was convenient, considering it launched only four months before we were all confined, meaning that the content still felt fresh. The shows and movies on platforms including HBO Max, Hulu, Netflix and more gave us plenty of entertainment at least, until we ran out of things to watch. Even before the COVID-19 pandemic, people had started picking and choosing their streaming services to save money, and studios knew that they needed to create new content to keep viewers interested, whether that meant rushing through a delayed season of a beloved show or dreaming up an entirely new movie. State governments started to release COVID-19 guidelines for filming within their state, and Hollywood acted accordingly. With ordinary life non-existent, film crews needed to find a new way to create the entertainment necessary to satisfy all of us at home with nothing to do.

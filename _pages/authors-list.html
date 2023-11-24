@@ -45,9 +45,9 @@ permalink: "/authors-list.html"
             {% assign slugified_name = name_parts | join: '-' | slugify %}
 
             {% assign grade_lowercase = author[1].grade | strip | downcase %}
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 {{ grade_lowercase }}">
                 <a href="{{site.baseurl}}/author-{{ slugified_name | slugify }}">
-                    <div class="p-4 border rounded hover-card {{ author[1].role | slugify }} {{ grade_lowercase }}">
+                    <div class="p-4 border rounded hover-card {{ author[1].role | slugify }}">
                         <div class="row">
                             <div class="col-md-12 mb-2 justify-content-center align-items-center flex-column text-center">
                                 <img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="90" width="90">
