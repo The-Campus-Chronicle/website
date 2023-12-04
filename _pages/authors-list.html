@@ -10,9 +10,9 @@ permalink: "/authors-list.html"
             transition: filter 0.3s ease;
             color: black;
         }
-    
+
         .hover-card:hover {
-            filter: brightness(0.8); /* Adjust the value to make it darker (e.g., 0.8 for 80% darkness) */
+            filter: brightness(0.8);
         }
 
         .member {
@@ -36,23 +36,38 @@ permalink: "/authors-list.html"
         .alumni {
             display: none;
         }
+
+        .author-info {
+            text-align: center;
+        }
+
+        .author-info img {
+            margin-bottom: 10px;
+        }
+
+        .author-info h4, .author-info h5, .author-info h6 {
+            margin: 0;
+        }
+
+        .author-info .icon-block {
+            margin-top: 15px;
+        }
     </style>
-    
-    <h2 class="font-weight-bold spanborder"><span>{{page.title}}</span></h2>
-    <div class="row gap-y listrecent listrecent listauthor">
+
+    <h2 class="font-weight-bold spanborder"><span>{{ page.title }}</span></h2>
+    <div class="row gap-y listrecent listrecent listauthor d-flex flex-wrap">
         {% for author in site.authors %}
             {% assign name_parts = author[1].name | split: ' ' %}
             {% assign slugified_name = name_parts | join: '-' | slugify %}
 
             {% assign grade_lowercase = author[1].grade | strip | downcase %}
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 {{ grade_lowercase }}">
-                <a href="{{site.baseurl}}/author-{{ slugified_name | slugify }}">
-                    <div class="p-4 border rounded hover-card {{ author[1].role | slugify }}">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 {{ grade_lowercase }} flex-fill">
+                <a href="{{ site.baseurl }}/author-{{ slugified_name | slugify }}">
+                    <div class="p-4 border rounded hover-card {{ author[1].role | slugify }} author-info">
                         <div class="row">
                             <div class="col-md-12 mb-2 justify-content-center align-items-center flex-column text-center">
-                                <img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="90" width="90">
+                                <img alt="{{ author[1].name }}" src="{{ site.baseurl }}/{{ author[1].avatar }}" class="rounded-circle" height="90" width="90">
                                 <br>
-                                
                             </div>
                             <div class="col-md-12">
                                 <h4 class="text-center mb-0"> {{ author[1].name }} </h4>
