@@ -703,8 +703,7 @@ authors:
         name:           Sydney Kim
         avatar:         /assets/images/avatars/anonymous.jpg
         role:           Member
-        bio:            "Sydney Kim is currently a junior at AAHS. 
-She enjoys writing about current events and science. She is an avid tennis player, and, in her spare time, she loves to cook and bake. She also enjoys traveling, enabling her to infuse cultural insights into her writing. She loves being involved with the Campus Chronicles, and is excited to contribute more."
+        bio:            "Sydney Kim is currently a junior at AAHS. She enjoys writing about current events and science. She is an avid tennis player, and, in her spare time, she loves to cook and bake. She also enjoys traveling, enabling her to infuse cultural insights into her writing. She loves being involved with the Campus Chronicles, and is excited to contribute more."
         email:          skim@ucvts.org
         school:         AAHS
         grade:          Junior
@@ -798,6 +797,15 @@ She enjoys writing about current events and science. She is an avid tennis playe
         email:          hshetty@ucvts.org
         school:         MHS
         grade:          Senior
+    
+    hanna:
+        name:           Hanna Pearce
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hanna Pearce is a Junior Theatre Major at APA and this is her first year in Newspaper Club! Her passion for writing came from her grandfather, who wrote commercials, and is her writing role model. Hanna is excited to be part of the Campus Chronicle and the club, and can't wait to see the incredible works everyone creates! In her free time, Hanna loves reading, jujitsu, singing, and (more) writing."
+        email:          hpearce@ucvts.org
+        school:         APA
+        grade:          Junior
 
 
 
