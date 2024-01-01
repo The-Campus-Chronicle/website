@@ -11,7 +11,7 @@ It’s absolutely awful when you have one of the last picks in the first round. 
 
 # 1. Shai Gilgeous-Alexander (PG/#2) - Oklahoma City Thunder
 
-![Fig 1](assets/images/jan/JainithinJeyaprakash-FantasyBasketballPicksArticle-FirstEdition2023-24-3.jpg)
+![Fig 1]({{site.baseurl}}/assets/images/jan/JainithinJeyaprakash-FantasyBasketballPicksArticle-FirstEdition2023-24-3.jpg)
 
 
 
@@ -19,7 +19,7 @@ Okay. The author may love Shai a lot, but maybe it’s because he’s taking a b
 
 # 2. Jordan Poole (SG/#13) - Washington Wizards
 
-![Fig 2](assets/images/jan/JainithinJeyaprakash-FantasyBasketballPicksArticle-FirstEdition2023-24-1.jpg)
+![Fig 2]({{site.baseurl}}/assets/images/jan/JainithinJeyaprakash-FantasyBasketballPicksArticle-FirstEdition2023-24-1.jpg)
 
 
 
@@ -27,19 +27,19 @@ Jordan Poole is a very young talented shooting guard who is now trying to sustai
 
 # 3. Brandon Ingram (SF/#14) - New Orleans Pelicans 
 
-![Fig 3](assets/images/jan/JainithinJeyaprakash-FantasyBasketballPicksArticle-FirstEdition2023-24-4.jpg)
+![Fig 3]({{site.baseurl}}/assets/images/jan/JainithinJeyaprakash-FantasyBasketballPicksArticle-FirstEdition2023-24-4.jpg)
 
 Brandon Ingram is kind of like a worse-version of Kevin Durant. People don’t look at Ingram that much because of the fact that the Pelicans have been irrelevant since the AD to Zion catastrophe. Ingram puts up 20+ ppg, and is still young at 26 years old, so he still has room to grow and is reaching his prime. Don’t sleep on him. 
 
 # 4. Pascal Siakam (PF/#43) - Toronto Raptors 
 
-![Fig 4](assets/images/jan/JainithinJeyaprakash-FantasyBasketballPicksArticle-FirstEdition2023-24-6.jpg)
+![Fig 4]({{site.baseurl}}/assets/images/jan/JainithinJeyaprakash-FantasyBasketballPicksArticle-FirstEdition2023-24-6.jpg)
 
 Pascal Siakam is kind of hated for his contract being through the roof. But what do I care? Salary doesn’t impact Fantasy. Siakam is probably going to be picked up about the 4th - 6th round (depending on the size of your league/how many people are in it), and is a great pick if you can get him around that time. He’s somewhat close to double-double numbers (at least ten points and rebounds), and if he takes the next step, he can shine for Toronto and your league. 
 
 # 5. Bam Adebayo (C/#13) - Miami Heat 
 
-![Fig 5](assets/images/jan/JainithinJeyaprakash-FantasyBasketballPicksArticle-FirstEdition2023-24-5.jpg)
+![Fig 5]({{site.baseurl}}/assets/images/jan/JainithinJeyaprakash-FantasyBasketballPicksArticle-FirstEdition2023-24-5.jpg)
 
 
 Bam Adebayo is mainly a defensive player, which is why some people skip out on adding him to their lineup. It’s pretty simple: he’s underrated like crazy. He’s been one of the backbones on a team that has been to the finals in 2020 and 2023. He is another player close to averaging a double double with rebounds and points, he’s even a bit young and definitely has great potential to put up great numbers in the NBA and your Fantasy league(s). 

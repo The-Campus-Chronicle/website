@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "The Death of Music"
-author: [ author ]
+author: [ tea ]
 categories: [ Arts and Entertainment ]
-image: assets/images/jan/NewspaperArticle-TéaFlorencio.jpg
+image: assets/images/8.jpg
 tags: []
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Is Immortality Just a Download Away?"
 author: [ claire ]
 categories: [ Science ]
-image: assets/images/jan/ClaireYang-IsImmortalityJustaDownloadAway_-1.jpg
+image: assets/images/jan/ClaireYang-IsImmortalityJustaDownloadAway_-1.png
 tags: []
 ---
 

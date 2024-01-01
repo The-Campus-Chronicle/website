@@ -3,7 +3,7 @@ layout: post
 title:  "Intro to Quantum Mechanics"
 author: [ sara, harsh ]
 categories: [ Science ]
-image: assets/images/jan/SaraSchwartz_HarshShetty-IntrotoQuantumMechanics-1.jpg
+image: assets/images/jan/SaraSchwartz_HarshShetty-IntrotoQuantumMechanics-1.png
 tags: []
 ---
 
