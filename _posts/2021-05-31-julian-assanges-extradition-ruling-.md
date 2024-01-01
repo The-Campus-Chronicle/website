@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Julian Assange's Extradition Ruling "
-author: daivya
+author: [daivya]
 categories: [ News ]
 image: assets/images/julian-assanges-extradition-ruling-.png
 ---

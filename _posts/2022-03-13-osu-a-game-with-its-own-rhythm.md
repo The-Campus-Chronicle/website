@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Osu!: A Game With its own Rhythm"
-author: rebecca
+author: [rebecca]
 categories: [ Arts and Entertainment ]
 image: assets/images/osu-a-game-with-its-own-rhythm.png
 ---

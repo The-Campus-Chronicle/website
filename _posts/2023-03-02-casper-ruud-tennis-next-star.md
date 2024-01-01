@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Casper Ruud: Tennis Next Star"
-author: dylan
+author: [dylan]
 categories: [ Sports ]
 image: assets/images/casper-ruud-tennis-next-star.png
 tags: [featured]

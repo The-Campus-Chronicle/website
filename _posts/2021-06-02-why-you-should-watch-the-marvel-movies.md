@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why You Should Watch the Marvel Movies"
-author: victoria
+author: [victoria]
 categories: [ Arts and Entertainment ]
 image: assets/images/why-you-should-watch-the-marvel-movies.jpg
 ---

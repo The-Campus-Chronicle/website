@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Fast fashion industry: An ethical overview"
-author: diya
+author: [diya]
 categories: [ News ]
 image: assets/images/the-fast-fashion-industry-an-ethical-overview.jpg
 ---

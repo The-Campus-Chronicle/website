@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Climate Change: The Floods in Pakistan"
-author: ahmad
+author: [ahmad]
 categories: [ Science ]
 image: assets/images/climate-change-the-floods-in-pakistan.png
 ---

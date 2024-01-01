@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Behind the Curtain: A Sneak Peak at the Process of Bringing a Play to Life"
-author: lilly
+author: [lilly]
 categories: [ Arts and Entertainment ]
 image: assets/images/behind-the-curtain-a-sneak-peak-at-the-process-of-bringing-a-play-to-life.jpg
 ---

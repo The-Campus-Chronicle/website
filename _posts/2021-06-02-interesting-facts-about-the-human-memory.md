@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interesting Facts About the Human Memory"
-author: laura
+author: [laura]
 categories: [ News ]
 image: assets/images/interesting-facts-about-the-human-memory.jpg
 ---

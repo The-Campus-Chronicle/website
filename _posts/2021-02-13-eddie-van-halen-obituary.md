@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Eddie Van Halen Obituary"
-author: haralambos
+author: [haralambos]
 categories: [ Arts and Entertainment ]
 image: assets/images/eddie-van-halen-obituary.jpg
 ---

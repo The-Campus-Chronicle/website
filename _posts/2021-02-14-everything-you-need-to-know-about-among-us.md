@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Everything You Need to Know About Among Us"
-author: sara
+author: [sara]
 categories: [ Opinion ]
 image: assets/images/everything-you-need-to-know-about-among-us.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Nobel Prize: A High Honor"
-author: shreya
+author: [shreya]
 categories: [ News ]
 image: assets/images/the-nobel-prize-a-high-honor.jpg
 ---

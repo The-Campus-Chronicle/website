@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Controversial Fight Between Two Controversial Youtubers: Logan Paul vs KSI II"
-author: alan
+author: [alan]
 categories: [ Sports ]
 image: assets/images/a-controversial-fight-between-two-controversial-youtubers-logan-paul-vs-ksi-ii.jpg
 ---

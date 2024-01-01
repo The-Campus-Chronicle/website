@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Movie Review: Frozen 2"
-author: natalie
+author: [natalie]
 categories: [ Opinion ]
 image: assets/images/movie-review-frozen-2.jpg
 ---

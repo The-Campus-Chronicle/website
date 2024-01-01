@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Fashion Industrys Not-So-Secret Impact"
-author: mila
+author: [mila]
 categories: [ News ]
 tags: [featured]
 image: assets/images/the-fashion-industrys-not-so-secret-impact.png

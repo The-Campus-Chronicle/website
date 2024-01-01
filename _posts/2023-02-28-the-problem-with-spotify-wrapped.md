@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Problem with Spotify Wrapped"
-author: sophia
+author: [sophia]
 categories: [ Arts and Entertainment ]
 image: assets/images/the-problem-with-spotify-wrapped.png
 ---

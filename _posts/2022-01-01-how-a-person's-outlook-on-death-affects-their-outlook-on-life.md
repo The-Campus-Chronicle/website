@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How a Person's Outlook on Death Affects Their Outlook on Life"
-author: alan
+author: [alan]
 categories: [ Opinion ]
 image: assets/images/how-a-person's-outlook-on-death-affects-their-outlook-on-life.jpg
 ---

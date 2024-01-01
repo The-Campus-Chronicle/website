@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "At the brink of an Artificial intelligence cold war"
-author: maya
+author: [maya]
 categories: [ News ]
 image: assets/images/at-the-brink-of-an-artificial-intelligence-cold-war.png
 ---

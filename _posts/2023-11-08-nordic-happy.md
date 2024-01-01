@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Nordic Region: The Happiest Place on Earth?"
-author: alison
+author: [alison]
 categories: [ Opinion ]
 image: assets/images/articles_2023/gifts.png
 tags: []

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How Countries Have Handled Coronavirus"
-author: shreya
+author: [shreya]
 categories: [ Science ]
 image: assets/images/how-countries-have-handled-coronavirus.jpg
 ---

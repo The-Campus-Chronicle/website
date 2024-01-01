@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5 Fruits That Are Good For You!"
-author: ivy
+author: [ivy]
 categories: [ Science ]
 image: assets/images/5-fruits-that-are-good-for-you.jpg
 ---

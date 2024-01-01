@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Opinion: The Decline of the Grammys"
-author: victoria
+author: [victoria]
 categories: [ Arts and Entertainment ]
 image: assets/images/opinion-the-decline-of-the-grammys.jpg
 ---

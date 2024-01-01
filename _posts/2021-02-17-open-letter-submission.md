@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Open Letter Submission"
-author: anonymous
+author: [anonymous]
 categories: [ Opinion ]
 image: assets/images/open-letter-submission.jpeg
 ---

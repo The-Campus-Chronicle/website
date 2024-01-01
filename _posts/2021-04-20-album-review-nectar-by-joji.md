@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Album Review: Nectar by Joji"
-author: gregory
+author: [gregory]
 categories: [ Arts and Entertainment ]
 image: assets/images/album-review-nectar-by-joji.png
 ---

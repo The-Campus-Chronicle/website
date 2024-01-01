@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Track 5: Union Countys Favorite Cup O Joe"
-author: ana
+author: [ana]
 categories: [ Opinion ]
 image: assets/images/track-5-union-countys-favorite-cup-o-joe.png
 ---

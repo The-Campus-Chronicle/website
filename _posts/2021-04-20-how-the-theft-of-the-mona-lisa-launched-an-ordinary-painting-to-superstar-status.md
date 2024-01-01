@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How the Theft of the Mona Lisa Launched an Ordinary Painting to Superstar Status"
-author: ella
+author: [ella]
 categories: [ Arts and Entertainment ]
 image: assets/images/how-the-theft-of-the-mona-lisa-launched-an-ordinary-painting-to-superstar-status.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How Shows and Movies are Filming During the Pandemic"
-author: victoria
+author: [victoria]
 categories: [ Arts and Entertainment ]
 image: assets/images/movies.jpg
 ---

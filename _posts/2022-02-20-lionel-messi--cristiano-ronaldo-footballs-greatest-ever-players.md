@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lionel Messi & Cristiano Ronaldo: Football's Greatest Ever Players"
-author: dylan
+author: [dylan]
 categories: [ Sports ]
 image: assets/images/lionel-messi--cristiano-ronaldo-footballs-greatest-ever-players.png
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Recap of the 2022 MLB Season"
-author: eric
+author: [eric]
 categories: [ Sports ]
 image: assets/images/recap-of-the-2022-mlb-season.jpg
 ---

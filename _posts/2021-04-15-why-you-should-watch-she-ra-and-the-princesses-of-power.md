@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why you Should Watch She-Ra and the Princesses of Power"
-author: mattia
+author: [mattia]
 categories: [ Opinion ]
 image: assets/images/why-you-should-watch-she-ra-and-the-princesses-of-power.jpg
 ---

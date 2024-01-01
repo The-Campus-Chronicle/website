@@ -818,7 +818,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: akash
+      author: [ akash ]
       avatar: /assets/images/avatar1.jpg
       
   # all pages

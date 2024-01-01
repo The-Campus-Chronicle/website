@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dont Burn Out In High School!"
-author: saniya
+author: [saniya]
 categories: [ Opinion ]
 image: assets/images/dont-burn-out-in-high-school.jpg
 ---

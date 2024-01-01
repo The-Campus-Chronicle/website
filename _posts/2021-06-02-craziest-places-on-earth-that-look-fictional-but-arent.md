@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Craziest Places on Earth That Look Fictional, But Arent!"
-author: sarah
+author: [sarah]
 categories: [ News ]
 image: assets/images/craziest-places-on-earth-that-look-fictional-but-arent.png
 ---

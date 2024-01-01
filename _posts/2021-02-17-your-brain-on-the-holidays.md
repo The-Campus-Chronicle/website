@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Your Brain on the Holidays"
-author: anusha
+author: [anusha]
 categories: [ Opinion ]
 image: assets/images/your-brain-on-the-holidays.jpg
 ---

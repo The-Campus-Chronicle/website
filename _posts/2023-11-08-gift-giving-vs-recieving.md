@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gift-Giving or Gift-Receiving: Which is Really Better?"
-author: ananya
+author: [ananya]
 categories: [ Opinion ]
 image: assets/images/articles_2023/gifts.png
 tags: []

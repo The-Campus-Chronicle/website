@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Modern Rejection of the Gender Binary"
-author: alondra
+author: [alondra]
 categories: [ Opinion ]
 image: assets/images/modern-rejection-of-the-gender-binary.png
 ---

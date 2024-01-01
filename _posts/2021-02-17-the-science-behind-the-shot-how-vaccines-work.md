@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Science Behind the Shot: How Vaccines Work"
-author: akwele
+author: [akwele]
 categories: [ Science ]
 image: assets/images/the-science-behind-the-shot-how-vaccines-work.png
 ---

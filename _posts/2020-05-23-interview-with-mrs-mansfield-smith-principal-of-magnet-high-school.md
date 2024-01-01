@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interview with Mrs. Mansfield-Smith, Principal of Magnet High School"
-author: kenna
+author: [kenna]
 categories: [ News ]
 image: assets/images/interview-with-mrs-mansfield-smith-principal-of-magnet-high-school.jpg
 ---

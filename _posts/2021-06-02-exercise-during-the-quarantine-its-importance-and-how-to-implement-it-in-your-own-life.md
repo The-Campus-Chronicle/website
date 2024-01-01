@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Exercise During the Quarantine: Its Importance and How to Implement It in Your Own Life"
-author: monica
+author: [monica]
 categories: [ Science ]
 image: assets/images/exercise-during-the-quarantine-its-importance-and-how-to-implement-it-in-your-own-life.jpg
 ---

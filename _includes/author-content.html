@@ -12,10 +12,11 @@
                 </div>
             </div>            
             <h4 class="font-weight-bold spanborder"><span>Articles by {{page.title}}</span></h4>
-                {% assign posts = site.posts | where:"author", name %}
-                {% for post in posts %}
-                {% include main-loop-card.html %}
-                {% endfor %}
+            {% for post in site.posts %}
+                {% if post.author contains name %}
+                    {% include main-loop-card.html %}
+                {% endif %}
+            {% endfor %}
         </div>
     </div>
-    </div>
+</div>

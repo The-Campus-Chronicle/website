@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Practicing self-love"
-author: sara
+author: [sara]
 categories: [ Opinion ]
 image: assets/images/practicing-self-love.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Restaurant Reviews Around Union County"
-author: rachel
+author: [rachel]
 categories: [ Opinion ]
 image: assets/images/restaurant-reviews-around-union-county.png
 ---

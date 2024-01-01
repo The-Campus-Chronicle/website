@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Misogyny in Everyday Life"
-author: sara
+author: [sara]
 categories: [ Opinion ]
 image: assets/images/misogyny-in-everyday-life.jpg
 ---

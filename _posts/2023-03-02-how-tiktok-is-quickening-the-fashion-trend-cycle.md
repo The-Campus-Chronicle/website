@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How TikTok is Quickening the Fashion Trend Cycle"
-author: gissele
+author: [gissele]
 categories: [ Arts and Entertainment ]
 image: assets/images/how-tiktok-is-quickening-the-fashion-trend-cycle.png
 ---

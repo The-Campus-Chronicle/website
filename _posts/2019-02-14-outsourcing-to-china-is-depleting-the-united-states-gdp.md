@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Outsourcing to China is Depleting the United States GDP"
-author: patrick
+author: [ patrick ]
 categories: [ News ]
 image: assets/images/outsourcing-to-china-is-depleting-the-united-states-gdp.jpg
 ---

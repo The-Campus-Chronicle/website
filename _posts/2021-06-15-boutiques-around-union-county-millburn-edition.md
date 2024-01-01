@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Boutiques around union county: Millburn edition"
-author: sara
+author: [sara]
 categories: [ Arts and Entertainment ]
 image: assets/images/boutiques-around-union-county-millburn-edition.png
 ---

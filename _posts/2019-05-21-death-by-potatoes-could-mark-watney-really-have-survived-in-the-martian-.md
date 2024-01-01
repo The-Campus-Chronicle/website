@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Death By Potatoes: Could Mark Watney Really Have Survived in The Martian ?"
-author: kenna
+author: [kenna]
 categories: [ Opinion ]
 image: assets/images/death-by-potatoes-could-mark-watney-really-have-survived-in-the-martian-.jpg
 ---

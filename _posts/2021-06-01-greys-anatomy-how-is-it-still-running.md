@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Grey's Anatomy: How is It Still Running?"
-author: ernest
+author: [ernest]
 categories: [ Arts and Entertainment ]
 image: assets/images/greys-anatomy-how-is-it-still-running.jpg
 ---

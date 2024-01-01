@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Covering the Transfer Window of the European Leagues (Soccer)"
-author: dylan
+author: [dylan]
 categories: [ Sports ]
 image: assets/images/covering-the-transfer-window-of-the-european-leagues-soccer.jpeg
 ---

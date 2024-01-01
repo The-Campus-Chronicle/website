@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Revolutionary Progress In Curing Alzheimers Disease"
-author: diya
+author: [diya]
 categories: [ News ]
 image: assets/images/revolutionary-progress-in-curing-alzheimers-disease.jpg
 ---

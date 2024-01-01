@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hybrid vs. In-person Learning at UCVTS"
-author: maya
+author: [maya]
 categories: [ Science ]
 image: assets/images/hybrid-vs-in-person-learning-at-ucvts.jpg
 ---

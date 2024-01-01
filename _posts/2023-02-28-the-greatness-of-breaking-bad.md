@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Greatness of Breaking Bad"
-author: jaime
+author: [jaime]
 categories: [ Arts and Entertainment ]
 image: assets/images/the-greatness-of-breaking-bad.png
 ---

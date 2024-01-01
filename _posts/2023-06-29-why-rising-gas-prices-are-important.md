@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why Rising Gas Prices are Important"
-author: maya
+author: [maya]
 categories: [ News ]
 image: assets/images/why-rising-gas-prices-are-important.jpg
 ---

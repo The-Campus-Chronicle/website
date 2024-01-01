@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Lack of Innovation at Apple"
-author: alan
+author: [alan]
 categories: [ Opinion ]
 image: assets/images/the-lack-of-innovation-at-apple.jpg
 ---

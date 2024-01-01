@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Open Veins of Latin America: Yea or Nay Book Review"
-author: alondra
+author: [alondra]
 categories: [ Opinion ]
 image: assets/images/open-veins-of-latin-america-yea-or-nay-book-review.png
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ChatGPT's Meteoric Rise: What Does the Future of Communication Look Like?"
-author: sophia
+author: [sophia]
 categories: [ News ]
 image: assets/images/chatgpts-meteoric-rise-what-does-the-future-of-communication-look-like.png
 tags: [featured]

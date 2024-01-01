@@ -11,7 +11,19 @@
         <a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
         </h2>
         <small class="d-block text-muted">
-            By <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[post.author].name | slugify }}">{{ site.authors[post.author].name }}</a>, {{ site.authors[post.author].grade }} at {{ site.authors[post.author].school }}<br>
+            <!-- If one author do this -->
+        {% if post.author.size == 1 %}
+            By <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[post.author[0]].name | slugify }}">{{ site.authors[post.author[0]].name }}</a>, {{ site.authors[post.author[0]].grade }} at {{ site.authors[post.author[0]].school }}<br>
+        {% endif %}
+        {% if post.author.size > 1 %}
+            By
+            <!-- If more than one author do this -->
+            {% for author in post.author -%}
+                {%- if forloop.length > 0 -%}
+                <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[post.author].name | slugify }}">{{ site.authors[post.author].name }}</a>{% unless forloop.last %}, {% endunless -%}
+                {%- endif -%}
+            {% endfor %}
+        {% endif %}
             In <span class="catlist">
             {% for category in post.categories %}
             <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
