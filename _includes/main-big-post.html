@@ -14,14 +14,15 @@
     <small class="d-block text-muted">
         <!-- If one author do this -->
         {% if latest_post.author.size == 1 %}
-            By <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[latest_post.author[0]].name | slugify }}">{{ site.authors[latest_post.author[0]].name }}</a>, {{ site.authors[latest_post.author[0]].grade }} at {{ site.authors[latest_post.author[0]].school }}<br>
+            {% assign poster = latest_post.author[0] %}
+            By <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[poster].name | slugify }}">{{ site.authors[poster].name }}</a>, {{ site.authors[poster].grade }} at {{ site.authors[poster].school }}<br>
         {% endif %}
         {% if latest_post.author.size > 1 %}
             By
             <!-- If more than one author do this -->
             {% for author in latest_post.author -%}
                 {%- if forloop.length > 0 -%}
-                <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[latest_post.author].name | slugify }}">{{ site.authors[latest_post.author].name }}</a>{% unless forloop.last %}, {% endunless -%}
+                <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[author].name | slugify }}">{{ site.authors[author].name }}</a>{% unless forloop.last %}, {% endunless -%}
                 {%- endif -%}
             {% endfor %}
         {% endif %}

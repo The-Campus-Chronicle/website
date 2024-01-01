@@ -17,14 +17,15 @@
 					<strong>
 					<!-- If one author do this -->
 					{% if post.author.size == 1 %}
-						By <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[post.author[0]].name | slugify }}">{{ site.authors[post.author[0]].name }}</a>, {{ site.authors[post.author[0]].grade }} at {{ site.authors[post.author[0]].school }}<br>
+						{% assign poster = post.author[0] %}
+						By {{ site.authors[poster].name }}, {{ site.authors[poster].grade }} at {{ site.authors[poster].school }}<br>
 					{% endif %}
 					{% if post.author.size > 1 %}
 						By
 						<!-- If more than one author do this -->
 						{% for author in post.author -%}
 							{%- if forloop.length > 0 -%}
-							<a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[post.author].name | slugify }}">{{ site.authors[post.author].name }}</a>{% unless forloop.last %}, {% endunless -%}
+							{{ site.authors[author].name }}{% unless forloop.last %}, {% endunless -%}
 							{%- endif -%}
 						{% endfor %}
 					{% endif %}

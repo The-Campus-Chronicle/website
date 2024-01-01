@@ -1,7 +1,25 @@
 ---
 layout: default
 ---
-{% assign author = site.authors[page.author] %}
+
+<script>
+  function redirectToOtherArticles(authorName) {
+    window.location.href = "{{site.baseurl}}/author-" + authorName.toLowerCase().replace(/\s+/g, '-');
+  }
+</script>
+
+<style>
+	.article-card {
+		transition: filter 0.3s ease, transform 0.3s ease;
+	}
+
+	.article-card:hover {
+		filter: brightness(90%);
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+</style>
+	
 <div class="container">
 	<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="h-100 tofront">
@@ -15,12 +33,20 @@ layout: default
                         </span>
 					</p>
 					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
-					{% for writer in author %}
-					<div class="d-flex align-items-center">
+					{% for author in page.author %}
+					{% assign writer = site.authors[author]  %}
+					<div class="d-flex align-items-center mb-3 article-card bg-white rounded">
                         {% if writer.avatar %}
-                        <img class="rounded-circle" src="{{site.baseurl}}/{{writer.avatar}}" alt="{{writer.name}}" width="70"/>
+                        <img class="rounded-circle align-self-center pb-1 pl-1" src="{{site.baseurl}}/{{writer.avatar}}" alt="{{writer.name}}" width="70"/>
                         {% endif %}
-						<small class="ml-3"> {{ writer.name }}<span><a target="_blank" href="{{site.baseurl}}/author-{{ writer.name | slugify }}" class="btn btn-outline-success btn-sm btn-round ml-1">Other Articles</a></span><span class="text-muted d-block mt-1 d-flex">{{ writer.grade }} at {{ writer.school }}</span></small>
+						<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-1 align-self-center" onclick="redirectToOtherArticles('{{ writer.name }}')">
+							<!-- ... (existing code) ... -->
+							<p class="ml-2 mt-1">
+							{{ writer.name }}
+							<span class="text-muted d-block mt-1 d-flex">{{ writer.grade }} at {{ writer.school }}</span>
+							</p>
+						</div>
+						
 						
 					</div>
 					{% endfor %}
@@ -33,15 +59,11 @@ layout: default
 			</div>
 		</div>
 		<div class="text-center">
-			<span class="text-muted d-block mt-1 d-flex">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %} · Share this Article</span> 
-			<div class="share d-flex">
-				<!-- AddToAny BEGIN -->
-				<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-					<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-				</div>
+			<span class="text-muted d-block mt-4 text-center">
+				{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %} · <a class="a2a_dd" href="https://www.addtoany.com/share">Share this Article</a>
+				
 				<script async src="https://static.addtoany.com/menu/page.js"></script>
-				<!-- AddToAny END -->
-			</div>
+			</span> 
 		</div>
 	</div>
 </div>
@@ -97,19 +119,27 @@ layout: default
             
             
              <!-- Author Box -->
-                {% if page.author %}				
-				<div class="row mt-5">
-					<div class="col-md-2 align-self-center">
-                         {% if author.avatar %}
-                        <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="90"/>
-                        {% endif %} 
+
+				<h5 class="font-weight-bold mb-3">Written by</h5>
+				{% for author in page.author %}
+					{% assign writer = site.authors[author]  %}
+					<div class="d-flex align-items-center mb-3 article-card bg-white rounded">
+                        {% if writer.avatar %}
+                        <img class="rounded-circle align-self-center pb-1 pl-1" src="{{site.baseurl}}/{{writer.avatar}}" alt="{{writer.name}}" width="70"/>
+                        {% endif %}
+						<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-1 align-self-center" onclick="redirectToOtherArticles('{{ writer.name }}')">
+							<!-- ... (existing code) ... -->
+							<p class="ml-2 mt-1">
+							{{ writer.name }}
+							<span class="text-muted d-block mt-1 d-flex">{{ writer.grade }} at {{ writer.school }}</span>
+							<span class="text-muted d-block mt-1 d-flex">{{ writer.role }}</span>
+							<p class="excerpt mt-1">{{ writer.bio }}</p>
+							</p>
+						</div>
+						
+						
 					</div>
-					<div class="col-md-10">		
-                        <h5 class="font-weight-bold">Written by {{ author.name }} <span><a target="_blank" href="{{site.baseurl}}/author-{{ author.name | slugify }}" class="btn btn-outline-success btn-sm btn-round ml-2">Other Articles</a></span></h5>
-						{{ author.bio }}					
-					</div>
-				</div>				
-                {% endif %}
+				{% endfor %}
             
             <!-- Comments -->
             {% if page.comments != false %}
