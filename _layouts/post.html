@@ -96,7 +96,7 @@ layout: default
 			<div class="border p-5 bg-lightblue">
 				<div class="row justify-content-between">
 					<div class="col-md-6 mb-2 mb-md-0">
-						<h5 class="font-weight-bold">Join Newsletter</h5>
+						<h3 class="font-weight-bold">Join Newsletter</h3>
 						 Get the latest news right in your inbox. We never spam!
 					</div>
 					<div class="col-md-6">
@@ -120,20 +120,21 @@ layout: default
             
              <!-- Author Box -->
 
-				<h5 class="font-weight-bold mb-3">Written by</h5>
+				<h3 class="font-weight-bold mb-3">Written by</h3>
 				{% for author in page.author %}
 					{% assign writer = site.authors[author]  %}
 					<div class="d-flex align-items-center mb-3 article-card bg-white rounded">
                         {% if writer.avatar %}
-                        <img class="rounded-circle align-self-center pb-1 pl-1" src="{{site.baseurl}}/{{writer.avatar}}" alt="{{writer.name}}" width="70"/>
+                        <img class="rounded-circle align-self-center pb-1 pl-1" src="{{site.baseurl}}/{{writer.avatar}}" alt="{{writer.name}}" width="100"/>
                         {% endif %}
 						<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-1 align-self-center" onclick="redirectToOtherArticles('{{ writer.name }}')">
 							<!-- ... (existing code) ... -->
+							<h4 class="ml-2 mt-1">{{ writer.name }}</h4>	
+							
 							<p class="ml-2 mt-1">
-							{{ writer.name }}
-							<span class="text-muted d-block mt-1 d-flex">{{ writer.grade }} at {{ writer.school }}</span>
-							<span class="text-muted d-block mt-1 d-flex">{{ writer.role }}</span>
-							<p class="excerpt mt-1">{{ writer.bio }}</p>
+								<span class="d-block mt-1 d-flex">{{ writer.role }}</span>
+								<span class="d-block mt-1 d-flex">{{ writer.grade }} at {{ writer.school }}</span>
+								<span class="text-muted d-block mt-1 d-flex">{{ writer.bio }}</span>
 							</p>
 						</div>
 						
