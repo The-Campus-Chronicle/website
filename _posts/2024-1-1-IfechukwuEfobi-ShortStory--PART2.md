@@ -3,7 +3,7 @@ layout: post
 title:  "Eating is Not Murder"
 author: [ ifechukwu ]
 categories: [ Short Story ]
-image: assets/images/jan/IfechukwuEfobi-ShortStory--PART2-1.jpg
+image: assets/images/jan/IfechukwuEfobi-ShortStory--PART2-1.png
 tags: []
 ---
 

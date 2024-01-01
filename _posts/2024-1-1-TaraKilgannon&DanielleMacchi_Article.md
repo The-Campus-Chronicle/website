@@ -3,7 +3,7 @@ layout: post
 title:  "AI in Education: Productive or Destructive?"
 author: [ tara, danielle ]
 categories: [ News ]
-image: assets/images/jan/TaraKilgannon&DanielleMacchi_Article-1.jpg
+image: assets/images/jan/TaraKilgannon&DanielleMacchi_Article-1.png
 tags: []
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "The World’s Candy"
 author: [ catalina ]
 categories: [ Opinion ]
-image: assets/images/jan/CatGurdianVazquez-ARTICLESUBMISSIONASSIGNMENT-2023-24Edition1-1.jpg
+image: assets/images/jan/CatGurdianVazquez-ARTICLESUBMISSIONASSIGNMENT-2023-24Edition1-1.png
 tags: []
 ---
 

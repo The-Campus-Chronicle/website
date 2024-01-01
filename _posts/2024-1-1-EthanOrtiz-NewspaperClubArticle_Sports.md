@@ -3,7 +3,7 @@ layout: post
 title:  "Miracle on the Hudson? How the New York Yankees can win the 2024 World Series"
 author: [ ethan ]
 categories: [ Sports ]
-image: assets/images/jan/EthanOrtiz-NewspaperClubArticle_Sports-1.jpg
+image: assets/images/jan/EthanOrtiz-NewspaperClubArticle_Sports-1.png
 tags: []
 ---
 
