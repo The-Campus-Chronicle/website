@@ -104,7 +104,7 @@
                 <h5 class="text-uppercase">Categories</h5>
                 <ul class="list-unstyled">
                     {% for category in site.categories %}
-                    <li><a href="{{site.baseurl}}/categories.html#{{ category[0] | downcase }}">{{ category[0] }}</a></li>
+                    <li><a href="{{site.baseurl}}/{{ category[0] | slugify }}">{{ category[0] }}</a></li>
                     {% endfor %}
                 </ul>
             </div>

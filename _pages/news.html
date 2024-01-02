@@ -33,6 +33,38 @@ permalink: "/news.html"
     </div>
     
 </div>
+<div class="row remove-site-content-margin">
+    
+  <!-- latest post -->
+  <div class="col-md-6">
+        
+      <!-- latest posts -->
+      {%- assign post = news_posts[4] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = news_posts[5] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = news_posts[6] -%}        
+      {% include main-top-card.html %}
+      
+  </div>
+  
+  <div class="col-md-6">
+      
+      <!-- latest posts -->
+      {%- assign post = news_posts[7] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = news_posts[8] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = news_posts[9] -%}        
+      {% include main-top-card.html %}
+      
+  </div>
+  
+</div>
     
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
 {% for post in news_posts %} 

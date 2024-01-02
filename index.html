@@ -11,7 +11,7 @@ description: "A newspaper run by UCVTS Students."
     
 {% if page.url == "/" %}
     
-{% assign site_posts = site.posts | sample: 4 %}
+{% assign site_posts = site.posts | sample: 10 %}
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
@@ -34,6 +34,38 @@ description: "A newspaper run by UCVTS Students."
         
     </div>
     
+</div>
+<div class="row remove-site-content-margin">
+    
+  <!-- latest post -->
+  <div class="col-md-6">
+        
+      <!-- latest posts -->
+      {%- assign post = site_posts[4] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = site_posts[5] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = site_posts[6] -%}        
+      {% include main-top-card.html %}
+      
+  </div>
+  
+  <div class="col-md-6">
+      
+      <!-- latest posts -->
+      {%- assign post = site_posts[7] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = site_posts[8] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = site_posts[9] -%}        
+      {% include main-top-card.html %}
+      
+  </div>
+  
 </div>
     
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->

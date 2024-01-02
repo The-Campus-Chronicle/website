@@ -32,7 +32,7 @@
 					In <span class="catlist">
 						{% for category in post.categories %}
 						<a class="text-light text-capitalize smoothscroll"
-							href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span
+							href="{{site.baseurl}}/{{ category | slugify }}">{{ category }}</a><span
 							class="sep">, </span>
 						{% endfor %}
 					</span>
