@@ -1,48 +1,49 @@
 <a href="{{site.baseurl}}{{post.url}}">
-	<div class="mb-5 main-loop-card position-relative rounded" style="background-image: url('{% if post.image contains " ://"
-		%}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}'); background-color: rgba(0,0,0, 0.5); background-size: cover;
-		background-position: center;
-		background-blend-mode: color;
-		">
-		<div class="overlay"></div>
-		<div class="d-flex flex-column justify-content-between card-content position-relative p-3 rounded">
-			<div class="pr-3">
-				<h2 class="mb-1 h4 font-weight-bold">
-					<a class="text-light" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
-				</h2>
-				<p class="excerpt text-light">
-					<a href="{{site.baseurl}}{{post.url}}" class="text-light">{{ post.excerpt | strip_html | strip_newlines | truncate: 190}}</a>
-				</p>
-				<small class="d-block text-light">
-					<strong>
+	<div class="mb-5 main-loop-card position-relative rounded loop-card-bigger"
+		style="background-image: url('{% if post.image contains " ://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{
+		post.image }}{% endif %}'); background-color: rgba(0,0,0, 0.5); background-size: cover; background-position:
+		center; background-blend-mode: color; ">
+		<div class=" overlay"></div>
+	<div class="d-flex flex-column justify-content-between card-content position-relative p-3 rounded">
+		<div class="pr-3">
+			<h2 class="mb-1 h4 font-weight-bold">
+				<a class="text-light" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+			</h2>
+			<p class="excerpt text-light">
+				<a href="{{site.baseurl}}{{post.url}}" class="text-light">{{ post.excerpt | strip_html | strip_newlines
+					| truncate: 190}}</a>
+			</p>
+			<small class="d-block text-light">
+				<strong>
 					<!-- If one author do this -->
 					{% if post.author.size == 1 %}
-						{% assign poster = post.author[0] %}
-						By {{ site.authors[poster].name }}, {{ site.authors[poster].grade }} at {{ site.authors[poster].school }}<br>
+					{% assign poster = post.author[0] %}
+					By {{ site.authors[poster].name }}, {{ site.authors[poster].grade }} at {{
+					site.authors[poster].school }}<br>
 					{% endif %}
 					{% if post.author.size > 1 %}
-						By
-						<!-- If more than one author do this -->
-						{% for author in post.author -%}
-							{%- if forloop.length > 0 -%}
-							{{ site.authors[author].name }}{% unless forloop.last %}, {% endunless -%}
-							{%- endif -%}
-						{% endfor %}
+					By
+					<!-- If more than one author do this -->
+					{% for author in post.author -%}
+					{%- if forloop.length > 0 -%}
+					{{ site.authors[author].name }}{% unless forloop.last %}, {% endunless -%}
+					{%- endif -%}
+					{% endfor %}
 					{% endif %}
 					In <span class="catlist">
 						{% for category in post.categories %}
 						<a class="text-light text-capitalize smoothscroll"
-							href="{{site.baseurl}}/{{ category | slugify }}">{{ category }}</a><span
-							class="sep">, </span>
+							href="{{site.baseurl}}/{{ category | slugify }}">{{ category }}</a><span class="sep">,
+						</span>
 						{% endfor %}
 					</span>
-					</strong>
-					
-				</small>
-				<small class="text-light">
-					{{ post.date | date: '%b %d, %Y' }}
-				</small>
-			</div>
+				</strong>
+
+			</small>
+			<small class="text-light">
+				{{ post.date | date: '%b %d, %Y' }}
+			</small>
 		</div>
+	</div>
 	</div>
 </a>

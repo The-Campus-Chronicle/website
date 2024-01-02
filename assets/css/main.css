@@ -62,6 +62,41 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+.loop-card-bigger {
+  transition: transform 1s;
+}
+
+.loop-card-bigger:hover{
+  transform: scale(1.1);
+}
+
+.editor-in-chief-card {
+  background-color: white;
+  color: black;
+}
+
+.editor-in-chief-card:hover {
+  background-color: #B53535;
+  color: white;
+}
+
+.layout-editor-card {
+  background-color: white;
+}
+
+.layout-editor-card:hover {
+  background-color: #EDCA1A;
+}
+
+.opinion-editor-card {
+  background-color: white;
+}
+
+.opinion-editor-card:hover {
+  background-color: #0D2A54;
+  color: white;
+}
+
 body {
   margin: 0;
   font-family: "Segoe UI", "Helvetica Neue", "Arial";

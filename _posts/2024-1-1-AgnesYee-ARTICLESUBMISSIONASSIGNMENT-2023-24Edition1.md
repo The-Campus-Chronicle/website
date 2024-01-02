@@ -13,7 +13,7 @@ For starters, lipids are essential in the absorption of crucial vitamins: A, D, 
 
 Moreover, since lipids are a food source, they provide and store long-term energy. At nine calories per gram, lipids provide the human body with more than double the amount of energy that carbohydrates and proteins provide. For reference, the amount of calories something contains directly correlates with the amount of energy a food supplies. Thus, it would make sense for lipids to provide more energy than other macromolecules. 
 
-![](website/assets/images/jan/AgnesYee-ARTICLESUBMISSIONASSIGNMENT-2023-24Edition1-1.png)
+![]({{site.baseurl}}/assets/images/jan/AgnesYee-ARTICLESUBMISSIONASSIGNMENT-2023-24Edition1-1.png)
 
 As a matter of fact, lipids are higher in calories than other macromolecules on account of their distinguishing molecular structure. Lipids have many carbon atoms in their hydrocarbon chains, meaning that there are also many bonds for the body to break apart. Given this, more atoms and bonds would mean that there is more energy available for the body to break down. Although the fatty acid portions of the lipid vary in length and atom/bond numbers, they generally consist of more atoms than carbohydrates or proteins, giving them a heightened energy advantage. 
 

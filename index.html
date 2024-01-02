@@ -35,7 +35,7 @@ description: "A newspaper run by UCVTS Students."
     </div>
     
 </div>
-<div class="row remove-site-content-margin">
+<div class="row remove-site-content-margin mt-2">
     
   <!-- latest post -->
   <div class="col-md-6">
@@ -66,6 +66,14 @@ description: "A newspaper run by UCVTS Students."
       
   </div>
   
+</div>
+
+<div class="row remove-site-content-margin mt-2 mb-3 d-flex justify-content-center">
+  {% for category in site.categories %} 
+
+    <a class="btn btn-outline-secondary btn-sm mb-2 mr-2" href="{{site.baseurl}}/{{ category[0] | slugify }}">{{ category[0] }}</a>
+
+  {% endfor %}
 </div>
     
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
