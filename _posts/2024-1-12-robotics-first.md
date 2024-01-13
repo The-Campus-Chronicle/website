@@ -28,4 +28,5 @@ You can be inspired as well by joining the UCVTS robotics team!
 Google classroom code: xxyy5qz
 
 Image Citation
+
 Team 1257. “End of the Autonomous Period in a Qualification Match.” Google Drive, 1 April 2023, [Source](https://drive.google.com/file/d/1drRAt5eendbfm3UKXmxzkPCIptsUVWIB/view?usp=sharing). Accessed 18 April 2023.
