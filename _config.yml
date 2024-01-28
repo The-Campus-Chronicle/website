@@ -807,16 +807,6 @@ authors:
         school:         APA
         grade:          Junior
 
-    johnny:
-        name:           Johnny Appleseed
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hanna Pearce is a Junior Theatre Major at APA and this is her first year in Newspaper Club! Her passion for writing came from her grandfather, who wrote commercials, and is her writing role model. Hanna is excited to be part of the Campus Chronicle and the club, and can't wait to see the incredible works everyone creates! In her free time, Hanna loves reading, jujitsu, singing, and (more) writing."
-        email:          hpearce@ucvts.org
-        school:         APA
-        grade:          Junior
-
-
  
 # Defaults
 defaults:
