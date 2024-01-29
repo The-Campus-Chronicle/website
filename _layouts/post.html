@@ -37,7 +37,7 @@ layout: default
 					{% assign writer = site.authors[author]  %}
 					<div class="d-flex align-items-center mb-3 article-card {% if writer.role == 'Member' %} bg-white {% endif %} {{ writer.role | slugify }}-card rounded">
                         {% if writer.avatar %}
-                        <img class="rounded-circle align-self-center pb-1 pl-1" src={{writer.avatar}}" alt="{{writer.name}}" width="70"/>
+                        <img class="rounded-circle align-self-center pb-1 pl-1" src="{{writer.avatar}}" alt="{{writer.name}}" width="70"/>
                         {% endif %}
 						<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-1 align-self-center" onclick="redirectToOtherArticles('{{ writer.name }}')">
 							<!-- ... (existing code) ... -->
