@@ -66,7 +66,7 @@ permalink: "/authors-list.html"
                 <a href="{{ site.baseurl }}/author-{{ slugified_name | slugify }}">
                     <div class="card h-100 border rounded hover-card {{ author[1].role | slugify }} author-info">
                         <div class="card-body">
-                            <img alt="{{ author[1].name }}" src="{{ site.baseurl }}/{{ author[1].avatar }}" class="rounded-circle" height="90" width="90">
+                            <img alt="{{ author[1].name }}" src="{{ author[1].avatar }}" class="rounded-circle" height="90" width="90">
                             <h4 class="text-center mb-0"> {{ author[1].name }} </h4>
                             <h5 class="text-center mb-0">{{ author[1].role }}</h5>
                             <h6 class="text-center">{{ author[1].grade }} at {{ author[1].school }}</h6>
