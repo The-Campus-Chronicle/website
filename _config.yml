@@ -4,7 +4,7 @@ description: "Union County Vocational-Technical Schools' Student Newspaper."
 logo: 'assets/images/logo.jpeg'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-disqus: 'demowebsite'
+disqus: 'the-campus-chronicle'
 email: 'akashdub06@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
@@ -818,15 +818,6 @@ authors:
     
     sharika:
         name:           Sharika Dhar
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Sharika Dhar is a freshman at the Academy for Allied Health Sciences. Since she was very young, Sharika had a penchant for writing, public-speaking, and rhetoric. She is especially fond of writing poetry. Outside of writing, Sharika is a part of her school's marching band and fencing team. In addition, she is an avid singer. She looks forward to writing for Campus Chronicle and cannot wait to see what high school has in store for her in the years to come! "
-        email:          sdhar@ucvts.org
-        school:         Allied
-        grade:          Freshmen
-
-    johnny:
-        name:           Johnny Appleseed
         avatar:         /assets/images/avatars/anonymous.jpg
         role:           Member
         bio:            "Sharika Dhar is a freshman at the Academy for Allied Health Sciences. Since she was very young, Sharika had a penchant for writing, public-speaking, and rhetoric. She is especially fond of writing poetry. Outside of writing, Sharika is a part of her school's marching band and fencing team. In addition, she is an avid singer. She looks forward to writing for Campus Chronicle and cannot wait to see what high school has in store for her in the years to come! "
