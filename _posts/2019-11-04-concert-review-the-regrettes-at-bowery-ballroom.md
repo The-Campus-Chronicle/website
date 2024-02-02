@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Concert Review: The Regrettes at Bowery Ballroom"
-author: [chloe]
+author: [chloe2]
 categories: [ Arts and Entertainment ]
 image: assets/images/concert-review-the-regrettes-at-bowery-ballroom.png
 ---

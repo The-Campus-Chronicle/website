@@ -807,6 +807,24 @@ authors:
         school:         APA
         grade:          Junior
 
+    gabriela: 
+        name:           Gabriela Cornejo
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "This is Gabriela's third year of writing for a newspaper club and first time writing for this specific newspaper. Gabriela started as a cartoonist and writer for her middle school newspaper and is now writing about all sorts of neat stuff on the Campus Chronicle. She has been given awards for her art in the past and was fortunate enough to have one of her short stories published. Gabriela has always loved to share stories, tell about her passions, and now she hopes to share that with you. "
+        email:          cgabriela@ucvts.org
+        school:         APA
+        grade:          Freshmen
+    
+    sharika:
+        name:           Sharika Dhar
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Sharika Dhar is a freshman at the Academy for Allied Health Sciences. Since she was very young, Sharika had a penchant for writing, public-speaking, and rhetoric. She is especially fond of writing poetry. Outside of writing, Sharika is a part of her school's marching band and fencing team. In addition, she is an avid singer. She looks forward to writing for Campus Chronicle and cannot wait to see what high school has in store for her in the years to come! "
+        email:          sdhar@ucvts.org
+        school:         Allied
+        grade:          Freshmen
+
  
 # Defaults
 defaults:
