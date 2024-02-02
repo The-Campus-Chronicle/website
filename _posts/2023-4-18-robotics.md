@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Collaboration, Creativity, and Competition: The Thrilling World of the FIRST Robotics Competition"
+author: [akash, johnny]
 categories: [ Opinion ]
 image: assets/images/robo.png
 tags: [featured, sticky]
