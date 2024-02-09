@@ -3,7 +3,7 @@ layout: post
 title:  "Book Review: The Alchemist by Paulo Coelho"
 author: [ sohem ]
 categories: [ Opinion ]
-image: assets/images/the-alchemist.png
+image: assets/images/articles_2024/edition_1/the-alchemist.png
 tags: [ News ]
 ---
 

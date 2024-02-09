@@ -3,7 +3,7 @@ layout: post
 title:  "LSU Tigers Women's Basketball: NCAA Women's Champions"
 author: [ sohem ]
 categories: [ News ]
-image: assets/images/lsu-tigers.png
+image: assets/images/articles_2024/edition_1/lsu-tigers.png
 ---
 
 On April 2, 2023 the No. 3 seed LSU Women's basketball team entered the National Championship facing No. 2 seed Iowa. Iowa was led by Caitlin Clark, the Naismith National Player of the Year and NCAA tournament leading scorer with a total of 191 points. The LSU Tigers were led by Angel Reese, the tournament MVP. In addition to Alexis Morris and Jasmine Carson, who both were awarded a position on the All- tournament team. 
