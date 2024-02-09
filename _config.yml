@@ -285,16 +285,6 @@ authors:
       twitter:        https://twitter.com/
       school:          AIT
       grade:          Alumni
-    eric:
-      name:           Eric Yu
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Eric Yu!"
-      email:          no_reply@ucvts.org
-      twitter:        https://twitter.com/
-      school:          AIT
-      grade:          Alumni
     megan:
       name:           Megan Lahetta
       site:           https://www.wowthemes.net
@@ -829,28 +819,10 @@ authors:
         name:           Sohem Rai
         avatar:         /assets/images/avatars/anonymous.jpg
         role:           Member
-        bio:            "Unable to find his bio."
-        email:          srai@ucvts.org
+        bio:            "Hi, I'm Sohem Rai."
+        email:          jrai@ucvts.org
         school:         AIT
         grade:          Senior
-
-     audrey:
-        name:           Audrey Miller
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Unable to find her bio."
-        email:          amiller@ucvts.org
-        school:         AIT
-        grade:          Sophomore
-      
-      eric:
-        name:           Eric Yu
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Unable to find his bio."
-        email:          eyu@ucvts.org
-        school:         AIT
-        grade:          Junior
 
 
 # Defaults
