@@ -16,8 +16,10 @@ The exhilarating matchup recorded an average of 9.9 million viewers and peaked a
 
 After their victory, the LSU Women's Basketball Team announced their plans to visit the White House, where they would be honored by the President for their remarkable achievement. This recognition not only celebrates their success but also serves as a powerful example to inspire young kids across the nation to think big, work hard, and chase their championship dreams.
 
-References
+## References
 @JasonWillis4, Jason Willis |. “LSU Women's Basketball: What Stats Say about the Tigers' Strengths and Weaknesses.” The Reveille, LSU's Student Newspaper, 3 Feb. 2023, https://www.lsureveille.com/sports/lsu-womens-basketball-what-stats-say-about-the-tigers-strengths-and-weaknesses/article_8337d18e-a401-11ed-a8a5-071cb83bd15f.html.
+
 NELSON, GREG. “LSU Angel Reese (10) Taunting Iowa Caitlin Clark (22) and Pointing to Her Ring Finger after Winning the Championship Game vs Iowa at American Airlines Arena Dallas, Texas.” SPORTS ILLUSTRATED, GETTY IMAGES, 5 Apr. 2023, https://www.huffpost.com/entry/caitlin-clark-angel-reese-iowa-lsu_n_642c7f70e4b0b2ba2324c646. Accessed 19 Apr. 2023.
+
 Politz, Todd. “LSU Wins First Women's Basketball National Title in Record Fashion, 102-85.” LSU, Https://Lsusports.net/, 4 Apr. 2023, https://lsusports.net/news/2023/04/02/ncaa-womens-basketball-national-title-game-recap/. 
 
