@@ -831,8 +831,8 @@ authors:
         role:           Member
         bio:            "Unable to find his bio."
         email:          srai@ucvts.org
-        school:         Don't know
-        grade:          Don't know
+        school:         AIT
+        grade:          Senior
 
      audrey:
         name:           Audrey Miller
@@ -840,8 +840,8 @@ authors:
         role:           Member
         bio:            "Unable to find her bio."
         email:          amiller@ucvts.org
-        school:         Don't know
-        grade:          Don't know 
+        school:         AIT
+        grade:          Sophomore
       
       eric:
         name:           Eric Yu
@@ -849,8 +849,10 @@ authors:
         role:           Member
         bio:            "Unable to find his bio."
         email:          eyu@ucvts.org
-        school:         Don't know
-        grade:          Don't know
+        school:         AIT
+        grade:          Junior
+
+
 # Defaults
 defaults:
 
