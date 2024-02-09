@@ -825,7 +825,32 @@ authors:
         school:         Allied
         grade:          Freshmen
 
- 
+    sohem:
+        name:           Sohem Rai
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Unable to find his bio."
+        email:          srai@ucvts.org
+        school:         Don't know
+        grade:          Don't know
+
+     audrey:
+        name:           Audrey Miller
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Unable to find her bio."
+        email:          amiller@ucvts.org
+        school:         Don't know
+        grade:          Don't know 
+      
+      eric:
+        name:           Eric Yu
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Unable to find his bio."
+        email:          eyu@ucvts.org
+        school:         Don't know
+        grade:          Don't know
 # Defaults
 defaults:
 
