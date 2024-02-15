@@ -10,8 +10,8 @@ description: "A newspaper run by UCVTS Students."
 <div class="container">
     
 {% if page.url == "/" %}
-    
-{% assign site_posts = site.posts | sample: 10 %}
+  
+{% assign site_posts = site.posts %}
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
