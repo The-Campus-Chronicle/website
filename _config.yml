@@ -824,6 +824,15 @@ authors:
         school:         AIT
         grade:          Senior
 
+    Anwit:
+        name:           Anwit Ghoroi
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Anwit Ghoroi."
+        email:          aghoroi@ucvts.org
+        school:         AIT
+        grade:          Alumni
+
 
 # Defaults
 defaults:
