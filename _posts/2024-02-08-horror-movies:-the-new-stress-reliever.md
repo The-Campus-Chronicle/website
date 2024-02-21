@@ -2,7 +2,7 @@
 layout: post
 title:  "Horror Movies: The New Stress-Reliever"
 author: [isabella]
-categories: [ Science/Health ]
+categories: [ Science ]
 image: assets/images/articles_2024/edition_1/horror-movie-stress.png
 tags: []
 ---
