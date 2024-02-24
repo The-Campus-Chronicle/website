@@ -3,7 +3,7 @@ layout: post
 title:  "Carlos Alcaraz: Successor to the Big Three"
 author: [ anwit ]
 categories: [ Sports ]
-image: The-Campus-Chronicle/website/assets/images/articles_2023/carlos_alcaraz.png
+image: assets/images/articles_2023/carlos_alcaraz.png
 ---
 Nine titles, one grand slam, number one in the world, and a dream. Being the youngest player to win at more than half of these tournaments, Carlos Alcaraz has become one of history's most prominent up-and-coming tennis players at just 19 years old, his level as a teenager surpasses numerous players currently dominating the tour. Doing this, however, was no easy feat for Alcaraz.
 
