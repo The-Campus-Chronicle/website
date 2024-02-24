@@ -3,7 +3,7 @@ layout: post
 title:  "A Cup of Joe a Day Keeps Dementia Away: The Long Term Benefit of Drinking Coffee"
 author: [alison]
 categories: [ Science ]
-image: The-Campus-Chronicle/website/assets/images/articles_2023/cup_of_joe.png
+image: assets/images/articles_2023/cup_of_joe.png
 tags: []
 ---
 Good news for the 74% of Americans who drink coffee daily, recent studies have shown that consuming coffee offers many benefits, possibly including reduced risk of dementia. Dementia is the general term for conditions that cause loss of memory, language, problem-solving and other thinking abilities, with the most common condition being Alzheimer’s disease. Dementia and Alzheimer’s is a growing concern in the health community, given that rates are predicted to triple by 2050. All conditions under dementia are currently incurable, putting further emphasis on preventative methods. One of which may be drinking coffee.
