@@ -2,7 +2,7 @@
 layout: post
 title:  "The Science of Learning How to Read"
 author: [shreya]
-categories: [ science ]
+categories: [ Science ]
 image: assets/images/articles_2023/the_science_of_reading.jpg
 tags: []
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Designer Babies: Should Fetuses Be Turned Into Barbies and Kens?"
 author: [chloe]
-categories: [ Health ]
+categories: [ Science ]
 image: assets/images/articles_2024/edition_1/barbie_ken.png
 tags: [sticky]
 ---
