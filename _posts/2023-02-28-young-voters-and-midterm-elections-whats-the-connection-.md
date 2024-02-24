@@ -3,7 +3,7 @@ layout: post
 title:  "Young Voters and Midterm Elections: Whats the Connection? "
 author: [haley]
 categories: [ News ]
-tags: [featured]
+tags: [ ]
 image: assets/images/young-voters-and-midterm-elections-whats-the-connection-.png
 ---
 

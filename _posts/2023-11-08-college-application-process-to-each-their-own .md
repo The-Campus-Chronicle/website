@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "College Application Process: To Each Their Own "
+title:  "College Application Process: To Each Their Own"
 author: [shreya]
 categories: [ Opinion ]
-image: assets/images/articles_2024/College_application_timeline.png
+image: assets/images/articles_2024/edition_1/College_application_timeline.png
 tags: []
 ---
 

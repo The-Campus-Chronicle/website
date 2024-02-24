@@ -4,7 +4,7 @@ title:  "Collaboration, Creativity, and Competition: The Thrilling World of the 
 author: [akash]
 categories: [ Opinion ]
 image: assets/images/robo.png
-tags: [featured, sticky]
+tags: [ featured ]
 ---
 On April 19, the FIRST Robotics Competition’s (FRC) world championship kicked off in Houston, Texas. Hundreds of robotics teams flew to Houston from around the world to participate in this three-day competition to crown the FRC world champion. But before these teams could get to this point, they had to prove their robot’s worth in numerous district and regional competitions. Like any other sport, FRC requires teams to spend countless hours practicing and perfecting their craft, with many members spending over 10 hours a week with the team.
 

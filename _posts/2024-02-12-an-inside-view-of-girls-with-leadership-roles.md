@@ -4,6 +4,7 @@ title:  "An Inside View of Girls with Leadership Roles"
 author: [ sharika ]
 categories: [ News ]
 image: assets/images/articles_2024/edition_1/girl-leadership.png
+tags: [featured]
 ---
 When I think of leadership, I think of motivation, communication, and unification. Leadership comes in many forms - being the tennis Team Captain, Class President, or Drum Major. As a freshman wanting to make a difference in my school community, I recently participated in a class council election. While class council is known to be a powerful medium in sharing voices of leadership, my time in running sparked questions: Did current female leaders in the surrounding school community once share my feelings, or are they unique to just me?
 

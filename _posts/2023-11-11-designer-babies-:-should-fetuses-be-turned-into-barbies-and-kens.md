@@ -4,6 +4,7 @@ title:  "Designer Babies: Should Fetuses Be Turned Into Barbies and Kens?"
 author: [chloe]
 categories: [ Health ]
 image: assets/images/articles_2024/edition_1/barbie_ken.png
+tags: [sticky]
 ---
 
 Since 1973, genetic engineering has been defined as the “deliberate modification of the characteristics of an organism by manipulating its genetic material.”
