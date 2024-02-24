@@ -4,7 +4,7 @@ title:  "The Great Pacific Garbage Patch"
 author: [daivya]
 categories: [ News ]
 tags: []
-image: The-Campus-Chronicle/website/assets/images/articles_2023/the-great-pacific-garbage-patch.png 
+image: assets/images/articles_2023/the-great-pacific-garbage-patch.png 
 ---
 
 Spanning a whopping 1.6 million square kilometers, the Great Pacific Garbage Patch is an accumulation of plastic between California and Hawaii. Even though it doesn’t seem like a hospitable place, a recent study conducted by Nature Ecology & Evolution discovered that multiple coastal species have been able to survive and reproduce on this garbage patch. Scientists have found that the plastic patch allows the creation of new floating ecosystems that wouldn’t have been able to survive in the ocean otherwise. 
