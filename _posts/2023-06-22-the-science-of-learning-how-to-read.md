@@ -3,7 +3,7 @@ layout: post
 title:  "The Science of Learning How to Read"
 author: [shreya]
 categories: [ science ]
-image: The-Campus-Chronicle/website/assets/images/articles_2023/the_science_of_reading.jpg
+image: assets/images/articles_2023/the_science_of_reading.jpg
 tags: []
 ---
 A teacher at an elementary school in Hutchinson, Minnesota, with over 28 years of experience, is pushing for reform. The veteran teacher feels she has failed her students by teaching them how to read without understanding the cognitive science behind it. She is not alone; almost 20 states have pushed for reform over the past couple of years. The movement for a change in this aspect of the education system has drawn support from multiple political parties, as well as across economic and racial lines. It also includes parents of children with dyslexia, civil rights activists in the NAACP, lawmakers, and teachers and principals. 
