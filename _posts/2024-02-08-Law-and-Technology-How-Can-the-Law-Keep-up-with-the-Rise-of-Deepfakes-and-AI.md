@@ -2,8 +2,8 @@
 layout: post
 title: "Law and Technology: How Can the Law Keep up with the Rise of Deepfakes and AI?"
 author: [ bella ]
-categories: [ Current Events ]
-image: assets/images/articles_2024/edition_1/Law-and-Technology:-How-Can-the-Law-Keep-up-with-the-Rise-of-Deepfakes-and-AI.png
+categories: [ News ]
+image: assets/images/articles_2024/edition_1/law.png
 tags: []
 ---
 Over the course of 2023, artificial intelligence has become more prevalent within society. Artificial intelligence has altered all industries, from education, to social media, to music, the impact of artificial intelligence has widespread reach. Artificial intelligence (AI) is defined by Merriam-Webster as ¨a branch of computer science dealing with the simulation of intelligent behavior in computers.¨ More specifically, AI is when human characteristics are simulated by computers. Computer scientists and engineers have been developing AI since the 1950s, but recently, AI such as ChatGPT have raised questions about legal ethics, especially when pertaining to privacy, intellectual property, and the speed of the legal system as a whole.

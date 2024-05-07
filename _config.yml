@@ -824,6 +824,15 @@ authors:
         school:         AIT
         grade:          Senior
 
+    audrey2:
+        name:           Audrey Lee
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I am Audrey Lee!"
+        email:          alee1@ucvts.org
+        school:         AIT
+        grade:          Sophomore
+
     anwit:
         name:           Anwit Ghoroi
         avatar:         /assets/images/avatars/anonymous.jpg

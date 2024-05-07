@@ -2,9 +2,11 @@
 layout: post
 title: "The Reality of Social Media Addiction"
 author: [ alexander ]
-categories: [ Health, Opinion ]
-images: assets/articles_2024/edition_1/The-Reality-of-Social-Media-Addiction.png
+categories: [ Opinion ]
+images: assets\images\articles_2024\edition_1\social.png
+tags: []
 ---
+
 The smartphone is one of the most convenient devices ever created.  Need to send a message? Just text them. Need to eat something? Order food online. Feeling bored? Go on social media. All of the problems a person might have can be solved through the smartphone. Although phones appear to help society in a positive aspect, there is a frightening consequence: the threatening addiction to social media. Instant gratification is directly tied with social media addiction. This is a harmful process that diminishes the meaning of patience and hardwork. Below are some reasons why social media addiction is harmful. 
 
 
@@ -18,10 +20,22 @@ Social media is not a completely terrible thing. Of course, it is possible to me
 
 <center> Work Cited: </center>
  Verbanas, Patti. “Are You Addicted to Technology?” Rutgers University, 2021, www.rutgers.edu/news/are-you-addicted-technology. 
+
+
 Hoffman, Kent. S, and Medically Reviewed by. “Social Media Addiction Statistics (2023) - Who Is Most at Risk?” Addiction Help, 15 Aug. 2023, www.addictionhelp.com/social-media-addiction/statistics/#:~:text=According%20to%20research%20from%20the,compared%20to%20the%20average%20person. 
+
+
 Alsop, Ronald. “Instant Gratification & Its Dark Side.” Bucknell University, 15 Aug. 2019, www.bucknell.edu/news/instant-gratification-its-dark-side. 
+
+
 Robinson, Lawrence. “Social Media and Mental Health.” HelpGuide.Org, 29 Mar. 2023, www.helpguide.org/articles/mental-health/social-media-and-mental-health.htm
+
+
 Alyssa. “Link between Social Media and Social Anxiety: Banyan Boca.” Banyan Treatment Center, 17 Feb. 2022, www.banyantreatmentcenter.com/2022/02/17/link-between-social-media-and-social-anxiety/#:~:text=The%20main%20link%20between%20social,interact%20with%20others%20in%20person. 
+
+
 Gillette, Hope. “Does Social Media Worsen Social Anxiety Symptoms?” Psych Central, Psych Central, 23 June 2021, psychcentral.com/anxiety/social-media-cause-anxiety#whats-the-link. 
+
+
 Ann Mikulich, LPC. “The Impact of Social Media on Social Anxiety.” National Social Anxiety Center, 31 Jan. 2021, nationalsocialanxietycenter.com/2016/12/20/the-impact-of-social-media-on-social-anxiety/.  
 
