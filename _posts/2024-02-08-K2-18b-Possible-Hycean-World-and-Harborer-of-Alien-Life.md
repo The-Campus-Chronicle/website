@@ -3,7 +3,7 @@ layout: post
 title: "Law and Technology: How Can the Law Keep up with the Rise of Deepfakes and AI?"
 author: [ paige ]
 categories: [ Current Events, Science ]
-image: assets/images/articles_2024/edition_1/K2-18b:-Possible-Hycean-World-and-Harborer-of-Alien-Life.png
+image: assets/images/articles_2024/edition_1/K2-18b-Possible-Hycean-World-and-Harborer-of-Alien-Life.png
 tags: []
 ---
 For centuries, humanity has been fascinated by the idea of life on other worlds. Scientists constantly debate about whether there truly are other life-sustaining worlds within our universe and where to find it. Any sort of abnormality detected from space has sparked curiosity among people about alien life, but every single one has been traced to some natural occurrence. In December, 2021, the James Webb Space Telescope (JWST) was launched by NASA to gather and expand upon our knowledge of the cosmos using infrared light for imaging. Astronomers using Webb has recently discovered a potential evidence supporting the existence of alien life on K2-18b, an exoplanet now theorized to be a hycean planet, a hypothetical class of planet with a hydrogen-rich atmosphere and a surface entirely covered in liquid water.
