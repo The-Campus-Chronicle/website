@@ -3,7 +3,7 @@ layout: post
 title: "The Reality of Social Media Addiction"
 author: [ alexander ]
 categories: [ Opinion ]
-images: assets\images\articles_2024\edition_1\social.png
+images: assets/images/articles_2024/edition_1/social.png
 tags: []
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "한류: The Spread of Korean Culture and Its Effects"
 author: [alison]
-categories: [ Arts ]
+categories: [ Arts and Entertainment ]
 image: assets/images/articles_2023/gifts.png
 tags: []
 ---
