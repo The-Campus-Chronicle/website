@@ -7,16 +7,18 @@ image: assets/images/articles_2024/edition_1/gut.png
 tags: []
 ---
 
-<b>*PARENTAL WARNING: This album contains explicit language, such as profanity.*
+<b>*PARENTAL WARNING: This album contains explicit language, such as profanity.*</b>
 
-<u>OVERALL SUMMARY:,</u></b>
+
+
+<b><u>OVERALL SUMMARY:,</u></b>
 
 Olivia Rodrigo was named “Songwriter of the Year” by Variety, Time’s Entertainer of the Year, and won multiple awards for her first album, SOUR, in 2021. Her debut album catalyzed her rise to fame after its release. Two years after the release of SOUR, her sophomore album, GUTS, was released on September 8, 2023. The album contains twelve tracks amounting to just under forty minutes of music. 
 
 GUTS shows more variety than SOUR, boasting rock-influenced songs like “bad idea right?” Rodrigo still brings her signature ballads in “lacy” and “the grudge.” GUTS speaks to Rodrigo’s growing pains in the transition from adolescence to adulthood. The twelve tracks cover her experiences of breakups, jealousy, and stereotyping.
 
-<b> <u> INDIVIDUAL SUMMARIES:</u>
-- all-american b—- (1)</b>
+<b> <u> INDIVIDUAL SUMMARIES:</u></b>
+- <b>all-american b—- (1)</b>
 
 The opening track details Olivia’s experience as a girl in modern society, explaining the expectations set for her, involving a constant and impossible perfection. The song switches between a heavier beat and gentle strumming of a guitar, demonstrating the frustrations she feels behind societal expectations of being a woman.
 
@@ -163,9 +165,9 @@ The final track of the album reflects on the transition from teenage years to ad
 <b>Rating:</b> 9.0/10
 
 
-<b> <u>AUDREY’S ANALYSIS:
+<b> <u>AUDREY’S ANALYSIS:</u></b>
 
-Overall Rating:</b> </u> 7.17/10
+<b><u>Overall Rating:</b> </u> 7.17/10
 
 Overall, Olivia Rodrigo’s GUTS was mediocre. There was a mix of good and bad elements in the album. In GUTS, Rodrigo utilizes her songwriting talent to create lyrics that are relatable to many audiences.
 
@@ -175,9 +177,9 @@ Considering all of the changes to the style Rodrigo made in this album, my favor
 
 The album was, in general, average. Some tracks were significantly better than others, as well as some songs that were not tasteful. Rodrigo’s transition into heavier beats and rock negatively affected her album, but her vocals are adequate throughout and her songwriting skills are acceptable.
 
-<b> <u>JAIME'S ANALYSIS:
+<b> <u>JAIME'S ANALYSIS:</u></b>
 
-Overall Rating:</b> </u> 7.63/10
+<b><u>Overall Rating:</b></u> 7.63/10
 
 GUTS by Olivia Rodrigo is an album that had the potential to transform pop, punk, and modern rock, even before its release date. With all of the pressure added onto Rodrigo, she effectively reached that potential. Throughout all twelve songs, Olivia Rodrigo put her heart and soul into every lyric, leading to several emotionally impactful tracks. She maintained a relatable theme throughout, impacting the lives of listeners across the world.
 
