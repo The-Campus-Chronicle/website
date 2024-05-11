@@ -833,6 +833,24 @@ authors:
         school:         AIT
         grade:          Sophomore
 
+    rayna:
+        name:           Rayna Hazarika
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I am Rayna Hazarika!"
+        email:          rhazarika@ucvts.org
+        school:         AIT
+        grade:          Sophomore
+
+    maddie:
+        name:           Maddie Patton
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I am Maddie Patton!"
+        email:          mpatton@ucvts.org
+        school:         UCTech School of Design 
+        grade:          Sophomore
+
     anwit:
         name:           Anwit Ghoroi
         avatar:         /assets/images/avatars/anonymous.jpg
