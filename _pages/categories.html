@@ -5,37 +5,30 @@ permalink: "/categories.html"
 ---
 
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-        <h1 class="font-weight-bold title h6 text-uppercase mb-4">Categories</h1>
-        {% for category in site.categories %} 
-
-        <a class="btn btn-outline-secondary btn-sm mb-2" href="{{site.baseurl}}/categories.html#{{ category[0] | downcase }}">{{ category[0] }}</a>
-
-        {% endfor %}
-        <div style="height: 10px;"></div>
-        {% for category in site.categories %} 
-        <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}"><span>{{ category[0] }}</span></h4>
-            
-        {% assign pages_list = category[1] %}
-        {% for post in pages_list %}
-        {% if post.title != null %}
-          {% if group == null or group == post.group %}
-         
-            {% include main-loop-card.html %}
-          {% endif %}
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <h2 class="font-weight-bold title h2 text-uppercase mb-4">Categories</h2>
+      {% for category in site.categories %}
+      <a class="btn btn-outline-secondary btn-sm mb-2"
+        href="{{site.baseurl}}/categories.html#{{ category[0] | downcase }}">{{ category[0] }}</a>
+      {% endfor %}
+      <div style="height: 10px;"></div>
+      {% for category in site.categories %}
+      <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}"><span>{{ category[0]
+          }}</span></h4>
+      {% assign pages_list = category[1] | reverse %}
+      {% assign count = 0 %}
+      {% for post in pages_list %}
+      {% if count < 3 %} {% include main-loop-card.html %} {% assign count=count | plus: 1 %} {% endif %} {% endfor %}
+        {% if pages_list.size> 3 %}
+        <div class="text-center">
+          <a class="btn btn-outline-dark mb-5" href="{{site.baseurl}}/{{ category[0] | slugify }}">Read More</a>
+        </div>
         {% endif %}
         {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
-
-        {% endfor %}
-
-        </div>
-        
-            <div class="col-md-4">
-        {% include sidebar-featured.html %}    
     </div>
-        
+    <div class="col-md-4">
+      {% include sidebar-featured.html %}
     </div>
+  </div>
 </div>
