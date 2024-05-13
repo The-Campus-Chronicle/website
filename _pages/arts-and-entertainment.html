@@ -35,6 +35,37 @@ permalink: "/arts-and-entertainment.html"
     </div>
     
 </div>
+<div class="row remove-site-content-margin mt-2">    
+  <!-- latest post -->
+  <div class="col-md-6">
+        
+      <!-- latest posts -->
+      {%- assign post = arts_posts[4] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = arts_posts[5] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = arts_posts[6] -%}        
+      {% include main-top-card.html %}
+      
+  </div>
+  
+  <div class="col-md-6">
+      
+      <!-- latest posts -->
+      {%- assign post = arts_posts[7] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = arts_posts[8] -%}        
+      {% include main-top-card.html %}
+      
+      {%- assign post = arts_posts[9] -%}        
+      {% include main-top-card.html %}
+      
+  </div>
+  
+</div>
     
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
 {% for post in arts_posts %} 
@@ -54,7 +85,7 @@ permalink: "/arts-and-entertainment.html"
     <div class="col-md-8 main-loop">
         
         <h4 class="font-weight-bold spanborder"><span>All Arts and Entertainment Stories</span></h4>
-        {% assign offset = 4 %}
+        {% assign offset = 10 %}
             
         {% for post in arts_posts offset: offset %}
             {% include main-loop-card.html %}
