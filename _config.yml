@@ -851,6 +851,15 @@ authors:
         school:         UCTech School of Design 
         grade:          Sophomore
 
+    xing:
+        name:           Xing Liao
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Xing Liao."
+        email:          xliao@ucvts.org
+        school:         UCTech
+        grade:          Sophomore
+
     anwit:
         name:           Anwit Ghoroi
         avatar:         /assets/images/avatars/anonymous.jpg
