@@ -1,8 +1,8 @@
-<h1 style="text-align: center;">The Campus Chronicle</h1>
+<h1 align="center">The Campus Chronicle</h1>
 
-<img src="front_page.png" style="text-align: center;">
+<img src="front_page.png" align="center">
 
-<h3 style="text-align: center; text-weight: strong;">A website for the UCVTS newspaper club to publish student articles and news.</h3>
+<h4 style="text-weight: strong;" align="center">A website for the UCVTS newspaper club to publish student articles and news.</h4>
 
 ## About
 This website is built using Jekyll, a static site generator. It is hosted on GitHub Pages and the domain is managed with Hostinger. Articles are stored in the markdown format and are rendered using the Liquid templating engine. 
