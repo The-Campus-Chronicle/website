@@ -104,8 +104,6 @@ The reusable code components are stored in the `_includes` folder.
 
 To run this locally, delete the `Gemfile.lock` file if you have it. Download [Ruby](https://www.ruby-lang.org/en/downloads/). Check to see if it's installed `ruby -v`. If it is, run `bundle install`. Then run `bundle install`. Then run `bundle exec jekyll serve`. 
 
-[Presentation](https://docs.google.com/presentation/d/1Uj1Jz08X1kLRDBc6Jj9cB4_aVqu3sj2PSrBlm5MK_Y8/edit?usp=sharing)
-
 ### How to add a new article
 1. Create a new markdown file in the `_posts` folder.
 2. Save the file with the following naming convention: `YYYY-MM-DD-title.md`.
@@ -125,10 +123,14 @@ To run this locally, delete the `Gemfile.lock` file if you have it. Download [Ru
 
 All done! The article should now be live on the site!
 
+Here is a [presentation](https://docs.google.com/presentation/d/1Uj1Jz08X1kLRDBc6Jj9cB4_aVqu3sj2PSrBlm5MK_Y8/edit?usp=sharing) with the same guide.
+
 Here is a tutorial you can follow to add an article: 
+
 [![Tutorial](https://img.youtube.com/vi/ugQ5J05kNYg/0.jpg)](https://www.youtube.com/watch?v=ugQ5J05kNYg)
 
 Here is a video of adding some articles to the site: 
+
 [![adding an article](https://img.youtube.com/vi/L5-R9Mai1Yc/0.jpg)](https://www.youtube.com/watch?v=L5-R9Mai1Yc)
 
 ### How to add a new author
