@@ -1,0 +1,121 @@
+---
+title: "Alumni Articles"
+layout: default
+permalink: "/alumni.html"
+---
+
+
+<div class="container">
+
+
+    <h1 class="font-weight-bold spanborder"><span>Alumni Articles</span></h1>
+
+    <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
+    <div class="row remove-site-content-margin">
+
+        <!-- Initialize an empty array to store alumni posts -->
+        {% assign alumni_posts = "" | split: "" %}
+
+        <!-- Loop through all the site posts -->
+        {% for post in site.posts %}
+        <!-- Loop through the authors of each post -->
+        {% for author in post.author %}
+        <!-- Check if the author is an alumnus {{ author }} -->
+        <!-- site.authors[author].grade -->
+
+        {% if site.authors[author].grade contains "Alumni" %}
+            <!-- Add the post to the alumni_posts array -->
+            {% assign alumni_posts = alumni_posts | push: post %}
+            <!-- Break the inner loop to avoid duplicate entries if multiple authors are alumni -->
+            {% break %}.
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+
+
+        {% assign latest_post = alumni_posts[0] %}
+        {% include main-big-post.html %}
+
+        <div class="col-md-6">
+
+            <!-- latest posts -->
+            {%- assign post = alumni_posts[1] -%}
+            {% include main-top-card.html %}
+
+            {%- assign post = alumni_posts[2] -%}
+            {% include main-top-card.html %}
+
+            {%- assign post = alumni_posts[3] -%}
+            {% include main-top-card.html %}
+
+        </div>
+
+    </div>
+    <div class="row remove-site-content-margin mt-2">
+        <!-- latest post -->
+        <div class="col-md-6">
+
+            <!-- latest posts -->
+            {%- assign post = alumni_posts[4] -%}
+            {% include main-top-card.html %}
+
+            {%- assign post = alumni_posts[5] -%}
+            {% include main-top-card.html %}
+
+            {%- assign post = alumni_posts[6] -%}
+            {% include main-top-card.html %}
+
+        </div>
+
+        <div class="col-md-6">
+
+            <!-- latest posts -->
+            {%- assign post = alumni_posts[7] -%}
+            {% include main-top-card.html %}
+
+            {%- assign post = alumni_posts[8] -%}
+            {% include main-top-card.html %}
+
+            {%- assign post = alumni_posts[9] -%}
+            {% include main-top-card.html %}
+
+        </div>
+
+    </div>
+
+    <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
+    {% for post in alumni_posts %}
+    {% if post.tags contains "sticky" %}
+    {% include main-sticky.html %}
+    {% endif %}
+    {% endfor %}
+
+
+
+
+
+    <!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
+
+    <div class="row mt-3">
+
+        <div class="col-md-8 main-loop">
+
+            <h4 class="font-weight-bold spanborder"><span>All News Stories</span></h4>
+            <!-- {% assign paginator.posts = alumni_posts %} -->
+            {% assign offset = 10 %}
+
+            {% for post in alumni_posts offset: offset %}
+            {% include main-loop-card.html %}
+            {% endfor %}
+
+        </div>
+
+        <div class="col-md-4">
+            {% include sidebar-featured.html %}
+        </div>
+
+    </div>
+
+
+
+</div>

@@ -4,7 +4,7 @@ title:  "Book Review: The Alchemist by Paulo Coelho"
 author: [ sohem ]
 categories: [ Opinion ]
 image: assets/images/articles_2024/edition_1/the-alchemist.png
-tags: [ News ]
+tags: [  ]
 ---
 
 Paulo Coelho’s timeless masterpiece, The Alchemist, is a remarkable novel that intertwines profound wisdom, enchanting storytelling and eloquent writing. His transformative tale embarks readers on a revitalizing self-discovery journey, reminding us that the pursuit of dreams is not merely about the destination, but rather the journey itself.
