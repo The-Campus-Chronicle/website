@@ -19,6 +19,14 @@ plugins:
   - jekyll-seo-tag
   
 authors:
+    abdd:
+      name:           Abdd Sharma
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Webmaster
+      bio:            "Hi, I am Abdd Sharma! I like retro games, Manchester United, and Dire Straits. Please feel free to email me at any time!"
+      email:          asharma@ucvts.org
+      school:         AIT
+      grade:          Senior
     anusha:
       name:           Anusha Iyer
       avatar:         /assets/images/avatars/anonymous.jpg
