@@ -793,6 +793,15 @@ authors:
         email:          aghoroi@ucvts.org
         school:         AIT
         grade:          Alumni
+    
+    mehr:
+        name:           Mehr Upashyay
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Mehr Upashyay."
+        email:          mupashyay@ucvts.org
+        school:         UCTECH
+        grade:          Freshman
 
 
 # Defaults
