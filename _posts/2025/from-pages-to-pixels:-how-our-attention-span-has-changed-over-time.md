@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "From Pages to Pixels: How Our Attention Span Has Changed Over Time"
+author: [saidey]
+categories: [ Science ]
+image: assets/images/articles_2025/from-pages-to-pixels:-how-our-attention-span-has-changed-over-time.png
+tags: []
+---
+
+Goldfish have an attention span of 9 seconds—seems short, right? Well, the average person has an attention span of 8 seconds. Whether or not this statistic is accurate, one thing is for sure: our alertness has steadily decreased over the past few decades, and it seems only to go downhill. So, how did we get here, and what has caused such a drastic change in attention span? To answer that question, we need to trace back to the early 2000s, when social media was just introduced. Platforms like MySpace and Facebook surfaced between 2003 and 2004, around the same time as a study conducted by psychologist Gloria Mark. According to Mark, “‘Digital computing came about in 2003, [which is] when we started studying it...at that time, people averaged two and a half minutes on a screen before switching... [then], in a 2016 study we did, the average attention span was 47 seconds’” (Duke). This significant decrease can be reasonably attributed to the percentage of social media users relative to the start and end of Mark’s study: less than 5% of the global population used social media in 2005, compared to a whopping 63.7% of social media users as of recent years (Ortiz-Ospina). These variables illustrate a negative correlation between the percentage of social media users and respective attentiveness. However, her data was last collected in 2016—what about today? Several factors have significantly impacted our ability to focus since Mark’s study. 
+
+The first — and arguably the most important — factor was the Coronavirus pandemic. Coronavirus, or COVID-19, is a highly contagious respiratory disease caused by the SARS-CoV-2 virus. It spread rapidly, resulting in worldwide shutdowns and lengthy quarantines. With people stuck in their homes and unable to go outside, they turned to their screens to connect with the inaccessible outside world. Luckily — or unluckily, depending on how you view it — scrolling has never been more effortless, thanks to TikTok, a social media app. Peaking in 2020, this platform was used for sharing personalized short-form videos in an addicting, infinite scroll format. The content displayed is tailored to the user by an algorithm, a set of calculations used by social media platforms to prioritize and repeat the content users’ views in their feeds (Singh). In other words, the app is designed to satisfy the individual with endless user-specific content, offering instant gratification and an escape from reality. 
+
+This addicting system often leads to overconsumption of content that can severely affect attention span. According to an article by SG Analytics, “Due to TikTok, kids and teenagers have access to copious amounts of information that is conveyed through 30-second videos. This has led to their brain losing the ability to focus longer to absorb information, thereby reducing their attention span” (“TikTok Scrolling has Shortened the Attention Span of Students: How Can EdTech Help Solve the Crisis?”). Short-form content’s information overload is not the only culprit, however. The main reason is that the moment we become disinterested in a video, we can easily scroll until something intrigues us—which can be dozens of videos later. This seriously harms our ability to focus on anything that isn’t continually stimulating, which can negatively impact school performance, concentration on tasks, interpersonal relationships, and communication skills. Other social media platforms caught onto TikTok’s popularity, introducing similar scrolling models with equally addicting properties—YouTube and Instagram are the most notable examples. We do not get hooked on social media for no reason, though: it is designed to make us want more, exploiting deeply ingrained brain chemistry by associating positive feelings with social media consumption. More specifically, social media releases an addictive, feel-good brain chemical called dopamine. This dopamine release, coupled with the excitement from uncertainty about the following video (also known as risk and reward), leads to “zombie scrolling,” or mindless consumption of vapid online content, and consequently lower attentiveness. 
+
+However, not all hope is lost. There are numerous ways to overcome scrolling habits and regain focus. You can start by turning off notifications, setting time limits, or even deleting an app entirely. In addition, getting adequate sleep, exercising, eating brain foods, trying mindfulness activities, reading books, and assessing social media usage are good habits to adopt for a longer attention span. Overall, our thumb's power over where hours of our day go is immense, and learning to control this impulse is crucial. So, whenever you find yourself tempted to scroll, take a moment to look up from your screen and remember: there is a whole world waiting to be explored, and if all you can focus on are thirty-second videos, how can you ever appreciate it? Use your time wisely—we are all made for so much more than staring at pixels on a screen. 
+  
+
+### Works Cited:
+
+Duke, Annie. “Q&A with Gloria Mark, Author of “Attention Span: A Groundbreaking Way to Restore Balance, Happiness and Productivity.”” Annie Duke | Substack, 26 August 2023, https://annieduke.substack.com/p/q-and-a-with-gloria-mark-author-of. Accessed 4 November 2024.
+
+“Global Social Media Statistics — DataReportal – Global Digital Insights.” DataReportal, https://datareportal.com/social-media-users. Accessed 4 November 2024.
+
+“How to Improve Focus and Increase Attention Span.” Post University, 23 June 2023, https://post.edu/blog/tips-for-improving-focus-and-attention-span/. Accessed 4 November 2024.
+
+Ortiz, Esteban. “The rise of social media.” Our World in Data, 18 September 2019, https://ourworldindata.org/rise-of-social-media. Accessed 4 November 2024.
+
+“TikTok Scrolling has Shortened the Attention Span of Students: How Can EdTech Help Solve the Crisis?” SG Analytics, 11 August 2023, https://www.sganalytics.com/blog/tiktok-scrolling-has-shortened-the-attention-span-of-students-how-can-edtech-help-solve-the-crisis/. Accessed 4 November 2024.
+
+“12 Ways to Overcome Your Mindless Scrolling Habit?” Smarmore Castle, https://www.smarmore-rehab-clinic.com/addiction-resources/12-ways-to-overcome-your-mindless-scrolling-habit/. Accessed 4 November 2024.
+
+“Understanding Social Media Algorithm [2024 Complete Guide].” SocialPilot, 18 June 2024, https://www.socialpilot.co/blog/social-media-algorithm. Accessed 4 November 2024.(Hayes)

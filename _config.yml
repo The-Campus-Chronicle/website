@@ -803,6 +803,26 @@ authors:
         school:         UCTECH
         grade:          Freshman
 
+    saidey:
+        name:           Saidey Kim
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Saidey Kim."
+        email:          skim1@ucvts.org
+        school:         AAHS
+        grade:          Freshman
+
+    parker:
+        name:           Parker Bauman
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Editor-In-Chief
+        bio:            "Parker Bauman is a junior at the Academy for Information Technology. He has interest in various subjects such as sports and sciences and he enjoys writing about his interests through the Campus Chronicle."
+        email:          mupashyay@ucvts.org
+        school:         AIT
+        grade:          Junior
+
+
+
 
 # Defaults
 defaults:
