@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Law and Technology: How Can the Law Keep up with the Rise of Deepfakes and AI?"
+title: "K2-18b:  Possible Hycean World and Harborer of Alien Life"
 author: [ paige ]
 categories: [ News, Science ]
 image: assets/images/articles_2024/edition_1/hycean.png
