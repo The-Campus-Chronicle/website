@@ -359,7 +359,7 @@ authors:
     sophia:
       name:           Sophia Mekbeb
       avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
+      role:           Editor-In-Chief
       bio:            "Hi, I am Sophia Mekbeb!"
       email:          no_reply@ucvts.org
       school:         APA
@@ -384,7 +384,7 @@ authors:
         name:           Amanda Leung
         avatar:         /assets/images/avatars/anonymous.jpg
         role:           Editor-In-Chief
-        bio:            "Amanda Leung is a Senior in the Academy of Law and Justice at UCTech. This is her 3rd year as an author and 2nd year as a layout editor for the Campus Chronicle. She enjoys baking cupcakes for her friends, watching political debates, and listening to Noah Kahan. Amanda is looking forward to being able to contribute more to the Campus Chronicle!"
+        bio:            "Amanda Leung is a Senior in the Academy of Law & Justice at UCTech and this is her 3rd year as a layout editor. She enjoys baking cupcakes, watching debates, and going to Noah Kahan concerts!"
         email:          aleung@ucvts.org
         school:         UCTech Law & Justice
         grade:          Senior
@@ -536,7 +536,7 @@ authors:
     eric:
         name:           Eric Yu
         avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
+        role:           Editor-In-Chief
         bio:            "Eric Yu is a Senior at the Academy for Information Technology. He has been a part of the Campus Chronicles for the past 2 years, becoming an editor this year. He plays baseball and clarinet as some of his hobbies. He plans to write about current events, business, and sports for the Campus Chronicles."
         email:          eyu@ucvts.org
         school:         AIT
@@ -617,7 +617,7 @@ authors:
     sydney:
         name:           Sydney Kim
         avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
+        role:           Editor-In-Chief
         bio:            "Sydney Kim is currently a Senior at AAHS. She enjoys writing about current events and science. She is an avid tennis player, and, in her spare time, she loves to cook and bake. She also enjoys traveling, enabling her to infuse cultural insights into her writing. She loves being involved with the Campus Chronicles, and is excited to contribute more."
         email:          skim@ucvts.org
         school:         AAHS
@@ -689,7 +689,7 @@ authors:
     alison:
         name:           Alison Park
         avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
+        role:           Editor-In-Chief
         bio:            "Alison Park is a Junior at Allied Health. She loves to travel and learn about different places, and hopes to share these interests through the newspaper. This is her second year being involved with the Campus Chronicle. She looks forward to another year of sharing her writing with the students of UCVTS!"
         email:          apark@ucvts.org
         school:         AAHS
