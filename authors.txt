@@ -438,3 +438,13 @@
       twitter:        https://twitter.com/
       school:          UCTech
       grade:          Alumni
+    alan:
+      name:           Evie Shen
+      site:           https://www.wowthemes.net
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Evie Shen!"
+      email:          no_reply@ucvts.org
+      twitter:        https://twitter.com/
+      school:          MHS
+      grade:          10
