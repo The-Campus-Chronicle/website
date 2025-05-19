@@ -838,6 +838,15 @@ authors:
         email:          atasharofi@ucvts.org
         school:         UCTECH
         grade:          Junior
+    
+    aliyah:
+        name:           Aliyah Isola-Gbenla
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Aliyah Isola-Gbenla"
+        email:          aisolagbenla@ucvts.org
+        school:         AAHS
+        grade:          Freshman
 
 
 
