@@ -848,8 +848,14 @@ authors:
         school:         AAHS
         grade:          Freshman
 
-
-
+    tyler:
+        name:           Tyler Jacobowitz
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Tyler Jacobowitz"
+        email:          tjacobowitz@ucvts.org
+        school:         AAHS
+        grade:          Freshman
 
 
 
