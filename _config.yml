@@ -875,6 +875,15 @@ authors:
         school:         AAHS
         grade:          Sophomore
 
+    mariam:
+        name:           Mariam Tchitchueishvili
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Mariam Tchitchueishvili"
+        email:          mtchitchueishvili@ucvts.org
+        school:         UCTECH
+        grade:          Junior
+
 
 
 # Defaults
