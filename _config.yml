@@ -817,9 +817,19 @@ authors:
         avatar:         /assets/images/avatars/anonymous.jpg
         role:           Editor-In-Chief
         bio:            "Parker Bauman is a junior at the Academy for Information Technology. He has interest in various subjects such as sports and sciences and he enjoys writing about his interests through the Campus Chronicle."
-        email:          mupashyay@ucvts.org
+        email:          pbauman@ucvts.org
         school:         AIT
         grade:          Junior
+    
+    evie:
+        name:           Evie Shen
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Evie Shen."
+        email:          eshen@ucvts.org
+        school:         MHS
+        grade:          Sophomore
+
 
 
 
