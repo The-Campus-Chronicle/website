@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Mirror in Your Mind"
+title:  "Sleep Deprievation vs. UCVTS"
 author: [kelly]
 categories: [ Lifestyle, Science, Around Campus ]
 image: assets/images/articles_2025/sleep-deprived.png
