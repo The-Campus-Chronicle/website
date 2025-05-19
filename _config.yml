@@ -857,6 +857,16 @@ authors:
         school:         AAHS
         grade:          Freshman
 
+    parthiv:
+        name:           Parthiv Intwala
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Parthiv Intwala"
+        email:          pintwala@ucvts.org
+        school:         AIT
+        grade:          Freshman
+
+
 
 
 # Defaults
