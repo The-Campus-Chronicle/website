@@ -865,7 +865,15 @@ authors:
         email:          pintwala@ucvts.org
         school:         AIT
         grade:          Freshman
-
+    
+    kelly:
+        name:           Kelly Zheng
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Kelly Zheng"
+        email:          kzheng@ucvts.org
+        school:         AAHS
+        grade:          Sophomore
 
 
 
