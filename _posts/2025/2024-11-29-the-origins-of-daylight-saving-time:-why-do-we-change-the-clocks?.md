@@ -3,7 +3,7 @@ layout: post
 title:  "The Origins of Daylight Saving Time: Why Do We Change the Clocks?"
 author: [saidey]
 categories: [ Science ]
-image: assets/images/articles_2025/the-origins-of-daylight-saving-time:-why-do-we-change-the-clocks?.png
+image: assets/images/articles_2025/daylight-savings.png
 tags: []
 ---
 

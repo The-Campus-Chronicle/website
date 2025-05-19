@@ -3,7 +3,7 @@ layout: post
 title:  "Height Development: Genetic or Environmental"
 author: [sharika]
 categories: [ Opinion ]
-image: assets/images/articles_2025/height-development:-genetic-or-environmental?.png
+image: assets/images/articles_2025/height.png
 tags: []
 ---
 
