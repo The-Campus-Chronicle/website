@@ -829,6 +829,16 @@ authors:
         email:          eshen@ucvts.org
         school:         MHS
         grade:          Sophomore
+    
+    aryana:
+        name:           Aryana Tasharofi
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Aryana Tasharofi."
+        email:          atasharofi@ucvts.org
+        school:         UCTECH
+        grade:          Junior
+
 
 
 
