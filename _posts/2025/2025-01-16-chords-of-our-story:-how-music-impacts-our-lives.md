@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Growing Up in the Age of Distraction"
+title:  "Chords of Our Story: How Music Impacts Our Lives"
 author: [mariam]
 categories: [ Opinion, Lifestyle, Arts ]
 image: assets/images/articles_2025/music-title.png
