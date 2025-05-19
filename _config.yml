@@ -884,6 +884,24 @@ authors:
         school:         UCTECH
         grade:          Junior
 
+    athena:
+        name:           Athena Bishop
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Athena Bishop"
+        email:          abishop@ucvts.org
+        school:         AAHS
+        grade:          Freshman
+    
+    athena1:
+        name:           Athena Corbishley
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Athena Corbishley"
+        email:          acorbishley@ucvts.org
+        school:         UCTECH
+        grade:          Sophomore
+
 
 
 # Defaults
