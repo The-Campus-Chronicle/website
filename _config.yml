@@ -902,6 +902,33 @@ authors:
         school:         UCTECH
         grade:          Sophomore
 
+    abigail:
+        name:           Abigail Loeser
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Abigail Loeser"
+        email:          aloeser@ucvts.org
+        school:         UCTECH
+        grade:          Sophomore
+
+    sophia2:
+        name:           Sophia Hoff
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Sophia Hoff"
+        email:          shoff@ucvts.org
+        school:         APA
+        grade:          Freshman
+    
+    makayla:
+        name:           Makayla Barte
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Makayla Barte"
+        email:          mbarte@ucvts.org
+        school:         AIT
+        grade:          Freshman
+
 
 
 # Defaults
