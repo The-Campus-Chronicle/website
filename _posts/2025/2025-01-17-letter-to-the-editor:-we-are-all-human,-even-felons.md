@@ -2,7 +2,7 @@
 layout: post
 title:  "Letter to the Editor: We Are All Human, Even Felons"
 author: [aryana]
-categories: [ Opinion, Politics ]
+categories: [ Opinion, Politics and Government ]
 image: assets/images/articles_2025/prisoners.png
 tags: []
 ---

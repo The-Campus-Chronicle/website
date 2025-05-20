@@ -2,7 +2,7 @@
 layout: post
 title:  "America’s High-Speed Rail Failure: Why is the U.S. falling behind in the high-speed rail industry?"
 author: [parthiv]
-categories: [ Other, Politics ]
+categories: [ Other, Politics and Government ]
 image: assets/images/articles_2025/rails.png
 tags: []
 ---

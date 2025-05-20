@@ -2,7 +2,7 @@
 layout: post
 title:  "Chords of Our Story: How Music Impacts Our Lives"
 author: [mariam]
-categories: [ Opinion, Lifestyle, Arts ]
+categories: [ Opinion, Lifestyle, Arts and Entertainment ]
 image: assets/images/articles_2025/music-title.png
 tags: []
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "The Story of Dame Maggie Smith"
 author: [evie]
-categories: [ Arts ]
+categories: [ Arts and Entertainment ]
 image: assets/images/articles_2025/dame-maggie.png
 tags: []
 ---

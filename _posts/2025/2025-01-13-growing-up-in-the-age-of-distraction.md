@@ -2,7 +2,7 @@
 layout: post
 title:  "Growing Up in the Age of Distraction"
 author: [jaime]
-categories: [ Opinion, Arts ]
+categories: [ Opinion, Arts and Entertainment ]
 image: assets/images/articles_2025/ipad-kid.gif
 tags: []
 ---
