@@ -929,6 +929,14 @@ authors:
         school:         AIT
         grade:          Freshman
 
+    amir:
+        name:           Amir Hunter
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Amir Hunter"
+        email:          ahunter@ucvts.org
+        school:         AIT
+        grade:          Senior
 
 
 # Defaults
