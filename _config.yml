@@ -19,6 +19,665 @@ plugins:
   - jekyll-seo-tag
   
 authors:
+    jaime:
+      name:           Jaime Paladi
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Jaime Paladi!"
+      email:          no_reply@ucvts.org
+      school:          AIT
+      grade:          Senior
+    anonymous:
+      name:           Anonymous
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Anonymous!"
+      email:          no_reply@ucvts.org
+      school:         Unknown
+      grade:          Unknown
+    sophia:
+      name:           Sophia Mekbeb
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Editor-In-Chief
+      bio:            "Hi, I am Sophia Mekbeb!"
+      email:          no_reply@ucvts.org
+      school:         APA
+      grade:          Senior
+    mila:
+      name:           Mila Talati
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Mila Talati!"
+      email:          no_reply@ucvts.org
+      school:          AIT
+      grade:          Senior
+    gissele:
+      name:           Gissele Hernandez
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Gissele Hernandez!"
+      email:          no_reply@ucvts.org
+      school:          UCTech
+      grade:          Senior
+    amanda:
+        name:           Amanda Leung
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Editor-In-Chief
+        bio:            "Amanda Leung is a Senior in the Academy of Law & Justice at UCTech and this is her 3rd year as a layout editor. She enjoys baking cupcakes, watching debates, and going to Noah Kahan concerts!"
+        email:          aleung@ucvts.org
+        school:         UCTech Law & Justice
+        grade:          Senior
+
+    tchouassi:
+        name:           Tchouassi Yohsie
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Yohsie Tchouassi is a Senior at UCTech, School of Design. They have a strong interest in writing and are currently in a process of writing a book. She cares greatly about social rights advocacy and working on the education of herself and those around her. "
+        email:          tyohsie@ucvts.org
+        school:         UCTech School of Design 
+        grade:          Senior
+
+    claire:
+        name:           Claire Yang
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Claire is currently a Junior at AIT. She is beyond excited to be apart of the club, and she looks forward to publishing a lot of articles. In her free time, Claire enjoys running, writing, science, and reading."
+        email:          cyang@ucvts.org
+        school:         AIT
+        grade:          Junior
+
+    jessica:
+        name:           Jessica Zhou
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Jessica Zhou is a Junior in Magnet. She does cross country, track and field, basketball and tennis. She has a pet hamster and she enjoys fishing. She likes to cook too."
+        email:          jzhou@ucvts.org
+        school:         MHS
+        grade:          Junior
+
+    melissa:
+        name:           Melissa Duran de Paula
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Melissa Duran de Paula has been writing since she first figured out how. She has written many short stories ending with her characteristic twists, taking inspiration from her favorite novels. Her idea of a perfect day involves snuggling up with her dog and a good book while steadily falling in love with questionable fictional characters."
+        email:          mdurandepaula@ucvts.org
+        school:         AAHS
+        grade:          Senior
+
+    joanna:
+        name:           Joanna Munoz
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Joanna joined Newspaper club her Senior year after having interest in gaining writing experience and bettering herself as a writer. Now a Senior at AIT, Joanna is excited to continue writing articles and to have new experiences in Newspaper Club. Joanna spends her free time reading, listening to music, and hanging out with her friends and family. She especially loves to spend time with her Yorkie, Blu Bear.  "
+        email:          jmunoz@ucvts.org
+        school:         AIT
+        grade:          Alumni
+
+    alexander:
+        name:           Alexander Zuniga
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Alexander Zuniga is a Senior at AAHS and is excited to express his ideas in the Campus Chronicles this year. He is very passionate about literature, working out, and photography. He is a wild card and loves to write about whatever he finds important in the moment. In his free time, he loves hanging out with friends and enjoying the outdoors. "
+        email:          azuniga@ucvts.org
+        school:         AAHS
+        grade:          Senior
+
+    mesoma:
+        name:           Mesoma Efobi
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Mesoma"
+        email:          mefobi@ucvts.org
+        school:         MHS
+        grade:          Junior
+
+    isabella:
+        name:           Isabella Rossi
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Isabella is currently a Junior at AAHS. She is excited to participate and contribute to the Campus Chronicle and express her passion for writing! Isabella loves using her voice to talk about topics she cares about, and she believes that the Campus Chronicle is a perfect way to do so! She loves experiencing (and reading) about adventures and thrills, and is always ready to put herself out there and try new things. "
+        email:          irossi@ucvts.org
+        school:         AAHS
+        grade:          Junior
+
+    tea:
+        name:           Téa Florencio
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Téa Florencio is a grade 10 student at UCTech, The Academy of Law and Justice. While she is an aspiring lawyer, she loves to write fiction and poetry. In her free time, she writes, plays piano, reads, learns about philosophy, and spends time outside."
+        email:          tflorencio@ucvts.org
+        school:         UCTech Law and Justice
+        grade:          Senior
+
+    claire:
+        name:           Claire Yang
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Claire is currently a Junior at AIT. She is beyond excited to be part of the team, and she looks forward to writing interesting articles about fascinating topics. In her free time, Claire enjoys running, writing, science, and reading."
+        email:          cyang@ucvts.org
+        school:         AIT
+        grade:          Junior
+
+    jainithin:
+        name:           Jainithin Jeyaprakash
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Jainithin is a talented young writer hailing from Magnet School. When he's not crafting compelling stories, he can be found on the basketball court, swinging for the fences in baseball, or honing his skills on the cricket pitch. With a passion for both sports and storytelling, Jainithin brings a unique perspective to his writing that captivates readers and keeps them engaged from start to finish."
+        email:          jjeyaprakash@ucvts.org
+        school:         MHS
+        grade:          Junior
+
+    david:
+        name:           David Punzalan
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "David Punzalan, Senior and amateur writer, seeks to canvass the vast unknowns. He is, as F. Scott Fitzgerald criticizes, \"that most limited of all specialists, the 'well-rounded man.'\" But to rebuke! As a person who has done a little bit of everything, David is no stranger to literature: he's taken writing classes at TANJ Arts and High, was nominated as the Junior Overall Scholar at MHS, and, most importantly, is an avid reader. David believes that true nirvana results from enlightenment; his publications are relief for the aspiring epistemologist."
+        email:          dpunzalan@ucvts.org
+        school:         MHS
+        grade:          Senior
+
+    anika:
+        name:           Anika Jolly
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Anika is a Junior at MHS and has just recently joined the Campus Chronicle team. She has been apart of many newspaper clubs since elementary school. Some of her hobbies include tennis, swim, playing the alto sax, chess, and of course, writing. She's very passionate to write about medical related and tech related articles. "
+        email:          ajolly@ucvts.org
+        school:         MHS
+        grade:          Junior
+
+    ananya:
+        name:           Ananya Vikram
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Ananya Vikram is a Senior at AAHS. She has a strong interest in journalism and loves to read. She enjoys listening to music, dancing, and hanging out with friends. Although this is her first year in the club, she is excited to contribute!"
+        email:          avikram@ucvts.org
+        school:         AAHS
+        grade:          Senior
+
+    paige:
+        name:           Paige Porciello
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Paige Porciello is a Junior at AIT and is thrilled to be starting out at the Newspaper Club.  She worked on her middle school's morning broadcast program scripting segments, operating technology components, and directing.  She is passionate about colorguard, art, technology, and astronomy.  She loves dogs and hopes to have one in her household someday.  In her free time, she draws, paints, bakes, and listens to music."
+        email:          pporciello@ucvts.org
+        school:         AIT
+        grade:          Junior
+
+    eric:
+        name:           Eric Yu
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Editor-In-Chief
+        bio:            "Eric Yu is a Senior at the Academy for Information Technology. He has been a part of the Campus Chronicles for the past 2 years, becoming an editor this year. He plays baseball and clarinet as some of his hobbies. He plans to write about current events, business, and sports for the Campus Chronicles."
+        email:          eyu@ucvts.org
+        school:         AIT
+        grade:          Senior
+
+    chloe:
+        name:           Chloe Zeng
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Chloe Zeng is a Senior at AAHS and is a passionate reader/writer. She has been part of the UCVTS Newspaper Club for two years and is currently a shadow editor. Chloe is excited to be part of the Campus Chronicle by contributing her interests into articles that can be read by the student body. When Chloe is not surrounded by works of authors, she can be found surfing the internet, jogging in parks, playing the piano, or watching TV. "
+        email:          czeng@ucvts.org
+        school:         AAHS
+        grade:          Senior
+
+    carrie:
+        name:           Carrie Xu
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Carrie Xu is a Senior attending the Academy for Allied Health Sciences. In her free time, she enjoys reading, drawing, and walking. She has an interest in writing medical-related topics and aspires to become a future healthcare professional."
+        email:          cxu@ucvts.org
+        school:         AAHS
+        grade:          Senior
+
+    phoebe:
+        name:           Phoebe Hu
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Phoebe Hu is a current Junior at AAHS. She enjoys writing and is excited to be able to be a part of the Campus Chronicle this year! In her free time, Phoebe likes to play soccer, listen to music, play the piano and guitar, and watch movies/TV shows. She plans to write about topics relating to health and science. "
+        email:          phu@ucvts.org
+        school:         AAHS
+        grade:          Junior
+
+    danielle:
+        name:           Danielle Macchi
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Danielle Macchi is a Senior at UCTECH and is a part of the Law and Justice Academy. Danielle joined because of her love for both reading and writing. She hopes that writing articles for the Campus Chronicle will be a way for her voice to be heard and to improve her writing skills and abilities. "
+        email:          dmacchi@ucvts.org
+        school:         UCTech Law and Justice 
+        grade:          Senior
+
+    tara:
+        name:           Tara Kilgannon
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Tara Kilgannon is a Senior at UCTECH and she is a part of the Law & Justice Academy. Tara has always had a strong passion for writing, she loves creating short stories, poetry or anything where she gets to be creative. Some of her other interests include baking, reading, music, studying the criminal justice system and CSI. This is her first year doing the newspaper club and she is excited to write articles and share them with others. "
+        email:          tkilgannon@ucvts.org
+        school:         UCTech Law & Justice 
+        grade:          Senior
+
+    jaime:
+        name:           Jaime Paladi
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Jaime Paladi is currently a Senior at the Academy for Information Technology. Last year, he wrote one article about Breaking Bad for the Campus Chronicle. He plans to start his own blog to continue his passion for writing. As for his interests, he plays varsity bowling for Linden High School and has a liking for music. He is excited for his second year back at newspaper club and hopes to become an editor."
+        email:          jpaladi@ucvts.org
+        school:         AIT
+        grade:          Senior
+
+    catalina:
+        name:           Catalina Gurdian Vazquez
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Cat is a Junior in UCTech School of Design who loves all things art. He's never been into writing but is excited to try something new. He has been described with words such as crazy, loud, and funny while also having a calm and quiet personality when necessary. Nothing feels more like home to him than the holiday season which is a weird thing to be oddly obbsesed about but it is what it is. Finally, his spirit animal is Vector from Despicable Me."
+        email:          cgurdianvazquez@ucvts.org
+        school:         UCTech School of Design
+        grade:          Junior
+
+    ifechukwu:
+        name:           Ifechukwu Efobi
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Ifechukwu Efobi (she/her) is a Magnet High School Senior trying to survive the influx of homework and responsibilities. Ever since she was a child, she was fascinated with the constant fantasy and imagination that books held within their beige colored pages. However, as she grew older and more obsessed with the \"perfect\" grade and \"perfect\" school, her relationship with books began to depart and her imagination died along with it. So, I guess you could say she's trying to rekindle the light she had when she was a kid. Or at least trying to improve her writing skills. Either way, she's excited to be here!"
+        email:          iefobi@ucvts.org
+        school:         MHS
+        grade:          Senior
+
+    sydney:
+        name:           Sydney Kim
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Editor-In-Chief
+        bio:            "Sydney Kim is currently a Senior at AAHS. She enjoys writing about current events and science. She is an avid tennis player, and, in her spare time, she loves to cook and bake. She also enjoys traveling, enabling her to infuse cultural insights into her writing. She loves being involved with the Campus Chronicles, and is excited to contribute more."
+        email:          skim@ucvts.org
+        school:         AAHS
+        grade:          Senior
+
+    omolola:
+        name:           Omolola Falana
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "​Omolola Falana first dived into the world of literature at the age of 6. Starting with simple elementary books and grew into writing her own stories at the age of 7. She mostly prefers action and romance, but tends to have a soft spot for thrillers. On the side, she loves to watch analysis videos on characters and TV shows. Maybe she’ll even pack in a documentary or two on natural disasters."
+        email:          ofalana@ucvts.org
+        school:         MHS
+        grade:          Senior
+
+    bella:
+        name:           Bella Fajardo
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Bella Fajardo is a Senior at UCTech in the Academy for Law and Justice. She enjoys reading, listening to music, sewing, and playing card games. Bella is excited to be a part of the campus chronicle and to write articles about law, politics, music, and literature."
+        email:          bfajardo@ucvts.org
+        school:         UCTech Law and Justice
+        grade:          Senior
+
+    agnes:
+        name:           Agnes Yee
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Agnes Yee is a Senior at the AAHS who has joined Newspaper Club to explore her interests in scientific writing. More specifically, in psychology and biology. Outside of her fascination with understanding various scientific concepts, she fills up her leisure time doing gymnastics, volleyball, and martial arts. She likes all things straightforward and sees everything as having its own spot, illustrating her values for organization and highlighting her strengths in science-related courses. "
+        email:          ayee@ucvts.org
+        school:         AAHS
+        grade:          Senior
+
+    ethan:
+        name:           Ethan Ortiz
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Ethan Ortiz is a Junior at the Academy For Law & Justice (ALJ) at UCTECH. He is passionate about the world of politics and wants to find a high-ranking job within the government and military. He has an interest not just in politics, but in sports too. He looks forward to working with everyone at the UCVTS Newspaper Club for the next 4 years!"
+        email:          eortiz@ucvts.org
+        school:         UCTech Law & Justice
+        grade:          Junior
+
+    amelia:
+        name:           Amelia Hajduk
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Amelia Hajduk is a Junior at APA. In her free time, she enjoys reading and writing. She also loves spending time with her family and friends as well as playing on her instruments. Amelia enjoys writing articles on many different topics, and can't wait to start writing for the Campus Chronicle!"
+        email:          ahajduk@ucvts.org
+        school:         APA
+        grade:          Junior
+
+    madeline:
+        name:           Madeline Yong
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Maddie Yong is a Senior at the Academy for Allied Health Sciences. Outside of school, Maddie can be found on the tennis courts playing for the Westfield Girls' Tennis team; in addition to admiring her favorite tennis player, Ben Shelton. Maddie has a passion for biomedical engineering and genetics, and hopes to pursue these in her future. She is so excited to be a part of the 2023-2024 Campus Chronicle!"
+        email:          myong@ucvts.org
+        school:         AAHS
+        grade:          Senior
+
+    alison:
+        name:           Alison Park
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Editor-In-Chief
+        bio:            "Alison Park is a Senior at Allied Health. She loves to travel and learn about different places, and hopes to share these interests through the newspaper. This is her second year being involved with the Campus Chronicle. She looks forward to another year of sharing her writing with the students of UCVTS!"
+        email:          apark@ucvts.org
+        school:         AAHS
+        grade:          Senior
+
+    sophie:
+        name:           Sophie Wu
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Sophie Wu is a Senior at Magnet who is currently participating in the Campus Chronicle for her first year. She enjoys writing for fun, as it allows her to voice her opinions and feelings. Literature has always been one of her favorite subjects even when she was a young girl in elementary school. When she is not writing, she can be found playing tennis, skiing on the slopes, or hanging out with friends."
+        email:          swu@ucvts.org
+        school:         MHS
+        grade:          Senior
+
+    harsh:
+        name:           Harsh Shetty
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Harsh Shetty is a Alumni at MHS. He enjoys staying up to date with the current news events and political events. In addition, he's fascinated by the most recent advancements in technology and science, wishful of the potential benefits that it may bring to society.  He is glad to contribute when he can to help explain topics in an easier way without losing the general idea."
+        email:          hshetty@ucvts.org
+        school:         MHS
+        grade:          Alumni
+    
+    hanna:
+        name:           Hanna Pearce
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hanna Pearce is a Senior Theatre Major at APA and this is her first year in Newspaper Club! Her passion for writing came from her grandfather, who wrote commercials, and is her writing role model. Hanna is excited to be part of the Campus Chronicle and the club, and can't wait to see the incredible works everyone creates! In her free time, Hanna loves reading, jujitsu, singing, and (more) writing."
+        email:          hpearce@ucvts.org
+        school:         APA
+        grade:          Senior
+
+    gabriela: 
+        name:           Gabriela Cornejo
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "This is Gabriela's third year of writing for a newspaper club and first time writing for this specific newspaper. Gabriela started as a cartoonist and writer for her middle school newspaper and is now writing about all sorts of neat stuff on the Campus Chronicle. She has been given awards for her art in the past and was fortunate enough to have one of her short stories published. Gabriela has always loved to share stories, tell about her passions, and now she hopes to share that with you. "
+        email:          cgabriela@ucvts.org
+        school:         APA
+        grade:          Junior
+    
+    sharika:
+        name:           Sharika Dhar
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Sharika Dhar is a Junior at the Academy for Allied Health Sciences. Since she was very young, Sharika had a penchant for writing, public-speaking, and rhetoric. She is especially fond of writing poetry. Outside of writing, Sharika is a part of her school's marching band and fencing team. In addition, she is an avid singer. She looks forward to writing for Campus Chronicle and cannot wait to see what high school has in store for her in the years to come! "
+        email:          sdhar@ucvts.org
+        school:         Allied
+        grade:          Junior
+
+    sohem:
+        name:           Sohem Rai
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Sohem Rai."
+        email:          jrai@ucvts.org
+        school:         AIT
+        grade:          Alumni
+
+    audrey2:
+        name:           Audrey Lee
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I am Audrey Lee!"
+        email:          alee1@ucvts.org
+        school:         AIT
+        grade:          Senior
+
+    rayna:
+        name:           Rayna Hazarika
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I am Rayna Hazarika!"
+        email:          rhazarika@ucvts.org
+        school:         AIT
+        grade:          Senior
+
+    maddie:
+        name:           Maddie Patton
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I am Maddie Patton!"
+        email:          mpatton@ucvts.org
+        school:         UCTech School of Design 
+        grade:          Senior
+
+    xing:
+        name:           Xing Liao
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Xing Liao."
+        email:          xliao@ucvts.org
+        school:         UCTech
+        grade:          Senior
+
+    anwit:
+        name:           Anwit Ghoroi
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Anwit Ghoroi."
+        email:          aghoroi@ucvts.org
+        school:         AIT
+        grade:          Alumni
+    
+    mehr:
+        name:           Mehr Upashyay
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Mehr Upashyay."
+        email:          mupashyay@ucvts.org
+        school:         UCTECH
+        grade:          Sophomore
+
+    saidey:
+        name:           Saidey Kim
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Saidey Kim."
+        email:          skim1@ucvts.org
+        school:         AAHS
+        grade:          Sophomore
+
+    parker:
+        name:           Parker Bauman
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Editor-In-Chief
+        bio:            "Parker Bauman is a Senior at the Academy for Information Technology. He has interest in various subjects such as sports and sciences and he enjoys writing about his interests through the Campus Chronicle."
+        email:          pbauman@ucvts.org
+        school:         AIT
+        grade:          Senior
+    
+    evie:
+        name:           Evie Shen
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Evie Shen."
+        email:          eshen@ucvts.org
+        school:         MHS
+        grade:          Junior
+    
+    aryana:
+        name:           Aryana Tasharofi
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Aryana Tasharofi."
+        email:          atasharofi@ucvts.org
+        school:         UCTECH
+        grade:          Senior
+    
+    aliyah:
+        name:           Aliyah Isola-Gbenla
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Aliyah Isola-Gbenla"
+        email:          aisolagbenla@ucvts.org
+        school:         AAHS
+        grade:          Sophomore
+
+    tyler:
+        name:           Tyler Jacobowitz
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Tyler Jacobowitz"
+        email:          tjacobowitz@ucvts.org
+        school:         AAHS
+        grade:          Sophomore
+
+    parthiv:
+        name:           Parthiv Intwala
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Parthiv Intwala"
+        email:          pintwala@ucvts.org
+        school:         AIT
+        grade:          Sophomore
+    
+    kelly:
+        name:           Kelly Zheng
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Kelly Zheng"
+        email:          kzheng@ucvts.org
+        school:         AAHS
+        grade:          Junior
+
+    mariam:
+        name:           Mariam Tchitchueishvili
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Mariam Tchitchueishvili"
+        email:          mtchitchueishvili@ucvts.org
+        school:         UCTECH
+        grade:          Senior
+
+    athena:
+        name:           Athena Bishop
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Athena Bishop"
+        email:          abishop@ucvts.org
+        school:         AAHS
+        grade:          Sophomore
+    
+    athena1:
+        name:           Athena Corbishley
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Athena Corbishley"
+        email:          acorbishley@ucvts.org
+        school:         UCTECH
+        grade:          Junior
+
+    abigail:
+        name:           Abigail Loeser
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Abigail Loeser"
+        email:          aloeser@ucvts.org
+        school:         UCTECH
+        grade:          Junior
+
+    sophia2:
+        name:           Sophia Hoff
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Sophia Hoff"
+        email:          shoff@ucvts.org
+        school:         APA
+        grade:          Sophomore
+    
+    makayla:
+        name:           Makayla Barte
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Makayla Barte"
+        email:          mbarte@ucvts.org
+        school:         AIT
+        grade:          Sophomore
+
+    amir:
+        name:           Amir Hunter
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Amir Hunter"
+        email:          ahunter@ucvts.org
+        school:         AIT
+        grade:          Senior
+    akwele:
+      name:           Akwele Lokko
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Akwele Lokko!"
+      email:          no_reply@ucvts.org
+      school:          AAHS
+      grade:          Alumni
+    patrick:
+      name:           Patrick Mochnal
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Patrick Mochnal!"
+      email:          no_reply@ucvts.org
+      school:          AIT
+      grade:          Alumni
+    haley:
+      name:           Haley Richardson
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Haley Richardson!"
+      email:          no_reply@ucvts.org
+      school:          UCTech
+      grade:          Alumni
+    chloe2:
+      name:           Chloe Gavula
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Chloe Gavula!"
+      email:          no_reply@ucvts.org
+      school:          APA
+      grade:          Alumni
+    sara:
+      name:           Sara Schwartz
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Sara Schwartz!"
+      email:          no_reply@ucvts.org
+      school:          AAHS
+      grade:          Alumni
+    ahmad:
+      name:           Ahmad Khizar
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Ahmad Khizar!"
+      email:          no_reply@ucvts.org
+      school:          AAHS
+      grade:          Alumni
+    ana:
+      name:           Ana Obradovic
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Ana Obradovic!"
+      email:          no_reply@ucvts.org
+      school:          AIT
+      grade:          Alumni
+    rachel:
+      name:           Rachel Bataille
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Rachel Bataille!"
+      email:          no_reply@ucvts.org
+      school:          MHS
+      grade:          Alumni
+    lilly:
+      name:           Lilly Resnick
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Lilly Resnick!"
+      email:          no_reply@ucvts.org
+      school:         AIT
+      grade:          Alumni
+    ivy:
+      name:           Ivy Liu
+      avatar:         /assets/images/avatars/anonymous.jpg
+      role:           Member
+      bio:            "Hi, I am Ivy Liu!"
+      email:          no_reply@ucvts.org
+      school:          MHS
+      grade:          Alumni
     anusha:
       name:           Anusha Iyer
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -69,7 +728,7 @@ authors:
       bio:            "Hi, I am Abdd Sharma, the webmaster of this website! I like retro games, Manchester United, and Dire Straits. Please feel free to email me at any time!"
       email:          asharma@ucvts.org
       school:         AIT
-      grade:          Senior
+      grade:          Alumni
 
     omolola:
       name:           Omolola Falana
@@ -260,684 +919,24 @@ authors:
       email:          no_reply@ucvts.org
       school:          AIT
       grade:          Alumni
-    jaime:
-      name:           Jaime Paladi
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Jaime Paladi!"
-      email:          no_reply@ucvts.org
-      school:          AIT
-      grade:          Junior
-    akwele:
-      name:           Akwele Lokko
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Akwele Lokko!"
-      email:          no_reply@ucvts.org
-      school:          AAHS
-      grade:          Alumni
-    patrick:
-      name:           Patrick Mochnal
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Patrick Mochnal!"
-      email:          no_reply@ucvts.org
-      school:          AIT
-      grade:          Alumni
-    haley:
-      name:           Haley Richardson
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Haley Richardson!"
-      email:          no_reply@ucvts.org
-      school:          UCTech
-      grade:          Alumni
-    chloe2:
-      name:           Chloe Gavula
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Chloe Gavula!"
-      email:          no_reply@ucvts.org
-      school:          APA
-      grade:          Alumni
-    sara:
-      name:           Sara Schwartz
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Sara Schwartz!"
-      email:          no_reply@ucvts.org
-      school:          AAHS
-      grade:          Alumni
-    ahmad:
-      name:           Ahmad Khizar
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Ahmad Khizar!"
-      email:          no_reply@ucvts.org
-      school:          AAHS
-      grade:          Alumni
-    ana:
-      name:           Ana Obradovic
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Ana Obradovic!"
-      email:          no_reply@ucvts.org
-      school:          AIT
-      grade:          Alumni
-    rachel:
-      name:           Rachel Bataille
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Rachel Bataille!"
-      email:          no_reply@ucvts.org
-      school:          MHS
-      grade:          Alumni
-    lilly:
-      name:           Lilly Resnick
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Lilly Resnick!"
-      email:          no_reply@ucvts.org
-      school:         AIT
-      grade:          Alumni
-    ivy:
-      name:           Ivy Liu
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Ivy Liu!"
-      email:          no_reply@ucvts.org
-      school:          MHS
-      grade:          Alumni
-    anonymous:
-      name:           Anonymous
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Anonymous!"
-      email:          no_reply@ucvts.org
-      school:         Unknown
-      grade:          Unknown
-    sophia:
-      name:           Sophia Mekbeb
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Editor-In-Chief
-      bio:            "Hi, I am Sophia Mekbeb!"
-      email:          no_reply@ucvts.org
-      school:         APA
-      grade:          Senior
-    mila:
-      name:           Mila Talati
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Mila Talati!"
-      email:          no_reply@ucvts.org
-      school:          AIT
-      grade:          Senior
-    gissele:
-      name:           Gissele Hernandez
-      avatar:         /assets/images/avatars/anonymous.jpg
-      role:           Member
-      bio:            "Hi, I am Gissele Hernandez!"
-      email:          no_reply@ucvts.org
-      school:          UCTech
-      grade:          Senior
-    amanda:
-        name:           Amanda Leung
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Editor-In-Chief
-        bio:            "Amanda Leung is a Senior in the Academy of Law & Justice at UCTech and this is her 3rd year as a layout editor. She enjoys baking cupcakes, watching debates, and going to Noah Kahan concerts!"
-        email:          aleung@ucvts.org
-        school:         UCTech Law & Justice
-        grade:          Senior
-
-    tchouassi:
-        name:           Tchouassi Yohsie
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Yohsie Tchouassi is a Junior at UCTech, School of Design. They have a strong interest in writing and are currently in a process of writing a book. She cares greatly about social rights advocacy and working on the education of herself and those around her. "
-        email:          tyohsie@ucvts.org
-        school:         UCTech School of Design 
-        grade:          Junior
 
     sara:
         name:           Sara Schwartz
         avatar:         /assets/images/avatars/anonymous.jpg
         role:           Member
-        bio:            "Sara Schwartz is a Alumni at AAHS and has been an avid author with the Campus Chronicle ever since they were a Sophomore. She is known for her style, science expertise, and passion for expressing the voices of the unheard. Sara hopes to make their last year with Newspaper Club one of the best as part of this team of talented students."
+        bio:            "Sara Schwartz is a Alumni at AAHS and has been an avid author with the Campus Chronicle ever since they were a Junior. She is known for her style, science expertise, and passion for expressing the voices of the unheard. Sara hopes to make their last year with Newspaper Club one of the best as part of this team of talented students."
         email:          sschwartz@ucvts.org
         school:         AAHS
         grade:          Alumni
-
-    claire:
-        name:           Claire Yang
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Claire is currently a Sophomore at AIT. She is beyond excited to be apart of the club, and she looks forward to publishing a lot of articles. In her free time, Claire enjoys running, writing, science, and reading."
-        email:          cyang@ucvts.org
-        school:         AIT
-        grade:          Sophomore
-
-    jessica:
-        name:           Jessica Zhou
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Jessica Zhou is a Sophomore in Magnet. She does cross country, track and field, basketball and tennis. She has a pet hamster and she enjoys fishing. She likes to cook too."
-        email:          jzhou@ucvts.org
-        school:         MHS
-        grade:          Sophomore
-
-    melissa:
-        name:           Melissa Duran de Paula
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Melissa Duran de Paula has been writing since she first figured out how. She has written many short stories ending with her characteristic twists, taking inspiration from her favorite novels. Her idea of a perfect day involves snuggling up with her dog and a good book while steadily falling in love with questionable fictional characters."
-        email:          mdurandepaula@ucvts.org
-        school:         AAHS
-        grade:          Senior
-
-    joanna:
-        name:           Joanna Munoz
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Joanna joined Newspaper club her Junior year after having interest in gaining writing experience and bettering herself as a writer. Now a Senior at AIT, Joanna is excited to continue writing articles and to have new experiences in Newspaper Club. Joanna spends her free time reading, listening to music, and hanging out with her friends and family. She especially loves to spend time with her Yorkie, Blu Bear.  "
-        email:          jmunoz@ucvts.org
-        school:         AIT
-        grade:          Senior
-
-    alexander:
-        name:           Alexander Zuniga
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Alexander Zuniga is a Senior at AAHS and is excited to express his ideas in the Campus Chronicles this year. He is very passionate about literature, working out, and photography. He is a wild card and loves to write about whatever he finds important in the moment. In his free time, he loves hanging out with friends and enjoying the outdoors. "
-        email:          azuniga@ucvts.org
-        school:         AAHS
-        grade:          Senior
-
-    mesoma:
-        name:           Mesoma Efobi
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Mesoma"
-        email:          mefobi@ucvts.org
-        school:         MHS
-        grade:          Sophomore
-
-    isabella:
-        name:           Isabella Rossi
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Isabella is currently a Sophomore at AAHS. She is excited to participate and contribute to the Campus Chronicle and express her passion for writing! Isabella loves using her voice to talk about topics she cares about, and she believes that the Campus Chronicle is a perfect way to do so! She loves experiencing (and reading) about adventures and thrills, and is always ready to put herself out there and try new things. "
-        email:          irossi@ucvts.org
-        school:         AAHS
-        grade:          Sophomore
-
-    tea:
-        name:           Téa Florencio
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Téa Florencio is a grade 10 student at UCTech, The Academy of Law and Justice. While she is an aspiring lawyer, she loves to write fiction and poetry. In her free time, she writes, plays piano, reads, learns about philosophy, and spends time outside."
-        email:          tflorencio@ucvts.org
-        school:         UCTech Law and Justice
-        grade:          Junior
-
-    claire:
-        name:           Claire Yang
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Claire is currently a Sophomore at AIT. She is beyond excited to be part of the team, and she looks forward to writing interesting articles about fascinating topics. In her free time, Claire enjoys running, writing, science, and reading."
-        email:          cyang@ucvts.org
-        school:         AIT
-        grade:          Sophomore
-
-    jainithin:
-        name:           Jainithin Jeyaprakash
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Jainithin is a talented young writer hailing from Magnet School. When he's not crafting compelling stories, he can be found on the basketball court, swinging for the fences in baseball, or honing his skills on the cricket pitch. With a passion for both sports and storytelling, Jainithin brings a unique perspective to his writing that captivates readers and keeps them engaged from start to finish."
-        email:          jjeyaprakash@ucvts.org
-        school:         MHS
-        grade:          Sophomore
-
-    david:
-        name:           David Punzalan
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "David Punzalan, Junior and amateur writer, seeks to canvass the vast unknowns. He is, as F. Scott Fitzgerald criticizes, \"that most limited of all specialists, the 'well-rounded man.'\" But to rebuke! As a person who has done a little bit of everything, David is no stranger to literature: he's taken writing classes at TANJ Arts and High, was nominated as the Sophomore Overall Scholar at MHS, and, most importantly, is an avid reader. David believes that true nirvana results from enlightenment; his publications are relief for the aspiring epistemologist."
-        email:          dpunzalan@ucvts.org
-        school:         MHS
-        grade:          Junior
-
-    anika:
-        name:           Anika Jolly
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Anika is a Sophomore at MHS and has just recently joined the Campus Chronicle team. She has been apart of many newspaper clubs since elementary school. Some of her hobbies include tennis, swim, playing the alto sax, chess, and of course, writing. She's very passionate to write about medical related and tech related articles. "
-        email:          ajolly@ucvts.org
-        school:         MHS
-        grade:          Sophomore
-
-    ananya:
-        name:           Ananya Vikram
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Ananya Vikram is a Junior at AAHS. She has a strong interest in journalism and loves to read. She enjoys listening to music, dancing, and hanging out with friends. Although this is her first year in the club, she is excited to contribute!"
-        email:          avikram@ucvts.org
-        school:         AAHS
-        grade:          Junior
-
-    paige:
-        name:           Paige Porciello
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Paige Porciello is a Sophomore at AIT and is thrilled to be starting out at the Newspaper Club.  She worked on her middle school's morning broadcast program scripting segments, operating technology components, and directing.  She is passionate about colorguard, art, technology, and astronomy.  She loves dogs and hopes to have one in her household someday.  In her free time, she draws, paints, bakes, and listens to music."
-        email:          pporciello@ucvts.org
-        school:         AIT
-        grade:          Sophomore
-
-    eric:
-        name:           Eric Yu
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Editor-In-Chief
-        bio:            "Eric Yu is a Senior at the Academy for Information Technology. He has been a part of the Campus Chronicles for the past 2 years, becoming an editor this year. He plays baseball and clarinet as some of his hobbies. He plans to write about current events, business, and sports for the Campus Chronicles."
-        email:          eyu@ucvts.org
-        school:         AIT
-        grade:          Senior
-
-    chloe:
-        name:           Chloe Zeng
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Chloe Zeng is a Junior at AAHS and is a passionate reader/writer. She has been part of the UCVTS Newspaper Club for two years and is currently a shadow editor. Chloe is excited to be part of the Campus Chronicle by contributing her interests into articles that can be read by the student body. When Chloe is not surrounded by works of authors, she can be found surfing the internet, jogging in parks, playing the piano, or watching TV. "
-        email:          czeng@ucvts.org
-        school:         AAHS
-        grade:          Junior
-
-    carrie:
-        name:           Carrie Xu
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Carrie Xu is a Junior attending the Academy for Allied Health Sciences. In her free time, she enjoys reading, drawing, and walking. She has an interest in writing medical-related topics and aspires to become a future healthcare professional."
-        email:          cxu@ucvts.org
-        school:         AAHS
-        grade:          Junior
-
-    phoebe:
-        name:           Phoebe Hu
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Phoebe Hu is a current Sophomore at AAHS. She enjoys writing and is excited to be able to be a part of the Campus Chronicle this year! In her free time, Phoebe likes to play soccer, listen to music, play the piano and guitar, and watch movies/TV shows. She plans to write about topics relating to health and science. "
-        email:          phu@ucvts.org
-        school:         AAHS
-        grade:          Sophomore
-
-    danielle:
-        name:           Danielle Macchi
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Danielle Macchi is a Junior at UCTECH and is a part of the Law and Justice Academy. Danielle joined because of her love for both reading and writing. She hopes that writing articles for the Campus Chronicle will be a way for her voice to be heard and to improve her writing skills and abilities. "
-        email:          dmacchi@ucvts.org
-        school:         UCTech Law and Justice 
-        grade:          Junior
-
-    tara:
-        name:           Tara Kilgannon
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Tara Kilgannon is a Junior at UCTECH and she is a part of the Law & Justice Academy. Tara has always had a strong passion for writing, she loves creating short stories, poetry or anything where she gets to be creative. Some of her other interests include baking, reading, music, studying the criminal justice system and CSI. This is her first year doing the newspaper club and she is excited to write articles and share them with others. "
-        email:          tkilgannon@ucvts.org
-        school:         UCTech Law & Justice 
-        grade:          Junior
-
-    jaime:
-        name:           Jaime Paladi
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Jaime Paladi is currently a Junior at the Academy for Information Technology. Last year, he wrote one article about Breaking Bad for the Campus Chronicle. He plans to start his own blog to continue his passion for writing. As for his interests, he plays varsity bowling for Linden High School and has a liking for music. He is excited for his second year back at newspaper club and hopes to become an editor."
-        email:          jpaladi@ucvts.org
-        school:         AIT
-        grade:          Junior
-
-    catalina:
-        name:           Catalina Gurdian Vazquez
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Cat is a Sophomore in UCTech School of Design who loves all things art. He's never been into writing but is excited to try something new. He has been described with words such as crazy, loud, and funny while also having a calm and quiet personality when necessary. Nothing feels more like home to him than the holiday season which is a weird thing to be oddly obbsesed about but it is what it is. Finally, his spirit animal is Vector from Despicable Me."
-        email:          cgurdianvazquez@ucvts.org
-        school:         UCTech School of Design
-        grade:          Sophomore
-
-    ifechukwu:
-        name:           Ifechukwu Efobi
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Ifechukwu Efobi (she/her) is a Magnet High School Senior trying to survive the influx of homework and responsibilities. Ever since she was a child, she was fascinated with the constant fantasy and imagination that books held within their beige colored pages. However, as she grew older and more obsessed with the \"perfect\" grade and \"perfect\" school, her relationship with books began to depart and her imagination died along with it. So, I guess you could say she's trying to rekindle the light she had when she was a kid. Or at least trying to improve her writing skills. Either way, she's excited to be here!"
-        email:          iefobi@ucvts.org
-        school:         MHS
-        grade:          Senior
-
-    sydney:
-        name:           Sydney Kim
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Editor-In-Chief
-        bio:            "Sydney Kim is currently a Senior at AAHS. She enjoys writing about current events and science. She is an avid tennis player, and, in her spare time, she loves to cook and bake. She also enjoys traveling, enabling her to infuse cultural insights into her writing. She loves being involved with the Campus Chronicles, and is excited to contribute more."
-        email:          skim@ucvts.org
-        school:         AAHS
-        grade:          Senior
 
     shreya:
         name:           Shreya Nara
         avatar:         /assets/images/avatars/anonymous.jpg
         role:           Member
-        bio:            "Shreya is currently a Alumni at AIT. She has enjoyed writing for the newspaper club since her Sophomore year of high school, specifically news articles. This year, she’s excited to continue writing for the Campus Chronicle and plans to explore some of the other categories. Shreya is thrilled to be a news editor this year and help others share important current events with the UCVTS community. In her free time, she reads books and watches movies. "
+        bio:            "Shreya is currently a Alumni at AIT. She has enjoyed writing for the newspaper club since her Junior year of high school, specifically news articles. This year, she’s excited to continue writing for the Campus Chronicle and plans to explore some of the other categories. Shreya is thrilled to be a news editor this year and help others share important current events with the UCVTS community. In her free time, she reads books and watches movies. "
         email:          snara@ucvts.org
         school:         AIT
         grade:          Alumni
-
-    omolola:
-        name:           Omolola Falana
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "​Omolola Falana first dived into the world of literature at the age of 6. Starting with simple elementary books and grew into writing her own stories at the age of 7. She mostly prefers action and romance, but tends to have a soft spot for thrillers. On the side, she loves to watch analysis videos on characters and TV shows. Maybe she’ll even pack in a documentary or two on natural disasters."
-        email:          ofalana@ucvts.org
-        school:         MHS
-        grade:          Senior
-
-    bella:
-        name:           Bella Fajardo
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Bella Fajardo is a Junior at UCTech in the Academy for Law and Justice. She enjoys reading, listening to music, sewing, and playing card games. Bella is excited to be a part of the campus chronicle and to write articles about law, politics, music, and literature."
-        email:          bfajardo@ucvts.org
-        school:         UCTech Law and Justice
-        grade:          Junior
-
-    agnes:
-        name:           Agnes Yee
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Agnes Yee is a Junior at the AAHS who has joined Newspaper Club to explore her interests in scientific writing. More specifically, in psychology and biology. Outside of her fascination with understanding various scientific concepts, she fills up her leisure time doing gymnastics, volleyball, and martial arts. She likes all things straightforward and sees everything as having its own spot, illustrating her values for organization and highlighting her strengths in science-related courses. "
-        email:          ayee@ucvts.org
-        school:         AAHS
-        grade:          Junior
-
-    ethan:
-        name:           Ethan Ortiz
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Ethan Ortiz is a Sophomore at the Academy For Law & Justice (ALJ) at UCTECH. He is passionate about the world of politics and wants to find a high-ranking job within the government and military. He has an interest not just in politics, but in sports too. He looks forward to working with everyone at the UCVTS Newspaper Club for the next 4 years!"
-        email:          eortiz@ucvts.org
-        school:         UCTech Law & Justice
-        grade:          Sophomore
-
-    amelia:
-        name:           Amelia Hajduk
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Amelia Hajduk is a Sophomore at APA. In her free time, she enjoys reading and writing. She also loves spending time with her family and friends as well as playing on her instruments. Amelia enjoys writing articles on many different topics, and can't wait to start writing for the Campus Chronicle!"
-        email:          ahajduk@ucvts.org
-        school:         APA
-        grade:          Sophomore
-
-    madeline:
-        name:           Madeline Yong
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Maddie Yong is a Junior at the Academy for Allied Health Sciences. Outside of school, Maddie can be found on the tennis courts playing for the Westfield Girls' Tennis team; in addition to admiring her favorite tennis player, Ben Shelton. Maddie has a passion for biomedical engineering and genetics, and hopes to pursue these in her future. She is so excited to be a part of the 2023-2024 Campus Chronicle!"
-        email:          myong@ucvts.org
-        school:         AAHS
-        grade:          Junior
-
-    alison:
-        name:           Alison Park
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Editor-In-Chief
-        bio:            "Alison Park is a Junior at Allied Health. She loves to travel and learn about different places, and hopes to share these interests through the newspaper. This is her second year being involved with the Campus Chronicle. She looks forward to another year of sharing her writing with the students of UCVTS!"
-        email:          apark@ucvts.org
-        school:         AAHS
-        grade:          Junior
-
-    sophie:
-        name:           Sophie Wu
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Sophie Wu is a Junior at Magnet who is currently participating in the Campus Chronicle for her first year. She enjoys writing for fun, as it allows her to voice her opinions and feelings. Literature has always been one of her favorite subjects even when she was a young girl in elementary school. When she is not writing, she can be found playing tennis, skiing on the slopes, or hanging out with friends."
-        email:          swu@ucvts.org
-        school:         MHS
-        grade:          Junior
-
-    harsh:
-        name:           Harsh Shetty
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Harsh Shetty is a Alumni at MHS. He enjoys staying up to date with the current news events and political events. In addition, he's fascinated by the most recent advancements in technology and science, wishful of the potential benefits that it may bring to society.  He is glad to contribute when he can to help explain topics in an easier way without losing the general idea."
-        email:          hshetty@ucvts.org
-        school:         MHS
-        grade:          Alumni
-    
-    hanna:
-        name:           Hanna Pearce
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hanna Pearce is a Senior Theatre Major at APA and this is her first year in Newspaper Club! Her passion for writing came from her grandfather, who wrote commercials, and is her writing role model. Hanna is excited to be part of the Campus Chronicle and the club, and can't wait to see the incredible works everyone creates! In her free time, Hanna loves reading, jujitsu, singing, and (more) writing."
-        email:          hpearce@ucvts.org
-        school:         APA
-        grade:          Senior
-
-    gabriela: 
-        name:           Gabriela Cornejo
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "This is Gabriela's third year of writing for a newspaper club and first time writing for this specific newspaper. Gabriela started as a cartoonist and writer for her middle school newspaper and is now writing about all sorts of neat stuff on the Campus Chronicle. She has been given awards for her art in the past and was fortunate enough to have one of her short stories published. Gabriela has always loved to share stories, tell about her passions, and now she hopes to share that with you. "
-        email:          cgabriela@ucvts.org
-        school:         APA
-        grade:          Sophomore
-    
-    sharika:
-        name:           Sharika Dhar
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Sharika Dhar is a Sophomore at the Academy for Allied Health Sciences. Since she was very young, Sharika had a penchant for writing, public-speaking, and rhetoric. She is especially fond of writing poetry. Outside of writing, Sharika is a part of her school's marching band and fencing team. In addition, she is an avid singer. She looks forward to writing for Campus Chronicle and cannot wait to see what high school has in store for her in the years to come! "
-        email:          sdhar@ucvts.org
-        school:         Allied
-        grade:          Sophomore
-
-    sohem:
-        name:           Sohem Rai
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Sohem Rai."
-        email:          jrai@ucvts.org
-        school:         AIT
-        grade:          Alumni
-
-    audrey2:
-        name:           Audrey Lee
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I am Audrey Lee!"
-        email:          alee1@ucvts.org
-        school:         AIT
-        grade:          Junior
-
-    rayna:
-        name:           Rayna Hazarika
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I am Rayna Hazarika!"
-        email:          rhazarika@ucvts.org
-        school:         AIT
-        grade:          Junior
-
-    maddie:
-        name:           Maddie Patton
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I am Maddie Patton!"
-        email:          mpatton@ucvts.org
-        school:         UCTech School of Design 
-        grade:          Junior
-
-    xing:
-        name:           Xing Liao
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Xing Liao."
-        email:          xliao@ucvts.org
-        school:         UCTech
-        grade:          Junior
-
-    anwit:
-        name:           Anwit Ghoroi
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Anwit Ghoroi."
-        email:          aghoroi@ucvts.org
-        school:         AIT
-        grade:          Alumni
-    
-    mehr:
-        name:           Mehr Upashyay
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Mehr Upashyay."
-        email:          mupashyay@ucvts.org
-        school:         UCTECH
-        grade:          Freshman
-
-    saidey:
-        name:           Saidey Kim
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Saidey Kim."
-        email:          skim1@ucvts.org
-        school:         AAHS
-        grade:          Freshman
-
-    parker:
-        name:           Parker Bauman
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Editor-In-Chief
-        bio:            "Parker Bauman is a junior at the Academy for Information Technology. He has interest in various subjects such as sports and sciences and he enjoys writing about his interests through the Campus Chronicle."
-        email:          pbauman@ucvts.org
-        school:         AIT
-        grade:          Junior
-    
-    evie:
-        name:           Evie Shen
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Evie Shen."
-        email:          eshen@ucvts.org
-        school:         MHS
-        grade:          Sophomore
-    
-    aryana:
-        name:           Aryana Tasharofi
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Aryana Tasharofi."
-        email:          atasharofi@ucvts.org
-        school:         UCTECH
-        grade:          Junior
-    
-    aliyah:
-        name:           Aliyah Isola-Gbenla
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Aliyah Isola-Gbenla"
-        email:          aisolagbenla@ucvts.org
-        school:         AAHS
-        grade:          Freshman
-
-    tyler:
-        name:           Tyler Jacobowitz
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Tyler Jacobowitz"
-        email:          tjacobowitz@ucvts.org
-        school:         AAHS
-        grade:          Freshman
-
-    parthiv:
-        name:           Parthiv Intwala
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Parthiv Intwala"
-        email:          pintwala@ucvts.org
-        school:         AIT
-        grade:          Freshman
-    
-    kelly:
-        name:           Kelly Zheng
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Kelly Zheng"
-        email:          kzheng@ucvts.org
-        school:         AAHS
-        grade:          Sophomore
-
-    mariam:
-        name:           Mariam Tchitchueishvili
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Mariam Tchitchueishvili"
-        email:          mtchitchueishvili@ucvts.org
-        school:         UCTECH
-        grade:          Junior
-
-    athena:
-        name:           Athena Bishop
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Athena Bishop"
-        email:          abishop@ucvts.org
-        school:         AAHS
-        grade:          Freshman
-    
-    athena1:
-        name:           Athena Corbishley
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Athena Corbishley"
-        email:          acorbishley@ucvts.org
-        school:         UCTECH
-        grade:          Sophomore
-
-    abigail:
-        name:           Abigail Loeser
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Abigail Loeser"
-        email:          aloeser@ucvts.org
-        school:         UCTECH
-        grade:          Sophomore
-
-    sophia2:
-        name:           Sophia Hoff
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Sophia Hoff"
-        email:          shoff@ucvts.org
-        school:         APA
-        grade:          Freshman
-    
-    makayla:
-        name:           Makayla Barte
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Makayla Barte"
-        email:          mbarte@ucvts.org
-        school:         AIT
-        grade:          Freshman
-
-    amir:
-        name:           Amir Hunter
-        avatar:         /assets/images/avatars/anonymous.jpg
-        role:           Member
-        bio:            "Hi, I'm Amir Hunter"
-        email:          ahunter@ucvts.org
-        school:         AIT
-        grade:          Senior
-
 
 # Defaults
 defaults:
