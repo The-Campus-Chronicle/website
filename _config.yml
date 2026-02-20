@@ -598,6 +598,7 @@ authors:
         email:          ahunter@ucvts.org
         school:         AIT
         grade:          Senior
+
     akwele:
       name:           Akwele Lokko
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -606,6 +607,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AAHS
       grade:          Alumni
+
     patrick:
       name:           Patrick Mochnal
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -614,6 +616,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AIT
       grade:          Alumni
+
     haley:
       name:           Haley Richardson
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -622,6 +625,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          UCTech
       grade:          Alumni
+
     chloe2:
       name:           Chloe Gavula
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -630,6 +634,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          APA
       grade:          Alumni
+
     sara:
       name:           Sara Schwartz
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -638,6 +643,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AAHS
       grade:          Alumni
+
     ahmad:
       name:           Ahmad Khizar
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -646,6 +652,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AAHS
       grade:          Alumni
+
     ana:
       name:           Ana Obradovic
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -654,6 +661,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AIT
       grade:          Alumni
+
     rachel:
       name:           Rachel Bataille
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -662,6 +670,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          MHS
       grade:          Alumni
+
     lilly:
       name:           Lilly Resnick
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -670,6 +679,7 @@ authors:
       email:          no_reply@ucvts.org
       school:         AIT
       grade:          Alumni
+
     ivy:
       name:           Ivy Liu
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -678,6 +688,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          MHS
       grade:          Alumni
+
     anusha:
       name:           Anusha Iyer
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -686,6 +697,7 @@ authors:
       email:          no_reply@ucvts.org
       school:         AIT
       grade:          Alumni
+
     dylan:
       name:           Dylan Intwala
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -694,6 +706,7 @@ authors:
       email:          dintwala@ucvts.org
       school:         AIT
       grade:          Alumni
+
     akash:
       name:           Akash Dubey
       site:           https://akeboss-tech.github.io/
@@ -703,6 +716,7 @@ authors:
       email:          adubey@ucvts.org
       school:         AIT
       grade:          Alumni
+
     alan:
       name:           Alan Ostrovsky
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -711,6 +725,7 @@ authors:
       email:          no_reply@ucvts.org
       school:         AIT
       grade:          Alumni
+
 
     joe:
       name:           Joe Baldwin
@@ -721,6 +736,7 @@ authors:
       school:         UCTech
       grade:          Alumni
 
+
     abdd:
       name:           Abdd Sharma
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -729,6 +745,7 @@ authors:
       email:          asharma@ucvts.org
       school:         AIT
       grade:          Alumni
+
 
     omolola:
       name:           Omolola Falana
@@ -791,6 +808,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          MHS
       grade:          Alumni
+
     alondra:
       name:           Alondra Martinez
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -799,6 +817,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          UCTech
       grade:          Alumni
+
     ernest:
       name:           Ernest Romero
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -807,6 +826,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          APA
       grade:          Alumni
+
     gregory:
       name:           Gregory Martinez
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -815,6 +835,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AAHS
       grade:          Alumni
+
     maya:
       name:           Maya Dias
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -823,6 +844,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AIT
       grade:          Alumni
+
     shreya:
       name:           Shreya Nara
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -831,6 +853,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AIT
       grade:          Alumni
+
     ella:
       name:           Ella Platts
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -839,6 +862,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          UCTech
       grade:          Alumni
+
     monica:
       name:           Monica Manescu
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -847,6 +871,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AAHS
       grade:          Alumni
+
     diya:
       name:           Diya Nainwal
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -855,6 +880,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AAHS
       grade:          Alumni
+
     kenna:
       name:           Kenna Srivastava
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -863,6 +889,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          MHS
       grade:          Alumni
+
     saniya:
       name:           Saniya Harlalka
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -871,6 +898,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AAHS
       grade:          Alumni
+
     justin:
       name:           Justin Zimmerman
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -879,6 +907,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AIT
       grade:          Alumni
+
     sarah:
       name:           Sarah Bauman
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -887,6 +916,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          APA
       grade:          Alumni
+
     kaitlyn:
       name:           Kaitlyn Landaverde
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -895,6 +925,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          APA
       grade:          Alumni
+
     mattia:
       name:           Mattia Leingang
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -903,6 +934,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          AIT
       grade:          Alumni
+
     megan:
       name:           Megan Lahetta
       avatar:         /assets/images/avatars/anonymous.jpg
@@ -911,6 +943,7 @@ authors:
       email:          no_reply@ucvts.org
       school:          UCTech
       grade:          Alumni
+      
     daivya:
       name:           Daivya Sadhvani
       avatar:         /assets/images/avatars/anonymous.jpg
