@@ -383,6 +383,15 @@ authors:
         school:         APA
         grade:          Senior
 
+    hannah:
+        name:           Hannah Koglin
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I am Hannah Koglin!"
+        email:          hkoglin@ucvts.org
+        school:         AAHS
+        grade:          Freshman
+
     gabriela: 
         name:           Gabriela Cornejo
         avatar:         /assets/images/avatars/anonymous.jpg
@@ -462,6 +471,15 @@ authors:
         bio:            "Hi, I'm Mehr Upashyay."
         email:          mupashyay@ucvts.org
         school:         UCTECH
+        grade:          Sophomore
+
+    sadhya:
+        name:           Sadhya Tadi
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Sadhya Tadi!"
+        email:          stadi@ucvts.org
+        school:         AIT
         grade:          Sophomore
 
     saidey:
