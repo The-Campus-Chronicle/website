@@ -1,45 +1,73 @@
 ---
 layout: post
-title: "K2-18b:  Possible Hycean World and Harborer of Alien Life"
+title: "K2-18b:  Possible Hycean World and Harborer of Alien Life?"
 author: [ paige ]
 categories: [ News, Science ]
 image: assets/images/articles_2024/edition_1/hycean.png
 tags: []
 ---
 For centuries, humanity has been fascinated by the idea of life on other worlds. Scientists constantly debate about whether there truly are other life-sustaining worlds within our universe and where to find it. Any sort of abnormality detected from space has sparked curiosity among people about alien life, but every single one has been traced to some natural occurrence. In December, 2021, the James Webb Space Telescope (JWST) was launched by NASA to gather and expand upon our knowledge of the cosmos using infrared light for imaging. Astronomers using Webb has recently discovered a potential evidence supporting the existence of alien life on K2-18b, an exoplanet now theorized to be a hycean planet, a hypothetical class of planet with a hydrogen-rich atmosphere and a surface entirely covered in liquid water.
-	To determine a planet’s habitability, astronomers often look to determine the composition of its atmosphere for elements that are known to be life-supporting on Earth and compounds produced exclusively by organisms. Recently, they have taken advantage of the Fine Guide Sensor/ Near Infrared Imager and Slitless Spectrograph (FGS-NIRISS) on JWST. The FGS helps point the telescope target areas to ensure accurate imaging and observations are possible, even on moving objects. The NIRISS has a camera and a slitless spectrograph which allows astronomers to determine exoplanets’ atmospheric compositions by taking their spectra using a method called transit spectroscopy. 
+
+To determine a planet’s habitability, astronomers often look to determine the composition of its atmosphere for elements that are known to be life-supporting on Earth and compounds produced exclusively by organisms. Recently, they have taken advantage of the Fine Guide Sensor/ Near Infrared Imager and Slitless Spectrograph (FGS-NIRISS) on JWST. The FGS helps point the telescope target areas to ensure accurate imaging and observations are possible, even on moving objects. The NIRISS has a camera and a slitless spectrograph which allows astronomers to determine exoplanets’ atmospheric compositions by taking their spectra using a method called transit spectroscopy. 
+
 During a transit, a planet passes between its host star and an observer and blocks out a small portion of its star’s light; the surface will block out all of the light, and the atmosphere blocks out some of the light (appearing like a translucent outline) around the planet if it’s present. A spectrograph can be taken to observe how the light is blocked by the atmosphere of an exoplanet and what specific wavelengths of light are being absorbed by it and to what degree. These blockages are spectroscopic signatures unique to all of the atoms and compounds making up the atmosphere. When NIRISS observes transits, its spectrograph takes in infrared light passing through the atmosphere and converts it to a spectrum of every color of visible light and the spectroscopic signatures will appear in it like dark strips making it look like a barcode. These spectrums with light blocked out are known as spectras and can give astronomers information about a planet’s atmospheric composition and whether or not it has potential as a host of alien life.
-	Over the years, astrobiologists have hypothesized a general list of what they would expect to find on life-harboring planets based on Earth’s conditions. Elements and compounds that are strongly believed to have made life possible on Earth are sought after by astrobiologists. It’s also assumed that a planet must orbit a star within its habitable zone, the range of distances away from the star in which liquid water can be sustained on a planet’s surface. Along with this, life-harborers should have a thick atmosphere in order to support respiration, regulate climate and shield harmful star emissions. They should also have at least a somewhat old age as most developing planets’ conditions are too brutal to support life. 
+
+Over the years, astrobiologists have hypothesized a general list of what they would expect to find on life-harboring planets based on Earth’s conditions. Elements and compounds that are strongly believed to have made life possible on Earth are sought after by astrobiologists. It’s also assumed that a planet must orbit a star within its habitable zone, the range of distances away from the star in which liquid water can be sustained on a planet’s surface. Along with this, life-harborers should have a thick atmosphere in order to support respiration, regulate climate and shield harmful star emissions. They should also have at least a somewhat old age as most developing planets’ conditions are too brutal to support life. 
+
 In 2021, Nikku Madhusudhan, a professor the University of Cambridge, and his colleagues published a paper titled, “Habitability and Biosignatures of Hycean Worlds” in The Astrophysics Journal that hypothesized a new classification of planets named the “hycean planet.” Madhusudhan and his colleagues expect water, methane, ammonia, helium and hydrogen to dominate hycean atmospheres, but also state, “We also consider a case where [methane and ammonia] are depleted…” (Madhusudhan 4.1). These planets are also believed to have thick atmospheres that can trap heat easily, maintaining temperature conditions necessary for liquid water even while being farther away from a star’s habitable zone. Because hycean worlds are theorized to be completely covered by water, they may be able to give life a safe environment to establish itself. Despite hycean planets having conditions so different from the conventional ones astrobiologists look for in exoplanets, they are now being searched for by them. However, they are only hypothetical as there have been no confirmed discoveries of any, but new insights into a distant exoplanet may make the existence of hycean worlds go from theoretical to proven.
-The exoplanet K2-18b itself isn’t a new discovery as it was first spotted in 2015 by the Kepler space telescope, but it has now drawn attention to itself because of new observations from JWST. It orbits K2-18, a red dwarf star, and is approximately 124 light years away from Earth. The exoplanet’s orbit takes about 33 Earth days and is within its star’s habitable zone. The world’s large radius and its great mass initially made astronomers class it as a super-earth. 
-![Image] (/assets/images/jan/Atmosphere-Composition.png)
+
+K2-18b itself isn’t a new discovery as it was first spotted in 2015 by the Kepler space telescope, but it has now drawn attention to itself because of new observations from JWST. It orbits K2-18, a red dwarf star, and is approximately 124 light years away from Earth. The exoplanet’s orbit takes about 33 Earth days and is within its star’s habitable zone. The world’s large radius and its great mass initially made astronomers class it as a super-earth. 
+
+![Image](/assets/images/jan/Atmosphere-Composition.png)
 
     Image: Spectrographic signatures of methane, carbon dioxide and dimethyl sulfide in K2-18b’s spectra taken by JWST, released Sept. 11, 2023 
 
 On Sept. 11, 2023, NASA released K2-18b’s spectra taken by Nikku Madhusudhan using JWST. It indicates the presence of carbon dioxide, methane and dimethyl sulfide in the exoplanet’s atmosphere. Despite lacking one of the main compounds expected to be in hycean atmospheres, ammonia, the atmosphere’s high amounts of methane and carbon dioxide still support the idea of K2-18b’s conditions meeting the criteria to be classified as a hycean planet. Further supporting the theory of K2-18b being hycean, water vapor was detected in multiple spectras of its atmosphere taken by the Hubble Space Telescope in 2016 and 2017. Astronomers have also taken an interest in the dimethyl sulfide detected by Webb. On Earth, the only way dimethyl sulfide is produced naturally is through a type of oxidation performed by marine microorganisms and algae. The presence of it in significant enough amounts to be detected by JWST could suggest that K2-18b is the first known exoplanet to support life.
+
 To determine the accuracy of the spectra, Madhusudhan plans to collect more data about the atmospheric composition of K2-18b using Webb. The detection of dimethyl sulfide is extremely uncertain as it hasn’t been detected on any worlds (other than Earth) before. The planet’s atmospheric thickness is also uncertain, so it could be too thin to support a liquid ocean. Its star is also extremely active, so the exoplanet is exposed to far more harmful radiation than Earth. The planet’s gravity may also be too strong to support life given its high mass. 
+
 Despite results still being uncertain, K2-18b’s spectra taken in 2023 could still be the pathway to major discoveries about exoplanets and potentially extraterrestrial life. If Webb's initial spectra is accurate, it confirms the existence of hycean worlds and alien life, probably in the form of marine microorganisms, but both concepts still remain hypothetical until the observations are further clarified. However, the detection of such a promising candidate for alien life could be the start of a new age of astronomy as humanity as a whole may finally get an answer to the question of whether Earth’s life is truly alone or not in the universe. 
 
 <center> <u> Works Cited</u></center>
 
 Andreoli, Claire. “NASA’s Hubble Finds Water Vapor on Habitable-Zone Exoplanet for 1st Time” Science.nasa.gov, 11 Sept. 2019, science.nasa.gov/missions/hubble/nasas-hubble-finds-water-vapor-on-habitable-zone-exoplanet-for-1st-time/. Accessed 10 Nov. 2023.
+
 Berkeley University of California. “When Did Life Originate? - Understanding Evolution.” Berkeley University of California, 11 Oct. 2021, evolution.berkeley.edu/from-soup-to-cells-the-origin-of-life/when-did-life-originate/. Accessed 10 Nov. 2023.
+
 Betz, Laura, et al. “Webb Discovers Methane, Carbon Dioxide in Atmosphere of K2-18 B - NASA.” Nasa.gov, 11 Sept. 2023, www.nasa.gov/universe/exoplanets/webb-discovers-methane-carbon-dioxide-in-atmosphere-of-k2-18-b/.
+
 Burrows, Adam S. “Spectra as Windows into Exoplanet Atmospheres.” Proceedings of the National Academy of Sciences, vol. 111, no. 35, Jan. 2014, pp. 12601–9, https://doi.org/10.1073/pnas.1304208111. Proceedings of the National Academy of Sciences. Accessed 23 Aug. 2020.
+
 Cowing, Keith. “Water Vapor on the Habitable-Zone Exoplanet K2-18b.” Astrobiology.com, 10 Sept. 2019, astrobiology.com/2019/09/water-vapor-on-the-habitable-zone-exoplanet-k2-18b.html. Accessed 10 Nov. 2023.
+
 Grossman, Lisa. “New Ideas on What Makes a Planet Habitable Could Reshape the Search for Life.” Science News, Society for Science, 30 Aug. 2021, www.sciencenews.org/article/planet-habitable-new-type-hycean-search-extraterrestrial-life-aliens. Accessed 10 Nov. 2023.
+
 Guinan, Edward F., and Scott G. Engle. “The K2-18b Planetary System: Estimates of the Age and X-UV Irradiances of a Habitable Zone ‘Wet’ Sub-Neptune Planet.” Research Notes of the AAS, vol. 3, no. 12, Dec. 2019, p. 189, https://doi.org/10.3847/2515-5172/ab6086. Research Notes of the AAS. Accessed 8 Nov. 2023.
+
 information@eso.org. “NIRCam & NIRISS.” Esawebb.org, esawebb.org/about/instruments/nircam-niriss/. Accessed 8 Nov. 2023.
+
 Lagatta, Eric. “‘A Promising Step:’ NASA Says Planet 8.6 Times Bigger than Earth Could Support Life.” USA TODAY, Gannett Co., Inc., 12 Sept. 2023, www.usatoday.com/story/news/nation/2023/09/12/nasa-exoplanet-water-life/70830603007/. Accessed 9 Nov. 2023.
+
 Madhusudhan, Nikku, et al. “Habitability and Biosignatures of Hycean Worlds.” The Astrophysical Journal, vol. 918, no. 1, Aug. 2021, https://doi.org/10.3847/1538-4357/abfd9c. The Astrophysical Journal. Accessed 8 Nov. 2023.
+
 NASA. “Concept Art of K2-18b Orbiting Its Host Star.” Webb Discovers Methane, Carbon Dioxide in Atmosphere of K2-18 B, Digital Art, 11 Sept. 2023, www.nasa.gov/universe/exoplanets/webb-discovers-methane-carbon-dioxide-in-atmosphere-of-k2-18-b/. Accessed 7 Nov. 2023.
+
 NASA. “Exoplanet Catalog | K2-18b.” Exoplanet Exploration: Planets beyond Our Solar System, NASA, exoplanets.nasa.gov/exoplanet-catalog/4847/k2-18-b/. Accessed 8 Nov. 2023.
+
 ---. “Fine Guidance Sensor/near InfraRed Imager and Slitless Spectrograph (FGS/NIRISS) Webb/NASA.” Webb.nasa.gov, 2021, webb.nasa.gov/content/observatory/instruments/fgs.html. Accessed 7 Nov. 2023.
+
 ---. “How We Find and Characterize | Discovery.” Exoplanet Exploration: Planets beyond Our Solar System, NASA, 13 Apr. 2022, exoplanets.nasa.gov/discovery/how-we-find-and-characterize/. Accessed 8 Nov. 2023.
+
 ---. “Observatory - Webb/NASA.” Webb.nasa.gov, 2021, webb.nasa.gov/content/observatory/index.html#:~:text=It%20is%20comprised%20of%20the. Accessed 7 Nov. 2023.
+
 ---. “Spectra and What They Can Tell Us.” Imagine the Universe!, NASA, Aug. 2013, imagine.gsfc.nasa.gov/science/toolbox/spectra1.html. Accessed 8 Nov. 2023.
+
 ---. “Spectra of K2-18b Obtained by Webb’s NIRISS.” Webb Discovers Methane, Carbon Dioxide in Atmosphere of K2-18 B, Data Chart, 11 Sept. 2023, www.nasa.gov/universe/exoplanets/webb-discovers-methane-carbon-dioxide-in-atmosphere-of-k2-18-b/. Accessed 7 Nov. 2023.
+
 Natural History Museum. “Eight Ingredients for Life in Space.” Www.nhm.ac.uk, www.nhm.ac.uk/discover/eight-ingredients-life-in-space.html. Accessed 8 Nov. 2023.
+
 PubChem. “Dimethyl Sulfide.” Pubchem.ncbi.nlm.nih.gov, National Library of Medicine | National Center for Biotechnology Information, pubchem.ncbi.nlm.nih.gov/compound/Dimethyl-sulfide. Accessed 10 Nov. 2023.
+
 Schulze-Makuch, Dirk. “Hycean Worlds, a ‘New’ Type of Ocean Planet.” Air & Space Magazine, Sept. 2021, www.smithsonianmag.com/air-space-magazine/hycean-worlds-new-type-ocean-planet-180978567/. Smithsonian Magazine. Accessed 8 Nov. 2023.
+
 Space Telescope Science Institute. “How Do We Use Spectroscopy to Search for Life?” Www.youtube.com, YouTube Video, 14 Nov. 2019, www.youtube.com/watch?v=vEZ1HJubimM&t=1s. Accessed 8 Nov. 2023.
