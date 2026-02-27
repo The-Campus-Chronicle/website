@@ -989,6 +989,34 @@ authors:
         school:         AIT
         grade:          Alumni
 
+
+    sean:
+        name:           Sean Chao
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Sean Chao"
+        email:          schao@ucvts.org
+        school:         MHS
+        grade:          Sophomore
+      
+    micayla:
+        name:           Micayla Del Rosario
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Micayla Del Rosario"
+        email:          mdelrosario@ucvts.org
+        school:         MHS
+        grade:          Sophomore
+
+    dev:
+        name:           Dev Mitra
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Dev Mitra"
+        email:          dmitra@ucvts.org
+        school:         AAHS
+        grade:          Junior
+        
 # Defaults
 defaults:
 
