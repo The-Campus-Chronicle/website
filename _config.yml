@@ -1017,6 +1017,15 @@ authors:
         school:         AAHS
         grade:          Junior
         
+    mark:
+        name:           Mark Mukalel
+        avatar:         /assets/images/avatars/anonymous.jpg
+        role:           Member
+        bio:            "Hi, I'm Mark Mukalel"
+        email:          mmukalel@ucvts.org
+        school:         AAHS
+        grade:          Sophomore
+        
 # Defaults
 defaults:
 
