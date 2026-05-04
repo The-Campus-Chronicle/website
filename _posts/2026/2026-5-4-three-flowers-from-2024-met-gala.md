@@ -2,7 +2,7 @@
 layout: post
 title:  "Three Flowers from the 2024 Met Gala"
 author: [evie]
-categories: [ Opinion, Arts & Entertainment ]
+categories: [ Opinion, Arts and Entertainment ]
 image: assets/images/articles_2026/zendaya-met-gala.jpg
 tags: []
 ---
