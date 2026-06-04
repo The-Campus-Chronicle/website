@@ -121,68 +121,25 @@ permalink: "/lit-magazine.html"
         text-align: center;
     }
 
-    .upload-section {
-        background: white;
-        padding: 20px;
-        border-radius: 8px;
-        margin-bottom: 20px;
-        border: 2px dashed #007bff;
-        text-align: center;
-    }
-
-    .upload-section input[type="file"] {
-        display: none;
-    }
-
-    .upload-btn {
-        padding: 12px 24px;
-        background: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-        transition: background 0.3s ease;
-        margin: 10px 5px;
-    }
-
-    .upload-btn:hover {
-        background: #0056b3;
-    }
-
-    .info-text {
-        color: #666;
-        margin-top: 10px;
-        font-size: 14px;
-    }
-
-    .loading-spinner {
-        display: none;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .spinner {
-        border: 4px solid #f3f3f3;
-        border-top: 4px solid #007bff;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        animation: spin 1s linear infinite;
-        margin: 0 auto;
-    }
-
-    @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
-
     .magazine-info {
         background: #e7f3ff;
         padding: 15px;
         border-radius: 5px;
         margin-bottom: 20px;
         border-left: 4px solid #007bff;
+    }
+
+    .no-magazine-message {
+        background: #fff3cd;
+        padding: 30px;
+        border-radius: 8px;
+        text-align: center;
+        color: #856404;
+        border: 1px solid #ffeaa7;
+    }
+
+    .no-magazine-message p {
+        margin: 10px 0;
     }
 
     @media (max-width: 768px) {
@@ -213,35 +170,8 @@ permalink: "/lit-magazine.html"
             </p>
             
             <div class="magazine-container">
-                <!-- Magazine Info -->
-                <div class="magazine-info" id="magazineInfo" style="display: none;">
-                    <strong>📖 Magazine loaded:</strong> <span id="magazineFileName"></span>
-                    <button class="btn-page" style="float: right; padding: 5px 10px; font-size: 12px;" onclick="resetMagazine()">
-                        Load Different Magazine
-                    </button>
-                </div>
-
-                <!-- Upload Section -->
-                <div class="upload-section" id="uploadSection">
-                    <i class="fas fa-cloud-upload-alt" style="font-size: 32px; color: #007bff; margin-bottom: 10px;"></i>
-                    <h5>Upload Magazine Pages</h5>
-                    <button class="upload-btn" onclick="document.getElementById('zipFile').click()">
-                        <i class="fas fa-file-archive"></i> Choose ZIP File
-                    </button>
-                    <button class="upload-btn" onclick="document.getElementById('imageFiles').click()">
-                        <i class="fas fa-images"></i> Choose Images
-                    </button>
-                    <input type="file" id="zipFile" accept=".zip" onchange="loadZIP(event)">
-                    <input type="file" id="imageFiles" accept="image/*" multiple onchange="loadImages(event)">
-                    <p class="info-text">Select a ZIP file containing images or upload individual image files</p>
-                    <div class="loading-spinner" id="loadingSpinner">
-                        <div class="spinner"></div>
-                        <p>Loading images...</p>
-                    </div>
-                </div>
-
                 <!-- Magazine Viewer -->
-                <div class="flip-book" id="flipBook" style="display: none;">
+                <div class="flip-book" id="flipBook">
                     <div class="pages-display">
                         <div class="page">
                             <img id="canvas-left" class="page-content" style="display: none;">
@@ -270,6 +200,12 @@ permalink: "/lit-magazine.html"
                         </button>
                     </div>
                 </div>
+
+                <!-- No Magazine Message -->
+                <div class="no-magazine-message" id="noMagazineMessage" style="display: none;">
+                    <p><strong>📖 Literary Magazine Coming Soon!</strong></p>
+                    <p>The current Literary Magazine is not yet available. Please check back soon!</p>
+                </div>
             </div>
 
             <!-- About Section -->
@@ -280,10 +216,6 @@ permalink: "/lit-magazine.html"
                         Our Lit Magazine features outstanding written work and creative pieces from UCVTS students. 
                         It serves as a platform for writers, poets, and artists to share their voices and celebrate 
                         the literary talents within our school community.
-                    </p>
-                    <p>
-                        <strong>How to use:</strong> Upload a ZIP file containing magazine page images, or upload individual images. 
-                        Then use the Previous/Next buttons to flip through the pages just like a real book!
                     </p>
                     <p>
                         <strong>Supported formats:</strong> JPG, PNG, GIF, WebP
@@ -319,9 +251,12 @@ permalink: "/lit-magazine.html"
                 const blob = await response.blob();
                 const event = { target: { files: [new File([blob], 'magazine.zip')] } };
                 loadZIP(event);
+            } else {
+                showNoMagazineMessage();
             }
         } catch (error) {
             console.log('No default magazine found at ' + defaultMagazineUrl);
+            showNoMagazineMessage();
         }
     }
 
@@ -329,7 +264,6 @@ permalink: "/lit-magazine.html"
         const file = event.target.files[0];
         if (!file) return;
 
-        showLoading(true);
         try {
             const JSZip = window.JSZip;
             const zip = new JSZip();
@@ -359,62 +293,27 @@ permalink: "/lit-magazine.html"
             }
 
             if (pageImages.length === 0) {
-                alert('No images found in ZIP file');
-                showLoading(false);
+                showNoMagazineMessage();
                 return;
             }
 
-            document.getElementById('magazineFileName').textContent = file.name;
-            document.getElementById('uploadSection').style.display = 'none';
-            document.getElementById('magazineInfo').style.display = 'block';
-            
             initializeViewer();
-            showLoading(false);
         } catch (error) {
-            alert('Error loading ZIP: ' + error.message);
-            showLoading(false);
+            console.error('Error loading ZIP: ' + error.message);
+            showNoMagazineMessage();
         }
     }
 
-    function loadImages(event) {
-        const files = Array.from(event.target.files);
-        
-        if (files.length === 0) return;
-
-        showLoading(true);
-        pageImages = [];
-
-        // Create object URLs for each image
-        files.forEach(file => {
-            const url = URL.createObjectURL(file);
-            pageImages.push(url);
-        });
-
-        // Sort by filename
-        pageImages.sort();
-
-        document.getElementById('uploadSection').style.display = 'none';
-        document.getElementById('magazineInfo').style.display = 'block';
-        document.getElementById('magazineFileName').textContent = files.length + ' images';
-        
-        initializeViewer();
-        showLoading(false);
-    }
-
-    function resetMagazine() {
-        pageImages = [];
-        currentPage = 1;
+    function showNoMagazineMessage() {
         document.getElementById('flipBook').style.display = 'none';
-        document.getElementById('uploadSection').style.display = 'block';
-        document.getElementById('magazineInfo').style.display = 'none';
-        document.getElementById('zipFile').value = '';
-        document.getElementById('imageFiles').value = '';
+        document.getElementById('noMagazineMessage').style.display = 'block';
     }
 
     function initializeViewer() {
         if (pageImages.length === 0) return;
 
         document.getElementById('flipBook').style.display = 'flex';
+        document.getElementById('noMagazineMessage').style.display = 'none';
         document.getElementById('totalPages').textContent = pageImages.length;
         currentPage = 1;
         renderSpread();
@@ -489,9 +388,5 @@ permalink: "/lit-magazine.html"
     function updateButtonStates() {
         document.getElementById('prevBtn').disabled = currentPage <= 1;
         document.getElementById('nextBtn').disabled = currentPage + 1 >= pageImages.length;
-    }
-
-    function showLoading(show) {
-        document.getElementById('loadingSpinner').style.display = show ? 'block' : 'none';
     }
 </script>
