@@ -5,7 +5,6 @@ description: "The Campus Chronicle's Literary Magazine"
 ---
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <style>
     .magazine-container {
         max-width: 1000px;
@@ -27,7 +26,7 @@ description: "The Campus Chronicle's Literary Magazine"
 
     .flip-book {
         width: 100%;
-        max-width: 800px;
+        max-width: 900px;
         background: white;
         border-radius: 8px;
         box-shadow: 0 8px 24px rgba(0,0,0,0.15);
@@ -40,9 +39,11 @@ description: "The Campus Chronicle's Literary Magazine"
         display: flex;
         position: relative;
         background: white;
-        min-height: 500px;
+        min-height: 600px;
         gap: 10px;
         padding: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     .page {
@@ -53,14 +54,16 @@ description: "The Campus Chronicle's Literary Magazine"
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: 500px;
+        min-height: 600px;
         position: relative;
         overflow: hidden;
+        max-width: 400px;
     }
 
     .page-content {
         width: 100%;
         height: 100%;
+        object-fit: contain;
     }
 
     .page-number {
@@ -137,6 +140,7 @@ description: "The Campus Chronicle's Literary Magazine"
         cursor: pointer;
         font-size: 16px;
         transition: background 0.3s ease;
+        margin: 10px 5px;
     }
 
     .upload-btn:hover {
@@ -149,14 +153,37 @@ description: "The Campus Chronicle's Literary Magazine"
         font-size: 14px;
     }
 
+    .loading-spinner {
+        display: none;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .spinner {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #007bff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
     @media (max-width: 768px) {
         .pages-display {
             flex-direction: column;
             padding: 10px;
+            min-height: auto;
         }
 
         .page {
-            min-height: 300px;
+            min-height: 400px;
+            max-width: 100%;
         }
 
         .magazine-viewer {
@@ -172,30 +199,40 @@ description: "The Campus Chronicle's Literary Magazine"
             
             <p class="lead">
                 Welcome to The Campus Chronicle's Literary Magazine - now with an interactive page-flipping experience! 
-                Upload a PDF to get started.
+                Upload a ZIP file of images or individual image files to get started.
             </p>
             
             <div class="magazine-container">
                 <!-- Upload Section -->
                 <div class="upload-section">
                     <i class="fas fa-cloud-upload-alt" style="font-size: 32px; color: #007bff; margin-bottom: 10px;"></i>
-                    <h5>Upload Your Magazine</h5>
-                    <button class="upload-btn" onclick="document.getElementById('pdfFile').click()">
-                        <i class="fas fa-upload"></i> Choose PDF File
+                    <h5>Upload Magazine Pages</h5>
+                    <button class="upload-btn" onclick="document.getElementById('zipFile').click()">
+                        <i class="fas fa-file-archive"></i> Choose ZIP File
                     </button>
-                    <input type="file" id="pdfFile" accept=".pdf" onchange="loadPDF(event)">
-                    <p class="info-text">Select a PDF file to display as a flippable magazine</p>
+                    <button class="upload-btn" onclick="document.getElementById('imageFiles').click()">
+                        <i class="fas fa-images"></i> Choose Images
+                    </button>
+                    <input type="file" id="zipFile" accept=".zip" onchange="loadZIP(event)">
+                    <input type="file" id="imageFiles" accept="image/*" multiple onchange="loadImages(event)">
+                    <p class="info-text">Select a ZIP file containing images or upload individual image files</p>
+                    <div class="loading-spinner" id="loadingSpinner">
+                        <div class="spinner"></div>
+                        <p>Loading images...</p>
+                    </div>
                 </div>
 
                 <!-- Magazine Viewer -->
-                <div class="flip-book">
+                <div class="flip-book" id="flipBook" style="display: none;">
                     <div class="pages-display">
                         <div class="page">
-                            <canvas id="canvas-left" class="page-content"></canvas>
+                            <img id="canvas-left" class="page-content" style="display: none;">
+                            <canvas id="canvas-left-fallback" class="page-content"></canvas>
                             <div class="page-number" id="page-left">-</div>
                         </div>
                         <div class="page">
-                            <canvas id="canvas-right" class="page-content"></canvas>
+                            <img id="canvas-right" class="page-content" style="display: none;">
+                            <canvas id="canvas-right-fallback" class="page-content"></canvas>
                             <div class="page-number" id="page-right">-</div>
                         </div>
                     </div>
@@ -227,8 +264,11 @@ description: "The Campus Chronicle's Literary Magazine"
                         the literary talents within our school community.
                     </p>
                     <p>
-                        <strong>How to use:</strong> Upload a PDF file using the button above, then use the Previous/Next buttons 
-                        to flip through the pages just like a real book!
+                        <strong>How to use:</strong> Upload a ZIP file containing magazine page images, or upload individual images. 
+                        Then use the Previous/Next buttons to flip through the pages just like a real book!
+                    </p>
+                    <p>
+                        <strong>Supported formats:</strong> JPG, PNG, GIF, WebP
                     </p>
                     <p>
                         If you're interested in submitting work to our magazine, please reach out to the editorial team!
@@ -243,85 +283,140 @@ description: "The Campus Chronicle's Literary Magazine"
     </div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script>
-    // PDF.js setup
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-
-    let pdfDoc = null;
+    let pageImages = [];
     let currentPage = 1;
 
-    async function loadPDF(event) {
+    async function loadZIP(event) {
         const file = event.target.files[0];
         if (!file) return;
 
+        showLoading(true);
         try {
-            const fileReader = new FileReader();
-            fileReader.onload = async function() {
-                const typedarray = new Uint8Array(this.result);
-                pdfDoc = await pdfjsLib.getDocument(typedarray).promise;
-                
-                document.getElementById('totalPages').textContent = pdfDoc.numPages;
-                currentPage = 1;
-                renderSpread();
-                updateButtonStates();
-            };
-            fileReader.readAsArrayBuffer(file);
+            const JSZip = window.JSZip;
+            const zip = new JSZip();
+            const contents = await zip.loadAsync(file);
+            
+            pageImages = [];
+            const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
+            const files = [];
+
+            // Extract image files from ZIP
+            contents.forEach((relativePath, zipEntry) => {
+                const ext = relativePath.substring(relativePath.lastIndexOf('.')).toLowerCase();
+                if (imageExtensions.includes(ext) && !zipEntry.dir) {
+                    files.push({ path: relativePath, name: zipEntry.name });
+                }
+            });
+
+            // Sort files by name
+            files.sort((a, b) => a.path.localeCompare(b.path));
+
+            // Convert to data URLs
+            for (const file of files) {
+                const zipEntry = contents.files[file.path];
+                const blob = await zipEntry.async('blob');
+                const url = URL.createObjectURL(blob);
+                pageImages.push(url);
+            }
+
+            if (pageImages.length === 0) {
+                alert('No images found in ZIP file');
+                showLoading(false);
+                return;
+            }
+
+            initializeViewer();
+            showLoading(false);
         } catch (error) {
-            alert('Error loading PDF: ' + error.message);
+            alert('Error loading ZIP: ' + error.message);
+            showLoading(false);
         }
     }
 
-    async function renderSpread() {
-        if (!pdfDoc) return;
+    function loadImages(event) {
+        const files = Array.from(event.target.files);
+        
+        if (files.length === 0) return;
 
-        const leftPageNum = currentPage;
-        const rightPageNum = currentPage + 1;
+        showLoading(true);
+        pageImages = [];
+
+        // Create object URLs for each image
+        files.forEach(file => {
+            const url = URL.createObjectURL(file);
+            pageImages.push(url);
+        });
+
+        // Sort by filename
+        pageImages.sort();
+
+        initializeViewer();
+        showLoading(false);
+    }
+
+    function initializeViewer() {
+        if (pageImages.length === 0) return;
+
+        document.getElementById('flipBook').style.display = 'flex';
+        document.getElementById('totalPages').textContent = pageImages.length;
+        currentPage = 1;
+        renderSpread();
+        updateButtonStates();
+    }
+
+    function renderSpread() {
+        if (pageImages.length === 0) return;
+
+        const leftPageNum = currentPage - 1; // 0-indexed
+        const rightPageNum = currentPage;
 
         // Render left page
-        if (leftPageNum <= pdfDoc.numPages) {
+        if (leftPageNum >= 0 && leftPageNum < pageImages.length) {
             renderPage(leftPageNum, 'canvas-left', 'page-left');
+        } else {
+            clearCanvas('canvas-left');
+            document.getElementById('page-left').textContent = '-';
         }
 
         // Render right page
-        if (rightPageNum <= pdfDoc.numPages) {
+        if (rightPageNum >= 0 && rightPageNum < pageImages.length) {
             renderPage(rightPageNum, 'canvas-right', 'page-right');
         } else {
-            // Clear right canvas if no page exists
-            const canvasRight = document.getElementById('canvas-right');
-            const ctxRight = canvasRight.getContext('2d');
-            ctxRight.fillStyle = '#f0f0f0';
-            ctxRight.fillRect(0, 0, canvasRight.width, canvasRight.height);
+            clearCanvas('canvas-right');
             document.getElementById('page-right').textContent = '-';
         }
 
         // Update page counter
-        document.getElementById('currentPage').textContent = Math.min(leftPageNum, pdfDoc.numPages);
+        document.getElementById('currentPage').textContent = Math.min(leftPageNum + 1, pageImages.length);
     }
 
-    async function renderPage(pageNum, canvasId, pageNumId) {
-        try {
-            const page = await pdfDoc.getPage(pageNum);
-            const viewport = page.getViewport({ scale: 1.5 });
+    function renderPage(pageIndex, imgId, pageNumId) {
+        const img = document.getElementById(imgId);
+        const canvas = document.getElementById(imgId + '-fallback');
+        
+        img.src = pageImages[pageIndex];
+        img.style.display = 'block';
+        canvas.style.display = 'none';
+        
+        document.getElementById(pageNumId).textContent = pageIndex + 1;
+    }
 
-            const canvas = document.getElementById(canvasId);
-            const ctx = canvas.getContext('2d');
-
-            canvas.width = viewport.width;
-            canvas.height = viewport.height;
-
-            await page.render({
-                canvasContext: ctx,
-                viewport: viewport
-            }).promise;
-
-            document.getElementById(pageNumId).textContent = pageNum;
-        } catch (error) {
-            console.error('Error rendering page:', error);
-        }
+    function clearCanvas(canvasId) {
+        const img = document.getElementById(canvasId);
+        const canvas = document.getElementById(canvasId + '-fallback');
+        
+        img.style.display = 'none';
+        canvas.style.display = 'block';
+        
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#f0f0f0';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
     }
 
     function nextSpread() {
-        if (pdfDoc && currentPage + 1 < pdfDoc.numPages) {
+        if (currentPage + 1 < pageImages.length) {
             currentPage += 2;
             renderSpread();
             updateButtonStates();
@@ -338,6 +433,10 @@ description: "The Campus Chronicle's Literary Magazine"
 
     function updateButtonStates() {
         document.getElementById('prevBtn').disabled = currentPage <= 1;
-        document.getElementById('nextBtn').disabled = !pdfDoc || currentPage >= pdfDoc.numPages;
+        document.getElementById('nextBtn').disabled = currentPage + 1 >= pageImages.length;
+    }
+
+    function showLoading(show) {
+        document.getElementById('loadingSpinner').style.display = show ? 'block' : 'none';
     }
 </script>
