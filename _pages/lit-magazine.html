@@ -1,29 +1,497 @@
 ---
 title: "Lit Magazine"
 layout: default
+description: "The Campus Chronicle's Literary Magazine"
 pagination:
   enabled: false
 permalink: "/lit-magazine.html"
 ---
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<style>
+    .magazine-container {
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 20px;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        border-radius: 10px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    }
+
+    .magazine-viewer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 30px 0;
+        flex-wrap: wrap;
+    }
+
+    .flip-book {
+        width: 100%;
+        max-width: 900px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pages-display {
+        display: flex;
+        position: relative;
+        background: white;
+        min-height: 600px;
+        gap: 10px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page {
+        flex: 1;
+        background: white;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 600px;
+        position: relative;
+        overflow: hidden;
+        max-width: 400px;
+    }
+
+    .page-content {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .page-number {
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+        font-size: 12px;
+        color: #999;
+        background: rgba(255,255,255,0.8);
+        padding: 4px 8px;
+        border-radius: 3px;
+    }
+
+    .controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        background: #f8f9fa;
+        flex-wrap: wrap;
+    }
+
+    .btn-page {
+        padding: 10px 20px;
+        font-size: 14px;
+        border: 2px solid #007bff;
+        background: white;
+        color: #007bff;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .btn-page:hover {
+        background: #007bff;
+        color: white;
+    }
+
+    .btn-page:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .page-counter {
+        font-weight: bold;
+        color: #333;
+        min-width: 100px;
+        text-align: center;
+    }
+
+    .upload-section {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        border: 2px dashed #007bff;
+        text-align: center;
+    }
+
+    .upload-section input[type="file"] {
+        display: none;
+    }
+
+    .upload-btn {
+        padding: 12px 24px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background 0.3s ease;
+        margin: 10px 5px;
+    }
+
+    .upload-btn:hover {
+        background: #0056b3;
+    }
+
+    .info-text {
+        color: #666;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .loading-spinner {
+        display: none;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .spinner {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #007bff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    .magazine-info {
+        background: #e7f3ff;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        border-left: 4px solid #007bff;
+    }
+
+    @media (max-width: 768px) {
+        .pages-display {
+            flex-direction: column;
+            padding: 10px;
+            min-height: auto;
+        }
+
+        .page {
+            min-height: 400px;
+            max-width: 100%;
+        }
+
+        .magazine-viewer {
+            flex-direction: column;
+        }
+    }
+</style>
+
 <div class="container">
-  <h1 class="font-weight-bold spanborder"><span>Lit Magazine</span></h1>
-  
-  <div class="row">
-    <div class="col-md-8">
-      <p>Welcome to The Campus Chronicle's Lit Magazine! Check out our latest literary publication below.</p>
-      
-      <!-- PDF Placeholder - Add your PDF here -->
-      <div class="lit-magazine-container" style="margin-top: 30px; padding: 20px; border: 2px dashed #ccc; text-align: center;">
-        <p style="color: #999; font-size: 14px;">📄 PDF will be displayed here</p>
-        <!-- Replace the src below with your PDF file URL -->
-        <!-- <iframe src="path-to-your-pdf.pdf" width="100%" height="600px"></iframe> -->
-      </div>
-      
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="font-weight-bold mb-4">📚 Lit Magazine</h1>
+            
+            <p class="lead">
+                Welcome to The Campus Chronicle's Literary Magazine - now with an interactive page-flipping experience!
+            </p>
+            
+            <div class="magazine-container">
+                <!-- Magazine Info -->
+                <div class="magazine-info" id="magazineInfo" style="display: none;">
+                    <strong>📖 Magazine loaded:</strong> <span id="magazineFileName"></span>
+                    <button class="btn-page" style="float: right; padding: 5px 10px; font-size: 12px;" onclick="resetMagazine()">
+                        Load Different Magazine
+                    </button>
+                </div>
+
+                <!-- Upload Section -->
+                <div class="upload-section" id="uploadSection">
+                    <i class="fas fa-cloud-upload-alt" style="font-size: 32px; color: #007bff; margin-bottom: 10px;"></i>
+                    <h5>Upload Magazine Pages</h5>
+                    <button class="upload-btn" onclick="document.getElementById('zipFile').click()">
+                        <i class="fas fa-file-archive"></i> Choose ZIP File
+                    </button>
+                    <button class="upload-btn" onclick="document.getElementById('imageFiles').click()">
+                        <i class="fas fa-images"></i> Choose Images
+                    </button>
+                    <input type="file" id="zipFile" accept=".zip" onchange="loadZIP(event)">
+                    <input type="file" id="imageFiles" accept="image/*" multiple onchange="loadImages(event)">
+                    <p class="info-text">Select a ZIP file containing images or upload individual image files</p>
+                    <div class="loading-spinner" id="loadingSpinner">
+                        <div class="spinner"></div>
+                        <p>Loading images...</p>
+                    </div>
+                </div>
+
+                <!-- Magazine Viewer -->
+                <div class="flip-book" id="flipBook" style="display: none;">
+                    <div class="pages-display">
+                        <div class="page">
+                            <img id="canvas-left" class="page-content" style="display: none;">
+                            <canvas id="canvas-left-fallback" class="page-content"></canvas>
+                            <div class="page-number" id="page-left">-</div>
+                        </div>
+                        <div class="page">
+                            <img id="canvas-right" class="page-content" style="display: none;">
+                            <canvas id="canvas-right-fallback" class="page-content"></canvas>
+                            <div class="page-number" id="page-right">-</div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <div class="controls">
+                        <button class="btn-page" id="prevBtn" onclick="previousSpread()">
+                            <i class="fas fa-chevron-left"></i> Previous
+                        </button>
+                        
+                        <div class="page-counter">
+                            <span id="currentPage">0</span> / <span id="totalPages">0</span>
+                        </div>
+
+                        <button class="btn-page" id="nextBtn" onclick="nextSpread()">
+                            Next <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <div class="card mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">About Our Literary Magazine</h5>
+                    <p>
+                        Our Lit Magazine features outstanding written work and creative pieces from UCVTS students. 
+                        It serves as a platform for writers, poets, and artists to share their voices and celebrate 
+                        the literary talents within our school community.
+                    </p>
+                    <p>
+                        <strong>How to use:</strong> Upload a ZIP file containing magazine page images, or upload individual images. 
+                        Then use the Previous/Next buttons to flip through the pages just like a real book!
+                    </p>
+                    <p>
+                        <strong>Supported formats:</strong> JPG, PNG, GIF, WebP
+                    </p>
+                    <p>
+                        If you're interested in submitting work to our magazine, please reach out to the editorial team!
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            {% include sidebar-featured.html %}
+        </div>
     </div>
-    
-    <div class="col-md-4">
-      {% include sidebar-featured.html %}
-    </div>
-  </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>
+    let pageImages = [];
+    let currentPage = 1;
+    let defaultMagazineUrl = '/assets/lit-magazines/magazine.zip';
+
+    // Load default magazine on page load
+    window.addEventListener('load', function() {
+        loadDefaultMagazine();
+    });
+
+    async function loadDefaultMagazine() {
+        try {
+            const response = await fetch(defaultMagazineUrl);
+            if (response.ok) {
+                const blob = await response.blob();
+                const event = { target: { files: [new File([blob], 'magazine.zip')] } };
+                loadZIP(event);
+            }
+        } catch (error) {
+            console.log('No default magazine found at ' + defaultMagazineUrl);
+        }
+    }
+
+    async function loadZIP(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+
+        showLoading(true);
+        try {
+            const JSZip = window.JSZip;
+            const zip = new JSZip();
+            const contents = await zip.loadAsync(file);
+            
+            pageImages = [];
+            const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
+            const files = [];
+
+            // Extract image files from ZIP
+            contents.forEach((relativePath, zipEntry) => {
+                const ext = relativePath.substring(relativePath.lastIndexOf('.')).toLowerCase();
+                if (imageExtensions.includes(ext) && !zipEntry.dir) {
+                    files.push({ path: relativePath, name: zipEntry.name });
+                }
+            });
+
+            // Sort files by name
+            files.sort((a, b) => a.path.localeCompare(b.path));
+
+            // Convert to data URLs
+            for (const file of files) {
+                const zipEntry = contents.files[file.path];
+                const blob = await zipEntry.async('blob');
+                const url = URL.createObjectURL(blob);
+                pageImages.push(url);
+            }
+
+            if (pageImages.length === 0) {
+                alert('No images found in ZIP file');
+                showLoading(false);
+                return;
+            }
+
+            document.getElementById('magazineFileName').textContent = file.name;
+            document.getElementById('uploadSection').style.display = 'none';
+            document.getElementById('magazineInfo').style.display = 'block';
+            
+            initializeViewer();
+            showLoading(false);
+        } catch (error) {
+            alert('Error loading ZIP: ' + error.message);
+            showLoading(false);
+        }
+    }
+
+    function loadImages(event) {
+        const files = Array.from(event.target.files);
+        
+        if (files.length === 0) return;
+
+        showLoading(true);
+        pageImages = [];
+
+        // Create object URLs for each image
+        files.forEach(file => {
+            const url = URL.createObjectURL(file);
+            pageImages.push(url);
+        });
+
+        // Sort by filename
+        pageImages.sort();
+
+        document.getElementById('uploadSection').style.display = 'none';
+        document.getElementById('magazineInfo').style.display = 'block';
+        document.getElementById('magazineFileName').textContent = files.length + ' images';
+        
+        initializeViewer();
+        showLoading(false);
+    }
+
+    function resetMagazine() {
+        pageImages = [];
+        currentPage = 1;
+        document.getElementById('flipBook').style.display = 'none';
+        document.getElementById('uploadSection').style.display = 'block';
+        document.getElementById('magazineInfo').style.display = 'none';
+        document.getElementById('zipFile').value = '';
+        document.getElementById('imageFiles').value = '';
+    }
+
+    function initializeViewer() {
+        if (pageImages.length === 0) return;
+
+        document.getElementById('flipBook').style.display = 'flex';
+        document.getElementById('totalPages').textContent = pageImages.length;
+        currentPage = 1;
+        renderSpread();
+        updateButtonStates();
+    }
+
+    function renderSpread() {
+        if (pageImages.length === 0) return;
+
+        const leftPageNum = currentPage - 1;
+        const rightPageNum = currentPage;
+
+        // Render left page
+        if (leftPageNum >= 0 && leftPageNum < pageImages.length) {
+            renderPage(leftPageNum, 'canvas-left', 'page-left');
+        } else {
+            clearCanvas('canvas-left');
+            document.getElementById('page-left').textContent = '-';
+        }
+
+        // Render right page
+        if (rightPageNum >= 0 && rightPageNum < pageImages.length) {
+            renderPage(rightPageNum, 'canvas-right', 'page-right');
+        } else {
+            clearCanvas('canvas-right');
+            document.getElementById('page-right').textContent = '-';
+        }
+
+        // Update page counter
+        document.getElementById('currentPage').textContent = Math.min(leftPageNum + 1, pageImages.length);
+    }
+
+    function renderPage(pageIndex, imgId, pageNumId) {
+        const img = document.getElementById(imgId);
+        const canvas = document.getElementById(imgId + '-fallback');
+        
+        img.src = pageImages[pageIndex];
+        img.style.display = 'block';
+        canvas.style.display = 'none';
+        
+        document.getElementById(pageNumId).textContent = pageIndex + 1;
+    }
+
+    function clearCanvas(canvasId) {
+        const img = document.getElementById(canvasId);
+        const canvas = document.getElementById(canvasId + '-fallback');
+        
+        img.style.display = 'none';
+        canvas.style.display = 'block';
+        
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#f0f0f0';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+    }
+
+    function nextSpread() {
+        if (currentPage + 1 < pageImages.length) {
+            currentPage += 2;
+            renderSpread();
+            updateButtonStates();
+        }
+    }
+
+    function previousSpread() {
+        if (currentPage > 1) {
+            currentPage -= 2;
+            renderSpread();
+            updateButtonStates();
+        }
+    }
+
+    function updateButtonStates() {
+        document.getElementById('prevBtn').disabled = currentPage <= 1;
+        document.getElementById('nextBtn').disabled = currentPage + 1 >= pageImages.length;
+    }
+
+    function showLoading(show) {
+        document.getElementById('loadingSpinner').style.display = show ? 'block' : 'none';
+    }
+</script>
