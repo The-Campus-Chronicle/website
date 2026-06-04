@@ -174,6 +174,14 @@ description: "The Campus Chronicle's Literary Magazine"
         100% { transform: rotate(360deg); }
     }
 
+    .magazine-info {
+        background: #e7f3ff;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        border-left: 4px solid #007bff;
+    }
+
     @media (max-width: 768px) {
         .pages-display {
             flex-direction: column;
@@ -198,13 +206,20 @@ description: "The Campus Chronicle's Literary Magazine"
             <h1 class="font-weight-bold mb-4">📚 Lit Magazine</h1>
             
             <p class="lead">
-                Welcome to The Campus Chronicle's Literary Magazine - now with an interactive page-flipping experience! 
-                Upload a ZIP file of images or individual image files to get started.
+                Welcome to The Campus Chronicle's Literary Magazine - now with an interactive page-flipping experience!
             </p>
             
             <div class="magazine-container">
+                <!-- Magazine Info -->
+                <div class="magazine-info" id="magazineInfo" style="display: none;">
+                    <strong>📖 Magazine loaded:</strong> <span id="magazineFileName"></span>
+                    <button class="btn-page" style="float: right; padding: 5px 10px; font-size: 12px;" onclick="resetMagazine()">
+                        Load Different Magazine
+                    </button>
+                </div>
+
                 <!-- Upload Section -->
-                <div class="upload-section">
+                <div class="upload-section" id="uploadSection">
                     <i class="fas fa-cloud-upload-alt" style="font-size: 32px; color: #007bff; margin-bottom: 10px;"></i>
                     <h5>Upload Magazine Pages</h5>
                     <button class="upload-btn" onclick="document.getElementById('zipFile').click()">
@@ -287,6 +302,25 @@ description: "The Campus Chronicle's Literary Magazine"
 <script>
     let pageImages = [];
     let currentPage = 1;
+    let defaultMagazineUrl = '/assets/lit-magazines/magazine.zip';
+
+    // Load default magazine on page load
+    window.addEventListener('load', function() {
+        loadDefaultMagazine();
+    });
+
+    async function loadDefaultMagazine() {
+        try {
+            const response = await fetch(defaultMagazineUrl);
+            if (response.ok) {
+                const blob = await response.blob();
+                const event = { target: { files: [new File([blob], 'magazine.zip')] } };
+                loadZIP(event);
+            }
+        } catch (error) {
+            console.log('No default magazine found at ' + defaultMagazineUrl);
+        }
+    }
 
     async function loadZIP(event) {
         const file = event.target.files[0];
@@ -327,6 +361,10 @@ description: "The Campus Chronicle's Literary Magazine"
                 return;
             }
 
+            document.getElementById('magazineFileName').textContent = file.name;
+            document.getElementById('uploadSection').style.display = 'none';
+            document.getElementById('magazineInfo').style.display = 'block';
+            
             initializeViewer();
             showLoading(false);
         } catch (error) {
@@ -352,8 +390,22 @@ description: "The Campus Chronicle's Literary Magazine"
         // Sort by filename
         pageImages.sort();
 
+        document.getElementById('uploadSection').style.display = 'none';
+        document.getElementById('magazineInfo').style.display = 'block';
+        document.getElementById('magazineFileName').textContent = files.length + ' images';
+        
         initializeViewer();
         showLoading(false);
+    }
+
+    function resetMagazine() {
+        pageImages = [];
+        currentPage = 1;
+        document.getElementById('flipBook').style.display = 'none';
+        document.getElementById('uploadSection').style.display = 'block';
+        document.getElementById('magazineInfo').style.display = 'none';
+        document.getElementById('zipFile').value = '';
+        document.getElementById('imageFiles').value = '';
     }
 
     function initializeViewer() {
@@ -369,7 +421,7 @@ description: "The Campus Chronicle's Literary Magazine"
     function renderSpread() {
         if (pageImages.length === 0) return;
 
-        const leftPageNum = currentPage - 1; // 0-indexed
+        const leftPageNum = currentPage - 1;
         const rightPageNum = currentPage;
 
         // Render left page
