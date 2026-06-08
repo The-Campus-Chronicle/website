@@ -1,7 +1,7 @@
 <div class="col-md-6">
 <div class="card border-0 mb-4 box-shadow">   
 <a href="{{site.baseurl}}{{latest_post.url}}">
-<div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{ latest_post.image | absolute_url }}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+<div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{ latest_post.image | absolute_url }}{% endif %}); height: 200px; background-size: cover; background-position: center;"></div>
 </a>
 <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
 <h2 class="h4 font-weight-bold">
@@ -12,20 +12,7 @@
 </p>
 <div>
     <small class="d-block text-muted">
-        <!-- If one author do this -->
-        {% if latest_post.author.size == 1 %}
-            {% assign poster = latest_post.author[0] %}
-            By <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[poster].name | slugify }}">{{ site.authors[poster].name }}</a>, {{ site.authors[poster].grade }} at {{ site.authors[poster].school }}<br>
-        {% endif %}
-        {% if latest_post.author.size > 1 %}
-            By
-            <!-- If more than one author do this -->
-            {% for author in latest_post.author -%}
-                {%- if forloop.length > 0 -%}
-                <a class="text-capitalize smoothscroll" href="{{site.baseurl}}/author-{{ site.authors[author].name | slugify }}">{{ site.authors[author].name }}</a>{% unless forloop.last %}, {% endunless -%}
-                {%- endif -%}
-            {% endfor %}
-        {% endif %}
+        By UCVTS Author
 		
         In <span class="catlist">
             {% for category in latest_post.categories %}
