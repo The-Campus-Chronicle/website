@@ -15,21 +15,8 @@
 			</p>
 			<small class="d-block text-light">
 				<strong>
-					<!-- If one author do this -->
-					{% if post.author.size == 1 %}
-					{% assign poster = post.author[0] %}
-					By {{ site.authors[poster].name }}, {{ site.authors[poster].grade }} at {{
-					site.authors[poster].school }}<br>
-					{% endif %}
-					{% if post.author.size > 1 %}
-					By
-					<!-- If more than one author do this -->
-					{% for author in post.author -%}
-					{%- if forloop.length > 0 -%}
-					{{ site.authors[author].name }}{% unless forloop.last %}, {% endunless -%}
-					{%- endif -%}
-					{% endfor %}
-					{% endif %}
+					By UCVTS Author
+					<br>
 					In <span class="catlist">
 						{% for category in post.categories %}
 						<a class="text-light text-capitalize smoothscroll"
