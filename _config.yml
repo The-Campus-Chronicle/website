@@ -19,7 +19,979 @@ plugins:
   - jekyll-seo-tag
   
 authors:
- 
+  evie:
+    name:           Evie Shen
+    avatar:         /assets/images/avatars/anonymous.jpg
+    role:           Editor-in-Chief
+    bio:            "Evie Shen is a senior at Magnet High School and Content Editor-in-Chief of Newspaper Club. She joined Newspaper Club due to her love for reading and writing and hopes to increase the impact and voices of the club members’ pieces. In her free time, she enjoys reading, dancing, and playing with her two kittens."
+    email:          eshen2@ucvts.org
+    school:         Magnet
+    grade:          Senior
+
+  lillian:
+    name:           Lillian Yu
+    avatar:         /assets/images/avatars/anonymous.jpg
+    role:           Editor-in-Chief
+    bio:            "Lillian Yu is a junior at Magnet High School. She loves reading and enjoys learning new things. In her free time, she bakes and takes care of her houseplants, her favorite being the monstera. In the future, Lillian wants to go into engineering, with an interest in civil engineering specifically."
+    email:          lyu@ucvts.org
+    school:         Magnet
+    grade:          Junior
+
+  paige:
+    name:           Paige Porciello
+    avatar:         /assets/images/avatars/anonymous.jpg
+    role:           Editor-in-Chief
+    bio:            "Paige is proud to serve as your Layout EIC this year!  She does color guard, volunteers at an observatory, codes often (also serving as co-President of Coding Club), pet-sits for her neighbors, and is skilled in visual arts.  One fun fact about her is that her last name is derived from an insult.  She hopes to pursue a career in astrophysics and frequently writes about astronomy news and concepts for the Campus Chronicle."
+    email:          pporciello@ucvts.org
+    school:         AIT
+    grade:          Senior
+
+  amelia:
+    name:           Amelia Hajduk
+    avatar:         /assets/images/avatars/anonymous.jpg
+    role:           Editor-in-Chief
+    bio:            "Amelia Hajduk is a senior at the Academy for Performing Arts and serves as the Co-Editor-in-Chief of the Literary Magazine, Student Voices. She has a great passion for journalism, and is grateful for the opportunity to oversee this creative process. Outside of Newspaper Club, she loves reading, writing, traveling, and stage managing productions."
+    email:          ahajduk@ucvts.org
+    school:         APA
+    grade:          Senior
+
+  adrija:
+    name:           Adrija Adhikary
+    avatar:         /assets/images/avatars/anonymous.jpg
+    role:           Editor-in-Chief
+    bio:            "Adrija Adhikary is a junior at Magnet High School who serves as the Editor-in-Chief of Student Voices, the campus literary magazine. Outside of curating student poetry and prose, she is deeply passionate about her own creative writing, dabbling in poems and short stories on various topics. An avid reader with a perpetually overflowing 'to-read' pile, Adrija spends her free time hunting for writing prompts on Pinterest and searching the local library catalog for interesting book titles. She is thrilled to publish Student Voices this year and can’t wait to showcase the incredible talent and diverse voices of the UCVTS community."
+    email:          aadhikary@ucvts.org
+    school:         Magnet
+    grade:          Junior
+
+  sharika:
+    name:           Sharika Dhar
+    avatar:         /assets/images/avatars/anonymous.jpg
+    role:           Editor-in-Chief
+    bio:            "Sharika Dhar is a senior at Allied Health and is so excited to serve as Public Relations Editor-in-Chief! Sharika joined Newspaper in her freshman year to grow her passion for journalism. She enjoys working with other writers and helping them find their voice. In her free team, she loves biking, working out, playing with her dog, and listening to music!"
+    email:          sdhar@ucvts.org
+    school:         AAHS
+    grade:          Senior
+
+  saidey:
+    name:           Saidey Kim
+    avatar:         /assets/images/avatars/anonymous.jpg
+    role:           Editor-in-Chief
+    bio:            "Saidey Kim is a junior at the Academy for Allied Health Sciences and serves as one of the Public Relations Editors-in-Chief. She is passionate about writing, journalism, and staying informed about current events. In her free time, Saidey enjoys reading, writing, following the news, and playing tennis. She looks forward to contributing to the Campus Chronicle and helping share stories that keep the UCVTS community informed."
+    email:          skim1@ucvts.org
+    school:         AAHS
+    grade:          Junior
+
+  claire:
+    name: Claire Yang
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Content Editor
+    bio: Claire Yang is proud to write with the Campus Chronicle this year!
+    email: cyang@ucvts.org
+    school: AIT
+    grade: Senior
+  
+  ethan:
+    name: Ethan Ortiz
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Content Editor
+    bio: Ethan Ortiz is proud to write with the Campus Chronicle this year!
+    email: eortiz@ucvts.org
+    school: UCTech Law & Justice
+    grade: Senior
+  
+  mark:
+    name: Mark Mukalel
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Content Editor
+    bio: Mark Mukalel is proud to write with the Campus Chronicle this year!
+    email: mmukalel@ucvts.org
+    school: AAHS
+    grade: Junior
+  
+  sean:
+    name: Sean Chao
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Content Editor
+    bio: Sean Chao is proud to write with the Campus Chronicle this year!
+    email: schao@ucvts.org
+    school: MHS
+    grade: Junior
+  
+  parthiv:
+    name: Parthiv Intwala
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Layout Editor
+    bio: Parthiv Intwala is proud to write with the Campus Chronicle this year!
+    email: pintwala@ucvts.org
+    school: AIT
+    grade: Junior
+  
+  micayla:
+    name: Micayla Del Rosario
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Student Voices Editor
+    bio: Micayla Del Rosario is proud to write with the Campus Chronicle this year!
+    email: mdelrosario@ucvts.org
+    school: MHS
+    grade: Junior
+  
+  sadhya:
+    name: Sadhya Tadi
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Student Voices Editor
+    bio: Sadhya Tadi is proud to write with the Campus Chronicle this year!
+    email: stadi@ucvts.org
+    school: AIT
+    grade: Junior
+  
+  phoebe:
+    name: Phoebe Hu
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Public Relations Editor
+    bio: Phoebe Hu is proud to write with the Campus Chronicle this year!
+    email: phu@ucvts.org
+    school: AAHS
+    grade: Senior
+  
+  makayla:
+    name: Makayla Barte
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Public Relations Editor
+    bio: Makayla Barte is proud to write with the Campus Chronicle this year!
+    email: mbarte@ucvts.org
+    school: AIT
+    grade: Junior
+  
+  abigail:
+    name: Abigail Loeser
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Abigail Loeser is proud to write with the Campus Chronicle this year!
+    email: aloeser@ucvts.org
+    school: UCTECH
+    grade: Senior
+  
+  anika:
+    name: Anika Jolly
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Anika Jolly is proud to write with the Campus Chronicle this year!
+    email: ajolly@ucvts.org
+    school: MHS
+    grade: Senior
+  
+  athena1:
+    name: Athena Corbishley
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Athena Corbishley is proud to write with the Campus Chronicle this year!
+    email: acorbishley@ucvts.org
+    school: UCTECH
+    grade: Senior
+  
+  catalina:
+    name: Catalina Gurdian Vazquez
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Catalina Gurdian Vazquez is proud to write with the Campus Chronicle this year!
+    email: cgurdianvazquez@ucvts.org
+    school: UCTech School of Design
+    grade: Senior
+  
+  dev:
+    name: Dev Mitra
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Dev Mitra is proud to write with the Campus Chronicle this year!
+    email: dmitra@ucvts.org
+    school: AAHS
+    grade: Senior
+  
+  gabriela:
+    name: Gabriela Cornejo
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Gabriela Cornejo is proud to write with the Campus Chronicle this year!
+    email: cgabriela@ucvts.org
+    school: APA
+    grade: Senior
+  
+  isabella:
+    name: Isabella Rossi
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Isabella Rossi is proud to write with the Campus Chronicle this year!
+    email: irossi@ucvts.org
+    school: AAHS
+    grade: Senior
+  
+  jainithin:
+    name: Jainithin Jeyaprakash
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Jainithin Jeyaprakash is proud to write with the Campus Chronicle this year!
+    email: jjeyaprakash@ucvts.org
+    school: MHS
+    grade: Senior
+  
+  jessica:
+    name: Jessica Zhou
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Jessica Zhou is proud to write with the Campus Chronicle this year!
+    email: jzhou@ucvts.org
+    school: MHS
+    grade: Senior
+  
+  kelly:
+    name: Kelly Zheng
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Kelly Zheng is proud to write with the Campus Chronicle this year!
+    email: kzheng@ucvts.org
+    school: AAHS
+    grade: Senior
+  
+  mesoma:
+    name: Mesoma Efobi
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Mesoma Efobi is proud to write with the Campus Chronicle this year!
+    email: mefobi@ucvts.org
+    school: MHS
+    grade: Senior
+  
+  aliyah:
+    name: Aliyah Isola-Gbenla
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Aliyah Isola-Gbenla is proud to write with the Campus Chronicle this year!
+    email: aisolagbenla@ucvts.org
+    school: AAHS
+    grade: Junior
+  
+  athena:
+    name: Athena Bishop
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Athena Bishop is proud to write with the Campus Chronicle this year!
+    email: abishop@ucvts.org
+    school: AAHS
+    grade: Junior
+  
+  mehr:
+    name: Mehr Upashyay
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Mehr Upashyay is proud to write with the Campus Chronicle this year!
+    email: mupashyay@ucvts.org
+    school: UCTECH
+    grade: Junior
+  
+  sophia2:
+    name: Sophia Hoff
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Sophia Hoff is proud to write with the Campus Chronicle this year!
+    email: shoff@ucvts.org
+    school: APA
+    grade: Junior
+  
+  tyler:
+    name: Tyler Jacobowitz
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Tyler Jacobowitz is proud to write with the Campus Chronicle this year!
+    email: tjacobowitz@ucvts.org
+    school: AAHS
+    grade: Junior
+  
+  hannah:
+    name: Hannah Koglin
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Member
+    bio: Hannah Koglin is proud to write with the Campus Chronicle this year!
+    email: hkoglin@ucvts.org
+    school: AAHS
+    grade: Sophomore
+  
+  abdd:
+    name: Abdd Sharma
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Editor-In-Chief
+    bio: Abdd Sharma is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  akash:
+    name: Akash Dubey
+    site: https://akeboss-tech.github.io/
+    avatar: /assets/images/avatars/akash-avatar.jpg
+    role: Former Editor-In-Chief
+    bio: Akash Dubey is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  alison:
+    name: Alison Park
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Editor-In-Chief
+    bio: Alison Park is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  amanda:
+    name: Amanda Leung
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Editor-In-Chief
+    bio: Amanda Leung is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech Law & Justice
+    grade: Alumni
+  
+  anusha:
+    name: Anusha Iyer
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Editor-In-Chief
+    bio: Anusha Iyer is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  dylan:
+    name: Dylan Intwala
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Editor-In-Chief
+    bio: Dylan Intwala is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  eric:
+    name: Eric Yu
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Editor-In-Chief
+    bio: Eric Yu is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  parker:
+    name: Parker Bauman
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Editor-In-Chief
+    bio: Parker Bauman is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  sophia:
+    name: Sophia Mekbeb
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Editor-In-Chief
+    bio: Sophia Mekbeb is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: APA
+    grade: Alumni
+  
+  sydney:
+    name: Sydney Kim
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Editor-In-Chief
+    bio: Sydney Kim is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  alan:
+    name: Alan Ostrovsky
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Editor
+    bio: Alan Ostrovsky is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  agnes:
+    name: Agnes Yee
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Agnes Yee is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  ahmad:
+    name: Ahmad Khizar
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Ahmad Khizar is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  akwele:
+    name: Akwele Lokko
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Akwele Lokko is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  alexander:
+    name: Alexander Zuniga
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Alexander Zuniga is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  alondra:
+    name: Alondra Martinez
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Alondra Martinez is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech
+    grade: Alumni
+  
+  amir:
+    name: Amir Hunter
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Amir Hunter is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  ana:
+    name: Ana Obradovic
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Ana Obradovic is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  ananya:
+    name: Ananya Vikram
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Ananya Vikram is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  anwit:
+    name: Anwit Ghoroi
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Anwit Ghoroi is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  aryana:
+    name: Aryana Tasharofi
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Aryana Tasharofi is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTECH
+    grade: Alumni
+  
+  audrey2:
+    name: Audrey Lee
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Audrey Lee is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  audrey:
+    name: Audrey Miller
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Audrey Miller is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech
+    grade: Alumni
+  
+  bella:
+    name: Bella Fajardo
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Bella Fajardo is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech Law and Justice
+    grade: Alumni
+  
+  carrie:
+    name: Carrie Xu
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Carrie Xu is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  chloe2:
+    name: Chloe Gavula
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Chloe Gavula is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: APA
+    grade: Alumni
+  
+  chloe:
+    name: Chloe Zeng
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Chloe Zeng is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  daivya:
+    name: Daivya Sadhvani
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Daivya Sadhvani is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  danielle:
+    name: Danielle Macchi
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Danielle Macchi is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech Law and Justice
+    grade: Alumni
+  
+  david:
+    name: David Punzalan
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: David Punzalan is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: MHS
+    grade: Alumni
+  
+  diya:
+    name: Diya Nainwal
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Diya Nainwal is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  ella:
+    name: Ella Platts
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Ella Platts is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech
+    grade: Alumni
+  
+  ernest:
+    name: Ernest Romero
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Ernest Romero is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: APA
+    grade: Alumni
+  
+  gissele:
+    name: Gissele Hernandez
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Gissele Hernandez is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech
+    grade: Alumni
+  
+  gregory:
+    name: Gregory Martinez
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Gregory Martinez is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  haley:
+    name: Haley Richardson
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Haley Richardson is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech
+    grade: Alumni
+  
+  hanna:
+    name: Hanna Pearce
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Hanna Pearce is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: APA
+    grade: Alumni
+  
+  haralambos:
+    name: Haralambos Liberatos
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Haralambos Liberatos is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech
+    grade: Alumni
+  
+  harsh:
+    name: Harsh Shetty
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Harsh Shetty is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: MHS
+    grade: Alumni
+  
+  ifechukwu:
+    name: Ifechukwu Efobi
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Ifechukwu Efobi is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: MHS
+    grade: Alumni
+  
+  ivy:
+    name: Ivy Liu
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Ivy Liu is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: MHS
+    grade: Alumni
+  
+  jaime:
+    name: Jaime Paladi
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Jaime Paladi is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  joanna:
+    name: Joanna Munoz
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Joanna Munoz is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  joe:
+    name: Joe Baldwin
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Joe Baldwin is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech
+    grade: Alumni
+  
+  justin:
+    name: Justin Zimmerman
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Justin Zimmerman is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  kaitlyn:
+    name: Kaitlyn Landaverde
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Kaitlyn Landaverde is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: APA
+    grade: Alumni
+  
+  kenna:
+    name: Kenna Srivastava
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Kenna Srivastava is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: MHS
+    grade: Alumni
+  
+  laura:
+    name: Laura Felder
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Laura Felder is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech
+    grade: Alumni
+  
+  lilly:
+    name: Lilly Resnick
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Lilly Resnick is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  maddie:
+    name: Maddie Patton
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Maddie Patton is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech School of Design
+    grade: Alumni
+  
+  madeline:
+    name: Madeline Yong
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Madeline Yong is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  mariam:
+    name: Mariam Tchitchueishvili
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Mariam Tchitchueishvili is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTECH
+    grade: Alumni
+  
+  mattia:
+    name: Mattia Leingang
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Mattia Leingang is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  maya:
+    name: Maya Dias
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Maya Dias is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  megan:
+    name: Megan Lahetta
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Megan Lahetta is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech
+    grade: Alumni
+  
+  melissa:
+    name: Melissa Duran de Paula
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Melissa Duran de Paula is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  mila:
+    name: Mila Talati
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Mila Talati is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  monica:
+    name: Monica Manescu
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Monica Manescu is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  natalie:
+    name: Natalie Lee
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Natalie Lee is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: MHS
+    grade: Alumni
+  
+  omolola:
+    name: Omolola Falana
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Omolola Falana is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: MHS
+    grade: Alumni
+  
+  patrick:
+    name: Patrick Mochnal
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Patrick Mochnal is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  rachel:
+    name: Rachel Bataille
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Rachel Bataille is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: MHS
+    grade: Alumni
+  
+  rayna:
+    name: Rayna Hazarika
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Rayna Hazarika is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  rebecca:
+    name: Rebecca Lee
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Rebecca Lee is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  saniya:
+    name: Saniya Harlalka
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Saniya Harlalka is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  sara:
+    name: Sara Schwartz
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Sara Schwartz is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AAHS
+    grade: Alumni
+  
+  sarah:
+    name: Sarah Bauman
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Sarah Bauman is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: APA
+    grade: Alumni
+  
+  shreya:
+    name: Shreya Nara
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Shreya Nara is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  sohem:
+    name: Sohem Rai
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Sohem Rai is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: AIT
+    grade: Alumni
+  
+  sophie:
+    name: Sophie Wu
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Sophie Wu is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: MHS
+    grade: Alumni
+  
+  tara:
+    name: Tara Kilgannon
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Tara Kilgannon is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech Law & Justice
+    grade: Alumni
+  
+  tchouassi:
+    name: Tchouassi Yohsie
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Tchouassi Yohsie is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech School of Design
+    grade: Alumni
+  
+  tea:
+    name: "T\xC3\xA9a Florencio"
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: "T\xC3\xA9a Florencio is a valued former Campus Chronicle writer."
+    email: no_reply@ucvts.org
+    school: UCTech Law and Justice
+    grade: Alumni
+  
+  victoria:
+    name: Victoria Gee
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Victoria Gee is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: MHS
+    grade: Alumni
+  
+  xing:
+    name: Xing Liao
+    avatar: /assets/images/avatars/anonymous.jpg
+    role: Former Member
+    bio: Xing Liao is a valued former Campus Chronicle writer.
+    email: no_reply@ucvts.org
+    school: UCTech
+    grade: Alumni
+  
         
 # Defaults
 defaults:
