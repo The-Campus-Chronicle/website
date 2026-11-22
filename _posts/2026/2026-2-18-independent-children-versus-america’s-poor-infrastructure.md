@@ -2,7 +2,7 @@
 layout: post
 title:  "Independent Children Versus America’s Poor Infrastructure"
 author: [micayla]
-categories: [ Politics & Government, Other ]
+categories: [ Politics and Government, Other ]
 image: assets/images/articles_2026/walking.png
 tags: []
 ---

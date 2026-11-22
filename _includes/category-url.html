@@ -1,0 +1,9 @@
+{%- assign category_slug = include.category | slugify -%}
+{%- case category_slug -%}
+  {%- when 'news', 'science', 'sports', 'opinion' -%}
+    {{- category_slug | prepend: '/' | append: '.html' | relative_url -}}
+  {%- when 'arts-entertainment', 'arts-and-entertainment' -%}
+    {{- '/arts-and-entertainment.html' | relative_url -}}
+  {%- else -%}
+    {{- '/categories.html' | relative_url -}}#{{ category_slug }}
+{%- endcase -%}

@@ -5,9 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{page.title}} | {{site.name}}</title>
-
-    {% seo %}
+    {% if page.layout == 'post' %}
+      {% include post-seo.html %}
+    {% else %}
+      {% seo %}
+    {% endif %}
+    {% if page.robots %}<meta name="robots" content="{{ page.robots | escape }}">{% endif %}
+    {% feed_meta %}
 
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
 
@@ -24,6 +28,10 @@
     <!-- Theme Stylesheet -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
 
+    <link rel="stylesheet" href="{{ '/assets/css/editorial.css' | relative_url }}">
+    <script src="{{ '/assets/js/editorial-images.js' | relative_url }}" data-archive-placeholder="{{ '/assets/images/editorial-placeholder.svg' | relative_url }}"></script>
+    <script defer src="{{ '/assets/js/editorial-nav.js' | relative_url }}"></script>
+
     <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -33,52 +41,25 @@
 
 </head>
 
-<body class="{% if page.url == " /" %} homefirstpage {% endif %}">
+<body>
+    <a class="skip-to-content" href="#main-content">Skip to content</a>
 
-    <!-- Navbar -->
-    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="{{ site.baseurl }}/index.html"><strong><span
-                        style="color: #EDCA1A; -webkit-text-stroke: 1px black;">the</span><span
-                        style="color:#B53535; -webkit-text-stroke: 1px black;">Campus</span><span
-                        style="color:#0D2A54; -webkit-text-stroke: 1px black;">Chronicle</span></strong></a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02"
-                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" id="navbarColor02" style="">
-                <ul class="navbar-nav mr-auto d-flex align-items-center">
+    <nav class="chronicle-nav" aria-label="Main navigation">
+        <div class="container chronicle-nav-inner">
+            <a class="chronicle-brand" href="{{ '/' | relative_url }}"><strong><span class="wordmark-the">the</span><span class="wordmark-campus">Campus</span><span class="wordmark-chronicle">Chronicle</span></strong></a>
+            <button class="chronicle-menu-button" type="button" aria-controls="chronicle-menu" aria-expanded="false">Menu</button>
+            <div id="chronicle-menu" class="chronicle-menu">
+                <ul class="chronicle-nav-links">
                     {% include menu-header.html %}
                 </ul>
-                <ul class="navbar-nav ml-auto d-flex align-items-center">
-                    {% include search-lunr.html %}
-                </ul>
+                {% include search-form.html %}
             </div>
         </div>
     </nav>
 
-    <!-- Search Results -->
-    <div id="lunrsearchresults">
-        <ul class="mb-0"></ul>
-    </div>
-
-    <!-- Content -->
-    <main role="main" class="site-content">
+    <main id="main-content" class="chronicle-content" tabindex="-1">
         {{ content }}
     </main>
-
-
-    <!-- Scripts: popper, bootstrap, theme, lunr -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-
-    <script src="{{site.baseurl}}/assets/js/theme.js"></script>
-
 
     <!-- Footer -->
     <footer class="bg-white border-top p-3 text-muted small">
@@ -90,19 +71,19 @@
                                 style="color:#B53535; -webkit-text-stroke: 1px black;">Campus</span><span
                                 style="color:#0D2A54; -webkit-text-stroke: 1px black;">Chronicle</span></strong></span>
                     <span>Copyright ©
-                        <script>document.write(new Date().getFullYear())</script>.
+                        {{ site.time | date: "%Y" }}.
                     </span>
 
                     <!--  Github Repo Star Btn-->
-                    <a class="text-dark ml-1" target="_blank"
-                        href="https://github.com/AkeBoss-tech/theCampusChronicle"><i class="fab fa-github"></i> Check us
+                    <a class="text-dark ml-1" target="_blank" rel="noopener"
+                        href="https://github.com/The-Campus-Chronicle/website"><i class="fab fa-github"></i> Check us
                         out on Github</a>
 
                 </div>
                 <div>
-                    Made with <a target="_blank" class="text-dark font-weight-bold"
+                    Made with <a target="_blank" rel="noopener" class="text-dark font-weight-bold"
                         href="https://www.wowthemes.net/mundana-jekyll-theme/"> Mundana Jekyll Theme </a> by <a
-                        class="text-dark" target="_blank" href="https://www.wowthemes.net">WowThemes</a>.
+                        class="text-dark" target="_blank" rel="noopener" href="https://www.wowthemes.net">WowThemes</a>.
                 </div>
             </div>
             <!-- Site Map -->
@@ -114,23 +95,24 @@
                         <li><a href="{{site.baseurl}}/contact.html">Contact Us</a></li>
                         <li><a href="{{site.baseurl}}/linktree.html">Link Tree</a></li>
                         <li><a href="{{site.baseurl}}/privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="{{site.baseurl}}/terms.html">Terms of Use</a></li>
+                        <li><a href="{{ '/search.html' | relative_url }}">Search the archive</a></li>
+                        <li><a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h5 class="text-uppercase">Categories</h5>
                     <ul class="list-unstyled">
                         {% for category in site.categories %}
-                        <li><a href="{{site.baseurl}}/{{ category[0] | slugify }}">{{ category[0] }}</a></li>
+                        <li><a href="{% assign section_name = category[0] %}{% include category-url.html category=section_name %}">{{ category[0] }}</a></li>
                         {% endfor %}
-                        <li><a href="{{site.baseurl}}/alumni">Alumni</a></li>
+                        <li><a href="{{site.baseurl}}/alumni.html">Alumni</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h5 class="text-uppercase">Tags</h5>
                     <ul class="list-unstyled">
                         {% for tag in site.tags %}
-                        <li><a href="{{site.baseurl}}/tags.html#{{ tag[0] | downcase }}">{{ tag[0] }}</a></li>
+                        <li><a href="{{site.baseurl}}/tags.html#{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
                         {% endfor %}
                     </ul>
                 </div>

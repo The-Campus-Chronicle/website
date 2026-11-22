@@ -1,0 +1,27 @@
+---
+title: "Search the archive"
+description: "Find Campus Chronicle stories by title, writer, category or keyword."
+layout: default
+permalink: /search.html
+robots: "noindex, follow"
+sitemap: false
+---
+<div class="container editorial-page">
+  <header class="editorial-intro">
+    <p class="editorial-kicker">The Chronicle archive</p>
+    <h1>Search stories</h1>
+    <p>Look up an article, a writer or a topic from the UCVTS newsroom.</p>
+  </header>
+  <section class="archive-search" data-search-index="{{ '/search-index.json' | relative_url }}">
+    <form class="archive-search-form" role="search" aria-label="Archive search" method="get" action="{{ '/search.html' | relative_url }}">
+      <div><label for="archive-query">Keywords</label><input id="archive-query" name="q" type="search" maxlength="120" placeholder="Try robotics or college admissions"></div>
+      <div><label for="archive-section">Section</label><select id="archive-section" name="section"><option value="">All sections</option>{% for category in site.categories %}<option value="{{ category[0] | escape }}">{{ category[0] | escape }}</option>{% endfor %}</select></div>
+      <button type="submit" class="editorial-button">Search</button>
+    </form>
+    <p id="archive-search-status" class="archive-search-status" role="status" aria-live="polite"></p>
+    <ol class="archive-search-results" aria-label="Search results"></ol>
+    <p><a href="{{ '/categories.html' | relative_url }}">Browse by section</a> · <a href="{{ '/authors-list.html' | relative_url }}">Meet the writers</a></p>
+    <noscript><p>Search needs JavaScript. You can still explore the archive using the links above.</p></noscript>
+  </section>
+</div>
+<script defer src="{{ '/assets/js/archive-search.js' | relative_url }}"></script>

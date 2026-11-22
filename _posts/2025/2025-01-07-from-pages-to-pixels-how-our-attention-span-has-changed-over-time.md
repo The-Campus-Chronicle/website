@@ -3,7 +3,7 @@ layout: post
 title:  "From Pages to Pixels: How Our Attention Span Has Changed Over Time"
 author: [saidey]
 categories: [ Science ]
-image: assets/images/articles_2025/from-pages-to-pixels:-how-our-attention-span-has-changed-over-time.png
+image: assets/images/articles_2025/from-pages-to-pixels-how-our-attention-span-has-changed-over-time.png
 tags: []
 ---
 

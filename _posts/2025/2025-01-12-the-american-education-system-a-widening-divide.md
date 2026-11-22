@@ -3,7 +3,7 @@ layout: post
 title:  "The American Education System: A Widening Divide"
 author: [parker]
 categories: [ Opinion, Politics and Government ]
-image: assets/images/articles_2025/the-american-education-system:-a-widening-divide.png
+image: assets/images/articles_2025/the-american-education-system-a-widening-divide.png
 tags: []
 ---
 

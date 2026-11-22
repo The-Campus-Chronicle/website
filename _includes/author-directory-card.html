@@ -1,0 +1,10 @@
+{%- assign person = include.person -%}
+{%- capture profile_url -%}{%- include author-profile-url.html key=include.key -%}{%- endcapture -%}
+<li class="newsroom-card">
+  {% include author-avatar.html person=person %}
+  <div>
+    <h3>{% if profile_url != '' %}<a href="{{ profile_url }}">{{ person.name | escape }}</a>{% else %}{{ person.name | escape }}{% endif %}</h3>
+    <p class="role-label">{{ person.role | default: 'Contributor' | escape }}</p>
+    {% if person.school and person.school != '' %}<p class="newsroom-school">{{ person.school | escape }}</p>{% endif %}
+  </div>
+</li>

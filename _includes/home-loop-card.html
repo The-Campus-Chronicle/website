@@ -1,0 +1,32 @@
+	<div class="mb-5 main-loop-card position-relative rounded loop-card-bigger"
+        style="background-color: {% if post.image %}rgba(0,0,0,.5){% else %}#12263a{% endif %}; background-size: cover; background-position: center; background-blend-mode: color;{% if post.image %} background-image: url(&quot;{% if post.image contains '://' %}{{ post.image | escape }}{% else %}{{ post.image | relative_url | escape }}{% endif %}&quot;);{% endif %}">
+		<div class=" overlay"></div>
+	<div class="d-flex flex-column justify-content-between card-content position-relative p-3 rounded">
+		<div class="pr-3">
+			<h2 class="mb-1 h4 font-weight-bold">
+				<a class="text-light" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+			</h2>
+			<p class="excerpt text-light">
+				<a href="{{site.baseurl}}{{post.url}}" class="text-light">{{ post.excerpt | strip_html | strip_newlines
+					| truncate: 190}}</a>
+			</p>
+			<small class="d-block text-light">
+				<strong>
+					By {% include author-byline.html post=post %}
+					<br>
+					In <span class="catlist">
+						{% for category in post.categories %}
+						<a class="text-light text-capitalize smoothscroll"
+							href="{% include category-url.html category=category %}">{{ category }}</a><span class="sep">,
+						</span>
+						{% endfor %}
+					</span>
+				</strong>
+
+			</small>
+			<small class="text-light">
+				{{ post.date | date: '%b %d, %Y' }}
+			</small>
+		</div>
+	</div>
+	</div>

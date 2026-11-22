@@ -1,0 +1,14 @@
+{%- assign writer = site.authors[include.key] -%}
+{%- if writer.name -%}
+  {%- capture writer_url -%}{%- include author-profile-url.html key=include.key -%}{%- endcapture -%}
+  <div class="post-byline-card{% if include.expanded %} post-byline-card--expanded{% endif %}">
+    {% include author-avatar.html person=writer size='small' %}
+    <div>
+      <p class="post-byline-name">{% if writer_url != '' %}<a href="{{ writer_url }}">{{ writer.name | escape }}</a>{% else %}{{ writer.name | escape }}{% endif %}</p>
+      <p class="role-label">{{ writer.role | default: 'Contributor' | escape }}{% if writer.school and writer.school != '' %} · {{ writer.school | escape }}{% endif %}</p>
+      {% if include.expanded and writer.bio and writer.bio != '' %}<p class="post-byline-bio">{{ writer.bio | escape }}</p>{% endif %}
+    </div>
+  </div>
+{%- else -%}
+  <p class="post-byline-name">{{ include.key | default: 'Chronicle staff' | replace: '-', ' ' | escape }}</p>
+{%- endif -%}

@@ -2,7 +2,7 @@
 layout: post
 title:  "Bougainville: The Newest Country On The Block?"
 author: [amir]
-categories: [ Politics & Government ]
+categories: [ Politics and Government ]
 image: assets/images/articles_2026/Bougainville.png
 tags: []
 ---

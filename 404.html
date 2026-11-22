@@ -1,24 +1,19 @@
 ---
+title: "Page not found"
 layout: default
+permalink: /404.html
+robots: "noindex, follow"
+sitemap: false
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="container editorial-page">
+  <header class="editorial-intro">
+    <p class="editorial-kicker">404 · Off the page</p>
+    <h1>We couldn’t find that page.</h1>
+    <p>It may have moved. Try a keyword, the story’s title or the writer’s name.</p>
+  </header>
+  <form class="archive-search-form" role="search" aria-label="Find an archived story" action="{{ '/search.html' | relative_url }}" method="get">
+    <div><label for="lost-query">Search the archive</label><input type="search" id="lost-query" name="q" maxlength="120" placeholder="Title, writer or topic"></div>
+    <button class="editorial-button" type="submit">Search</button>
+  </form>
+  <p class="mt-3"><a href="{{ '/' | relative_url }}">Return to the front page</a> · <a href="{{ '/categories.html' | relative_url }}">Browse categories</a></p>
 </div>

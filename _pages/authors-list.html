@@ -1,84 +1,36 @@
 ---
-title: "Authors"
+title: "Writers"
+description: "Meet the student editors, writers and alumni behind The Campus Chronicle at Union County Vocational-Technical Schools."
 layout: default
 permalink: "/authors-list.html"
 ---
-
-<div class="container">
-    <style>
-        .hover-card {
-            transition: filter 0.3s ease;
-            color: black;
-        }
-
-        .hover-card:hover {
-            filter: brightness(0.8);
-        }
-
-        .member {
-            background-color: #e6e6e6;
-        }
-
-        .opinion-editor {
-            background-color: #0D2A54;
-            color: white;
-        }
-
-        .editor-in-chief {
-            background-color: #f010d3;
-            color: white;
-        }
-
-        .layout-editor {
-            background-color: #EDCA1A;
-        }
-
-        .alumni {
-            display: none;
-        }
-
-        .author-info {
-            text-align: center;
-            height: 100%; /* Ensures cards have equal height */
-        }
-
-        .author-info img {
-            margin-bottom: 10px;
-        }
-
-        .author-info h4, .author-info h5, .author-info h6 {
-            margin: 0;
-        }
-
-        .author-info .icon-block {
-            margin-top: 15px;
-        }
-    </style>
-
-    <h2 class="font-weight-bold spanborder"><span>{{ page.title }}</span></h2>
-    <div class="row gap-y listrecent listrecent listauthor">
-        {% for author in site.authors %}
-            {% assign name_parts = author[1].name | split: ' ' %}
-            {% assign slugified_name = name_parts | join: '-' | slugify %}
-
-            {% assign grade_lowercase = author[1].grade | strip | downcase %}
-            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 {{ grade_lowercase }}">
-                <a href="{{ site.baseurl }}/author-{{ slugified_name | slugify }}">
-                    <div class="card h-100 border rounded hover-card {{ author[1].role | slugify }} author-info">
-                        <div class="card-body">
-                            <img alt="{{ author[1].name }}" src="{{ author[1].avatar }}" class="rounded-circle" height="90" width="90">
-                            <h4 class="text-center mb-0"> {{ author[1].name }} </h4>
-                            <h5 class="text-center mb-0">{{ author[1].role }}</h5>
-                            <h6 class="text-center">{{ author[1].grade }} at {{ author[1].school }}</h6>
-                            <div class="">{{ author[1].bio }}</div>
-                            <div class="icon-block mt-3 d-flex justify-content-between">
-                                <div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>   
-        {% endfor %}
-    </div>
+<div class="container editorial-page">
+  <header class="editorial-intro">
+    <h1>Meet the newsroom</h1>
+    <p>The student editors and writers behind The Campus Chronicle.</p>
+  </header>
+  <section aria-labelledby="current-newsroom">
+    <h2 class="editorial-section-title" id="current-newsroom">Current newsroom</h2>
+    <ul class="newsroom-grid">
+      {% for entry in site.authors %}
+        {% assign role = entry[1].role | downcase %}
+        {% unless role contains 'former' %}
+          {% assign directory_person = entry[1] %}{% assign directory_key = entry[0] %}
+          {% include author-directory-card.html person=directory_person key=directory_key %}
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </section>
+  <details class="newsroom-alumni">
+    <summary>Past editors and contributors</summary>
+    <ul class="newsroom-grid">
+      {% for entry in site.authors %}
+        {% assign role = entry[1].role | downcase %}
+        {% if role contains 'former' %}
+          {% assign directory_person = entry[1] %}{% assign directory_key = entry[0] %}
+          {% include author-directory-card.html person=directory_person key=directory_key %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </details>
 </div>

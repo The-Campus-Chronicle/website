@@ -1,0 +1,25 @@
+---
+layout: null
+permalink: /search-index.json
+sitemap: false
+---
+[
+{% for post in site.posts %}
+  {%- capture author_names -%}
+    {%- for author_key in post.author -%}
+      {{- site.authors[author_key].name | default: author_key -}}
+      {%- unless forloop.last -%}{{ ', ' }}{%- endunless -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {
+    "title": {{ post.title | jsonify }},
+    "url": {{ post.url | relative_url | jsonify }},
+    "date": {{ post.date | date: '%Y-%m-%d' | jsonify }},
+    "authors": {{ author_names | jsonify }},
+    "sections": {{ post.categories | jsonify }},
+    "tags": {{ post.tags | jsonify }},
+    "excerpt": {{ post.excerpt | markdownify | strip_html | normalize_whitespace | truncate: 200 | jsonify }},
+    "text": {{ post.content | markdownify | strip_html | normalize_whitespace | truncate: 6000 | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

@@ -3,7 +3,7 @@ layout: post
 title:  "Anxiety: The Silent Disease That's Killing Our Youth"
 author: [mehr]
 categories: [ Lifestyle, Science ]
-image: assets/images/articles_2025/anxiety:-the-silent-disease-that's-killing-our-youth.png
+image: assets/images/articles_2025/anxiety-the-silent-disease-that's-killing-our-youth.png
 tags: []
 ---
 
@@ -21,12 +21,12 @@ While mental health illnesses like anxiety seem like something that can take ove
 
 Meier, Sandra M et al. “Increased mortality among people with anxiety disorders: total population study.” The British journal of psychiatry : the journal of mental science vol. 209,3 (2016): 216-21. [Source](doi:10.1192/bjp.bp.115.171975)
 
-Editor, News. “Mental Health Challenges of Young Adults Illuminated in New Report | Harvard Graduate School of Education.” www.gse.harvard.edu, 24 Oct. 2023, [Source](www.gse.harvard.edu/ideas/news/23/10/mental-health-challenges-young-adults-illuminated-new-report.)
+Editor, News. “Mental Health Challenges of Young Adults Illuminated in New Report | Harvard Graduate School of Education.” www.gse.harvard.edu, 24 Oct. 2023, [Source](https://www.gse.harvard.edu/ideas/news/23/10/mental-health-challenges-young-adults-illuminated-new-report)
 
 Anxiety + Substance Use Contents.
-Osorio, Emma Kauana, and Emily Hyde. “The Rise of Anxiety and Depression among Young Adults in the United States.” Ballard Brief, 2021, [Source](ballardbrief.byu.edu/issue-briefs/the-rise-of-anxiety-and-depression-among-young-adults-in-the-united-states.)
+Osorio, Emma Kauana, and Emily Hyde. “The Rise of Anxiety and Depression among Young Adults in the United States.” Ballard Brief, 2021, [Source](https://ballardbrief.byu.edu/issue-briefs/the-rise-of-anxiety-and-depression-among-young-adults-in-the-united-states)
 
 ‌“The Connection between Substance Abuse & Panic Attacks.” Healthyliferecovery.com, 24 May 2023, healthyliferecovery.com/substance-abuse-and-panic-attacks/.
-National Institute of Mental Health. “Anxiety Disorders.” National Institute of Mental Health, National Institute of Mental Health, Apr. 2024, [Source](www.nimh.nih.gov/health/topics/anxiety-disorders.)
+National Institute of Mental Health. “Anxiety Disorders.” National Institute of Mental Health, National Institute of Mental Health, Apr. 2024, [Source](https://www.nimh.nih.gov/health/topics/anxiety-disorders)
 
-‌Mutchler, Cristina. “Generalized Anxiety Disorder: Symptoms, Causes, Diagnosis, Treatment and More.” Health, 9 May 2023, [Source](www.health.com/generalized-anxiety-disorder-overview-7494542.)
+‌Mutchler, Cristina. “Generalized Anxiety Disorder: Symptoms, Causes, Diagnosis, Treatment and More.” Health, 9 May 2023, [Source](https://www.health.com/generalized-anxiety-disorder-overview-7494542)

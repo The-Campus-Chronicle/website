@@ -18,9 +18,9 @@ For those who derive pleasure from watching horror films, many have thought of i
 Overall, no personal experience will be the same and everyone has a different perspective towards horror movies. Some can’t handle the laugh of Chucky while others can take on *The Saw* franchise anytime. The brain still has secrets that scientists haven’t discovered yet. Nevertheless, horror movies still allow many others to take pride in themselves. In addition, others believe that it is the perfect way to release their stress and emotions. We shouldn’t completely trust horror movies as a coping mechanism; however, take in the odd delight that Pennywise the Clown could be improving your mental health. 
 
 ### Works Cited:
-Cherry, Kendra. “How Catharsis Can Bring about Great Insight and Positive Change.” *Verywell Mind*, 2019, [Source](www.verywellmind.com/what-is-catharsis-2794968).
+Cherry, Kendra. “How Catharsis Can Bring about Great Insight and Positive Change.” *Verywell Mind*, 2019, [Source](https://www.verywellmind.com/what-is-catharsis-2794968).
 
-Moyer, Melinda Wenner. “How Horror Stories Help Us Cope with Real Life.” *The New York Times*, 28 Oct. 2022, [Source](www.nytimes.com/2022/10/27/well/how-horror-stories-help-us-cope-with-real-life.html#:~:text=Some%20studies%20have%20found%20that).
+Moyer, Melinda Wenner. “How Horror Stories Help Us Cope with Real Life.” *The New York Times*, 28 Oct. 2022, [Source](https://www.nytimes.com/2022/10/27/well/how-horror-stories-help-us-cope-with-real-life.html#:~:text=Some%20studies%20have%20found%20that).
 
 Park, Michelle. The Aesthetics and Psychology behind Horror Films. 2018.
 
