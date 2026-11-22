@@ -1,10 +1,30 @@
-<article class="top-story">
-  <a href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
-    {% include story-media.html src=post.image section=post.categories.first variant='thumb' %}
-  </a>
-  <div>
-    <p class="story-meta">{% include story-category.html name=post.categories.first %} · <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %d, %Y' }}</time></p>
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-    <p class="story-meta">By {% include author-byline.html post=post %}</p>
-  </div>
-</article>
+<div class="mb-3 d-flex align-items-center">
+    {% if post.image %}
+    <div class="col-md-4 d-none d-sm-block">
+    <a href="{{site.baseurl}}{{post.url}}">
+     <img class="w-100" data-cover-image src="{% if post.image contains "://" %}{{ post.image | escape }}{% else %}{{ post.image | relative_url | escape }}{% endif %}" alt="{{ post.title | escape }}">
+    </a>
+    </div>
+    {% endif %}
+    <div>
+        <h2 class="mb-2 h6 font-weight-bold">
+        <a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+        </h2>
+        <small class="d-block text-muted">
+            By {% include author-byline.html post=post %}
+            {% if post.author.size == 1 %}
+                {% assign writer = site.authors[post.author.first] %}
+                {% if writer.grade and writer.school and writer.grade != '' and writer.school != '' %}, {{ writer.grade | escape }} at {{ writer.school | escape }}{% endif %}
+            {% endif %}
+            <br>
+            In <span class="catlist">
+            {% for category in post.categories %}
+            <a class="text-capitalize smoothscroll" href="{% include category-url.html category=category %}">{{ category }}</a><span class="sep">, </span>
+            {% endfor %}
+            </span>
+        </small>
+        <small class="text-muted">
+            {{ post.date | date: '%b %d, %Y' }}
+        </small>
+    </div>
+</div>

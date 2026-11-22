@@ -1,13 +1,29 @@
 <div class="col-md-6">
-  <article class="card border-0 mb-4 box-shadow lead-story">
-    <a href="{{ latest_post.url | relative_url }}" aria-label="{{ latest_post.title | escape }}">
-      {% include story-media.html src=latest_post.image section=latest_post.categories.first variant='lead' priority=true %}
-    </a>
-    <div class="card-body px-0 pb-0">
-      <p class="editorial-kicker">{% include story-category.html name=latest_post.categories.first %}</p>
-      <h2><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title | escape }}</a></h2>
-      <p class="excerpt">{{ latest_post.excerpt | strip_html | normalize_whitespace | truncate: 170 | escape }}</p>
-      <p class="story-meta">By {% include author-byline.html post=latest_post %} · <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: '%b %d, %Y' }}</time></p>
-    </div>
-  </article>
+<div class="card border-0 mb-4 box-shadow">
+<a href="{{site.baseurl}}{{latest_post.url}}">
+<div class="topfirstimage" style="{% if latest_post.image %}background-image: url(&quot;{% if latest_post.image contains "://" %}{{ latest_post.image | escape }}{% else %}{{ latest_post.image | relative_url | escape }}{% endif %}&quot;);{% else %}background-color:#e8edf2;{% endif %} height: 200px; background-size: cover; background-position: center;"></div>
+</a>
+<div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+<h2 class="h4 font-weight-bold">
+<a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
+</h2>
+<p class="excerpt">
+    {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+</p>
+<div>
+    <small class="d-block text-muted">
+        By {% include author-byline.html post=latest_post %}
+
+        In <span class="catlist">
+            {% for category in latest_post.categories %}
+            <a class="text-capitalize smoothscroll" href="{% include category-url.html category=category %}">{{ category }}</a><span class="sep">, </span>
+            {% endfor %}
+            </span>
+    </small>
+    <small class="text-muted">
+        {{ latest_post.date | date: '%b %d, %Y' }}
+    </small>
+</div>
+</div>
+</div>
 </div>

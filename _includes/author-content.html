@@ -1,12 +1,11 @@
 <div class="container editorial-page">
   <header class="editorial-intro profile-intro">
-    {% include author-avatar.html person=site_author size='large' %}
     <div>
-      <p class="editorial-kicker"><a href="{{ '/authors-list.html' | relative_url }}">The newsroom</a></p>
       <h1>{{ page.title | escape }}</h1>
       <p>{{ site_author.role | escape }}{% if site_author.school and site_author.school != '' %} · {{ site_author.school | escape }}{% endif %}</p>
       {% if site_author.bio and site_author.bio != '' %}<p class="profile-bio">{{ site_author.bio | escape }}</p>{% endif %}
     </div>
+    {% include author-avatar.html person=site_author size='large' %}
   </header>
   <div class="profile-stories">
     <h2 class="editorial-section-title">Stories by {{ page.title | escape }}</h2>

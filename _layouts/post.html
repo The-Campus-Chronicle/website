@@ -1,38 +1,54 @@
 ---
 layout: default
 ---
-<article class="container editorial-page">
-  <header class="post-masthead">
-    <div>
-      <p class="editorial-kicker post-sections">
-        {% for category in page.categories %}
-          {% include story-category.html name=category %}{% unless forloop.last %} · {% endunless %}
-        {% endfor %}
+<article>
+  <div class="container">
+    <header class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+      <div class="h-100 tofront">
+        <div class="row align-items-center classic-post-header{% unless page.image %} classic-post-header--no-cover{% endunless %}">
+          <div class="col-md-6 pt-4 pb-4 classic-post-copy">
+            <p class="text-uppercase font-weight-bold">
+              {% for category in page.categories %}
+                {% capture story_section_url %}{% include category-url.html category=category %}{% endcapture %}
+                <a class="text-danger" href="{{ story_section_url | strip }}">{{ category | escape }}</a>{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            </p>
+            <h1 class="display-4 mb-4 article-headline">{{ page.title | escape }}</h1>
+            {% for author in page.author %}{% include post-author-card.html key=author %}{% endfor %}
+          </div>
+          {% if page.image %}
+          <div class="col-md-6 classic-post-cover">
+            <img class="rounded" src="{% if page.image contains '://' %}{{ page.image | escape }}{% else %}{{ page.image | relative_url | escape }}{% endif %}" alt="{{ page.image_alt | default: '' | escape }}" fetchpriority="high" decoding="async" data-article-cover>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      <p class="text-muted d-block mt-4 text-center">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%b %d, %Y' }}</time> · {% include meta-read-time.html %} · <a class="a2a_dd" href="https://www.addtoany.com/share">Share this Article</a>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
       </p>
-      <h1>{{ page.title | escape }}</h1>
-      <p class="story-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%b %d, %Y' }}</time> · {% include meta-read-time.html %}</p>
-      {% for author in page.author %}{% include post-author-card.html key=author %}{% endfor %}
-      <a class="post-share a2a_dd" href="https://www.addtoany.com/share">Share this article</a>
-      <script async src="https://static.addtoany.com/menu/page.js"></script>
+    </header>
+  </div>
+  <div class="container-lg pt-4 pb-4">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-9 article-reading">
+        <div class="article-post">{{ content }}</div>
+        {% if page.tags.size > 0 %}
+        <p class="post-tags">
+          {% for tag in page.tags %}<a href="{{ '/tags.html' | relative_url }}#{{ tag | slugify }}">{{ tag | escape }}</a>{% endfor %}
+        </p>
+        {% endif %}
+        {% if page.author.size > 0 %}
+        <section class="post-authors" aria-labelledby="post-authors-title">
+          <h2 class="font-weight-bold mb-3" id="post-authors-title">Written by</h2>
+          {% for author in page.author %}{% include post-author-card.html key=author expanded=true %}{% endfor %}
+        </section>
+        {% endif %}
+        <nav class="related-story-nav" aria-label="More from the archive">
+          {% if page.previous.url %}<a href="{{ page.previous.url | relative_url }}"><small>Previous story</small>{{ page.previous.title | escape }}</a>{% endif %}
+          {% if page.next.url %}<a href="{{ page.next.url | relative_url }}"><small>Next story</small>{{ page.next.title | escape }}</a>{% endif %}
+        </nav>
+      </div>
     </div>
-    {% include story-media.html src=page.image section=page.categories.first variant='hero' alt=page.image_alt priority=true %}
-  </header>
-  <div class="article-reading">
-    <div class="article-post" data-section="{{ page.categories.first | escape }}">{{ content }}</div>
-    {% if page.tags.size > 0 %}
-    <p class="post-tags">
-      {% for tag in page.tags %}<a href="{{ '/tags.html' | relative_url }}#{{ tag | slugify }}">{{ tag | escape }}</a>{% endfor %}
-    </p>
-    {% endif %}
-    {% if page.author.size > 0 %}
-    <section class="post-authors" aria-labelledby="post-authors-title">
-      <h2 class="editorial-section-title" id="post-authors-title">Written by</h2>
-      {% for author in page.author %}{% include post-author-card.html key=author expanded=true %}{% endfor %}
-    </section>
-    {% endif %}
-    <nav class="related-story-nav" aria-label="More from the archive">
-      {% if page.previous.url %}<a href="{{ page.previous.url | relative_url }}"><small>Previous story</small>{{ page.previous.title | escape }}</a>{% endif %}
-      {% if page.next.url %}<a href="{{ page.next.url | relative_url }}"><small>Next story</small>{{ page.next.title | escape }}</a>{% endif %}
-    </nav>
   </div>
 </article>
