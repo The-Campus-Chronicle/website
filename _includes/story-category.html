@@ -1,0 +1,2 @@
+{%- capture category_url -%}{%- include category-url.html category=include.name -%}{%- endcapture -%}
+<a href="{{ category_url }}">{{ include.name | escape }}</a>

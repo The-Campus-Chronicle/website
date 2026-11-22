@@ -2,7 +2,7 @@
 layout: post
 title:  "Mysteries Right Under Your Nose: ARGs (Alternate Reality Games)"
 author: [makayla]
-categories: [ Arts & Entertainment ]
+categories: [ Arts and Entertainment ]
 image: assets/images/articles_2026/king-in-yellow-arg.png
 tags: []
 ---

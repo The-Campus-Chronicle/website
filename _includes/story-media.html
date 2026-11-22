@@ -1,0 +1,11 @@
+{%- assign image_src = include.src | default: '' | strip -%}
+{%- assign image_section = include.section | default: 'From the archive' -%}
+<span class="story-media story-media--{{ include.variant | default: 'card' }} section-{{ image_section | slugify }}">
+  <span class="story-media-placeholder" aria-hidden="true">
+    <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" focusable="false"><rect x="6" y="7" width="28" height="26" rx="3"/><path d="M10 13h20M10 26h20m-20 3h16"/><rect x="10" y="17" width="9" height="6" rx="1"/><path d="M22 17h8m-8 3h8m-8 3h6"/></svg>
+    <span>{{ image_section | escape }}</span>
+  </span>
+  {% if image_src != '' %}
+    <img src="{% if image_src contains '://' %}{{ image_src | escape }}{% else %}{{ image_src | relative_url | escape }}{% endif %}" alt="{{ include.alt | default: '' | escape }}" width="800" height="450" {% if include.priority %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async" data-cover-image>
+  {% endif %}
+</span>

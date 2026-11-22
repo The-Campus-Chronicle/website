@@ -1,0 +1,10 @@
+{%- if include.post.author.size > 0 -%}
+  {%- for author_key in include.post.author -%}
+    {%- assign byline_person = site.authors[author_key] -%}
+    {%- capture byline_url -%}{%- include author-profile-url.html key=author_key -%}{%- endcapture -%}
+    {%- if byline_person.name -%}
+      {%- if byline_url != '' -%}<a href="{{ byline_url }}">{{ byline_person.name | escape }}</a>{%- else -%}{{ byline_person.name | escape }}{%- endif -%}
+    {%- else -%}{{ author_key | replace: '-', ' ' | escape }}{%- endif -%}
+    {%- unless forloop.last -%}, {% endunless -%}
+  {%- endfor -%}
+{%- else -%}Chronicle staff{%- endif -%}

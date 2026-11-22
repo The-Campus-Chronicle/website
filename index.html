@@ -8,6 +8,11 @@ description: "A newspaper run by UCVTS Students."
 
 
 <div class="container">
+<header class="frontpage-masthead">
+  <p class="editorial-kicker">Student-run newspaper</p>
+  <h1>The Campus Chronicle</h1>
+  <p>Stories, ideas and culture from Union County Vocational-Technical Schools.</p>
+</header>
     
 {% if page.url == "/" %}
   
@@ -71,7 +76,7 @@ description: "A newspaper run by UCVTS Students."
 <div class="row remove-site-content-margin mt-2 mb-3 d-flex justify-content-center">
   {% for category in site.categories %} 
 
-    <a class="btn btn-outline-secondary btn-sm mb-2 mr-2" href="{{site.baseurl}}/{{ category[0] | slugify }}">{{ category[0] }}</a>
+    <a class="btn btn-outline-secondary btn-sm mb-2 mr-2" href="{% assign section_name = category[0] %}{% include category-url.html category=section_name %}">{{ category[0] }}</a>
 
   {% endfor %}
 </div>
@@ -97,7 +102,7 @@ description: "A newspaper run by UCVTS Students."
    
     <div class="col-md-8 main-loop">
         
-        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
+        <h2 class="editorial-section-title">All stories</h2>
         
 
         {% for post in paginator.posts %}
@@ -109,7 +114,7 @@ description: "A newspaper run by UCVTS Students."
         <div class="mt-5">
          <!-- Pagination links -->
             {% if paginator.total_pages > 1 %}
-            <ul class="pagination"> 
+            <ul class="pagination" aria-label="Story archive pages">
               {% if paginator.previous_page %}
                 <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
               {% else %}
@@ -118,7 +123,7 @@ description: "A newspaper run by UCVTS Students."
 
               {% for page in (1..paginator.total_pages) %}
                 {% if page == paginator.page %}
-                <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
+                <li class="page-item disabled"><span class="webjeda page-link" aria-current="page">{{ page }}</span></li>
                 {% elsif page == 1 %}
                 <li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
                 {% else %}

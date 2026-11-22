@@ -1,0 +1,32 @@
+---
+title: "The Chronicle by the Clues"
+description: "An untimed quiz about stories from The Campus Chronicle, with links to the reporting."
+layout: default
+permalink: /archive-quiz.html
+---
+<div class="container editorial-page">
+  <header class="editorial-intro">
+    <p class="editorial-kicker"><a href="{{ '/games.html' | relative_url }}">The puzzle desk</a> · Archive quiz</p>
+    <h1>The Chronicle by the Clues</h1>
+    <p>Choose an answer for each question, then read the story behind it. There’s no timer.</p>
+  </header>
+  <div class="archive-quiz" data-archive-quiz>
+    <noscript><p>Enable JavaScript to score the quiz, or follow the story links to explore the archive.</p></noscript>
+    {% for item in site.data.archive_quiz %}
+      <section class="quiz-question" aria-labelledby="quiz-question-{{ forloop.index }}">
+        <p class="editorial-kicker">Question {{ forloop.index }} / {{ site.data.archive_quiz.size }}</p>
+        <h2 id="quiz-question-{{ forloop.index }}">{{ item.question | escape }}</h2>
+        <div class="quiz-options" aria-label="Choose an answer" role="group">
+          {% for option in item.options %}
+            <button type="button" data-correct="{% if forloop.index0 == item.answer %}true{% else %}false{% endif %}" aria-pressed="false">{{ option | escape }}</button>
+          {% endfor %}
+        </div>
+        <p class="quiz-outcome" role="status"></p>
+        <p class="quiz-evidence">{{ item.explanation | escape }} <a href="{{ item.story | relative_url }}">{{ item.story_title | escape }}</a></p>
+      </section>
+    {% endfor %}
+    <p id="quiz-score" class="quiz-score" role="status"></p>
+    <button class="editorial-button" type="button" id="quiz-reset" hidden>Play again</button>
+  </div>
+</div>
+<script defer src="{{ '/assets/js/archive-quiz.js' | relative_url }}"></script>

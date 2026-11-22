@@ -19,14 +19,14 @@ Overall, psychological phenomena are observable regularities in behavior that ca
 
 <center>Works Cited</center> 
 
-"Hindsight Bias." *The Decision Lab*, [Source](thedecisionlab.com/biases/hindsight-bias). Accessed 3 Feb. 2024. 
+"Hindsight Bias." *The Decision Lab*, [Source](https://thedecisionlab.com/biases/hindsight-bias). Accessed 3 Feb. 2024.
 
-Kendra Cherry, MSEd. "How False Consensus Effect Influences the Way We Think about Others." *Verywell Mind*, Verywell Mind, 11 Aug. 2023, [Source](www.verywellmind.com/what-is-the-false-consensus-effect-2795030.) 
+Kendra Cherry, MSEd. "How False Consensus Effect Influences the Way We Think about Others." *Verywell Mind*, Verywell Mind, 11 Aug. 2023, [Source](https://www.verywellmind.com/what-is-the-false-consensus-effect-2795030)
 
-Kendra Cherry, MSEd. "How Social Loafing Explains Why We Do Less When We’re in a Group." *Verywell Mind*, Verywell Mind, 11 Dec. 2023, [Source](www.verywellmind.com/what-is-social-loafing-2795883). 
+Kendra Cherry, MSEd. "How Social Loafing Explains Why We Do Less When We’re in a Group." *Verywell Mind*, Verywell Mind, 11 Dec. 2023, [Source](https://www.verywellmind.com/what-is-social-loafing-2795883).
 
-May, Cindi. "The Cheerleader Effect." *Scientific American*, 19 Dec. 2013, [Source](www.scientificamerican.com/article/the-cheerleader-effect/). 
+May, Cindi. "The Cheerleader Effect." *Scientific American*, 19 Dec. 2013, [Source](https://www.scientificamerican.com/article/the-cheerleader-effect/).
 
-"The Pygmalion Effect." *The Decision Lab*, [Source](thedecisionlab.com/biases/the-pygmalion-effect). Accessed 3 Feb. 2024.  
+"The Pygmalion Effect." *The Decision Lab*, [Source](https://thedecisionlab.com/biases/the-pygmalion-effect). Accessed 3 Feb. 2024.
 
  

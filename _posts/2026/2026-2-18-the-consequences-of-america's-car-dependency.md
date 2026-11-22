@@ -2,7 +2,7 @@
 layout: post
 title:  "The Consequences of America's Car Dependency"
 author: [parthiv]
-categories: [ Politics & Government, Other ]
+categories: [ Politics and Government, Other ]
 image: assets/images/articles_2026/highway.png
 tags: []
 ---

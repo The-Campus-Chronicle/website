@@ -1,0 +1,10 @@
+{% assign active_game = site.data.games | where: 'url', page.url | first %}
+<div class="container editorial-page">
+  <header class="editorial-intro">
+    <p class="editorial-kicker"><a href="{{ '/games.html' | relative_url }}">The puzzle desk</a></p>
+    <h1>{{ page.title | escape }}</h1>
+    <p>{{ active_game.description | escape }}</p>
+  </header>
+  <p>If the puzzle doesn’t load, <a href="{{ active_game.puzzle | escape }}" target="_blank" rel="noopener">open {{ page.title | escape }} in a new tab</a>.</p>
+  <iframe class="game-frame" src="{{ active_game.puzzle | escape }}" title="{{ page.title | escape }} puzzle" loading="lazy" allowfullscreen></iframe>
+</div>

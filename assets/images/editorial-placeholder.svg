@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#12263a"/>
+  <path d="M0 360 360 0m-30 450L780 0M670 450l130-130" fill="none" stroke="#31485f" stroke-width="2"/>
+  <g fill="none" stroke="#e6c87b" stroke-width="4" transform="translate(340 115)">
+    <rect width="120" height="124" rx="8"/><path d="M16 23h88M16 88h88m-88 14h70"/><rect x="16" y="39" width="40" height="33" rx="2"/><path d="M66 40h38M66 52h38M66 64h30"/>
+  </g>
+  <text x="400" y="298" fill="#ecd9b0" font-family="Georgia,serif" font-size="23" text-anchor="middle">The Campus Chronicle archive</text>
+</svg>

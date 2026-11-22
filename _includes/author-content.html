@@ -1,23 +1,22 @@
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">        
-            <div class="row align-items-center mb-5">
-                <div class="col-md-3 order-md-last text-center mb-3">
-                    <img alt="{{ site_author.name }}" src="{{ site_author.avatar }}" class="rounded-circle" height="100" width="100">
-                </div>
-                <div class="col-md-9 order-md-first">
-                    <h2 class="font-weight-bold">{{page.title}}</h2>
-                    <h4>{{ site_author.role }}</h4>
-                    <p>{{ site_author.grade }} at {{ site_author.school }}</p>
-                    <p class="excerpt">{{ site_author.bio }}</p>
-                </div>
-            </div>            
-            <h4 class="font-weight-bold spanborder"><span>Articles by {{page.title}}</span></h4>
-            {% for post in site.posts %}
-                {% if post.author contains name %}
-                    {% include main-loop-card.html %}
-                {% endif %}
-            {% endfor %}
-        </div>
+<div class="container editorial-page">
+  <header class="editorial-intro profile-intro">
+    {% include author-avatar.html person=site_author size='large' %}
+    <div>
+      <p class="editorial-kicker"><a href="{{ '/authors-list.html' | relative_url }}">The newsroom</a></p>
+      <h1>{{ page.title | escape }}</h1>
+      <p>{{ site_author.role | escape }}{% if site_author.school and site_author.school != '' %} · {{ site_author.school | escape }}{% endif %}</p>
+      {% if site_author.bio and site_author.bio != '' %}<p class="profile-bio">{{ site_author.bio | escape }}</p>{% endif %}
     </div>
+  </header>
+  <div class="profile-stories">
+    <h2 class="editorial-section-title">Stories by {{ page.title | escape }}</h2>
+    {% assign author_post_count = 0 %}
+    {% for post in site.posts %}
+      {% if post.author contains name %}
+        {% assign author_post_count = author_post_count | plus: 1 %}
+        {% include main-loop-card.html %}
+      {% endif %}
+    {% endfor %}
+    {% if author_post_count == 0 %}<p>No stories are listed under this byline yet. <a href="{{ '/search.html' | relative_url }}">Browse the archive</a>.</p>{% endif %}
+  </div>
 </div>
